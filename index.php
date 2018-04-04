@@ -1,7 +1,2 @@
-<html lang="ja">
-<head>
-<title></title>
-</head>
-<body>
-</body>
-</html>
+<?php get_header(); ?>
+<?php get_footer(); ?>
