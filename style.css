@@ -42,3 +42,7 @@ body, h1 {
 .component hr {
   width: 75%;
 }
+/* flexslider */
+.flexslider {
+  border: 0;
+}

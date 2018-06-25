@@ -1,10 +1,11 @@
 <?php get_header(); ?>
-<section class="top">
-  <div class="container">
-    <div class="title">
-      <h1>SECRET GIRLS GARDEN</h1>
-      <p>Product by ASUMI ENDO</p>
-    </div>
+<section class="slider">
+  <div class="flexslider">
+    <ul class="slides">
+      <li><img src="<?php echo get_template_directory_uri(); ?>/images/gr_top_1.jpg" /></li>
+      <li><img src="<?php echo get_template_directory_uri(); ?>/images/gr_top_1.jpg" /></li>
+      <li><img src="<?php echo get_template_directory_uri(); ?>/images/gr_top_1.jpg" /></li>
+    </ul>
   </div>
 </section>
 <section class="welcome">
