@@ -58,6 +58,44 @@
     </div>
   </div>
 </section>
+<section class="service">
+  <div class="head"><img src="<?php echo get_template_directory_uri(); ?>/images/top_head_studio.jpg" class="responsive-img" /></div>
+  <ul class="service-photos clearfix">
+    <li><img src="<?php echo get_template_directory_uri(); ?>/images/top_studio_1.jpg" /></li>
+    <li><img src="<?php echo get_template_directory_uri(); ?>/images/top_studio_2.jpg" /></li>
+    <li><img src="<?php echo get_template_directory_uri(); ?>/images/top_studio_3.jpg" /></li>
+    <li><img src="<?php echo get_template_directory_uri(); ?>/images/top_studio_4.jpg" /></li>
+  </ul>
+  <div class="comp-button">
+    <a href="<?php echo get_home_url(); ?>">SEE MORE</a>
+  </div>
+</section>
+<section class="service">
+  <div class="head"><img src="<?php echo get_template_directory_uri(); ?>/images/top_head_location.jpg" class="responsive-img" /></div>
+  <ul class="service-photos clearfix">
+    <li><img src="<?php echo get_template_directory_uri(); ?>/images/top_location_1.jpg" /></li>
+    <li><img src="<?php echo get_template_directory_uri(); ?>/images/top_location_2.jpg" /></li>
+    <li><img src="<?php echo get_template_directory_uri(); ?>/images/top_location_3.jpg" /></li>
+    <li><img src="<?php echo get_template_directory_uri(); ?>/images/top_location_4.jpg" /></li>
+  </ul>
+  <div class="comp-button">
+    <a href="<?php echo get_home_url(); ?>">SEE MORE</a>
+  </div>
+</section>
+<section class="service">
+  <div class="head"><img src="<?php echo get_template_directory_uri(); ?>/images/top_head_colum.jpg" class="responsive-img" /></div>
+</section>
+<section class="works">
+  <ul class="works-photos clearfix">
+    <li><img src="<?php echo get_template_directory_uri(); ?>/images/top_works_1.jpg" /></li>
+    <li><img src="<?php echo get_template_directory_uri(); ?>/images/top_works_2.jpg" /></li>
+    <li><img src="<?php echo get_template_directory_uri(); ?>/images/top_works_3.jpg" /></li>
+    <li><img src="<?php echo get_template_directory_uri(); ?>/images/top_works_4.jpg" /></li>
+  </ul>
+  <div class="comp-button">
+    <a href="<?php echo get_home_url(); ?>">WORKS</a>
+  </div>
+</section>
 <?php get_footer(); ?>
 
 
