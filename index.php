@@ -14,9 +14,28 @@
             </div>
             <nav>
               <ul class="global-navigation">
-                <li><a href="<?php echo get_home_url(); ?>">PROFILE</a></li>
-                <li><a href="<?php echo get_home_url(); ?>">SERVICE</a></li>
-                <li><a href="<?php echo get_home_url(); ?>">WORKS</a></li>
+                <li>
+                  <a href="<?php echo get_home_url(); ?>">PROFILE</a>
+                </li>
+                <li>
+                  <a href="<?php echo get_home_url(); ?>">SERVICE</a>
+                  <ul class="child">
+                    <li><a href="/">hoge</a></li>
+                    <li><a href="/">fuga</a></li>
+                    <li><a href="/">hoge</a></li>
+                    <li><a href="/">fuga</a></li>
+                    <li><a href="/">hoge</a></li>
+                    <li><a href="/">fuga</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="<?php echo get_home_url(); ?>">WORKS</a>
+                  <ul class="child">
+                    <li><a href="/">hoge</a></li>
+                    <li><a href="/">fuga</a></li>
+                    <li><a href="/">hoge</a></li>
+                  </ul>
+                </li>
                 <li><a href="<?php echo get_home_url(); ?>">GALLERY</a></li>
                 <li><a href="<?php echo get_home_url(); ?>">BLOG</a></li>
                 <li><a href="<?php echo get_home_url(); ?>">ACCESS</a></li>
@@ -95,6 +114,8 @@
   <div class="comp-button">
     <a href="<?php echo get_home_url(); ?>">WORKS</a>
   </div>
+</section>
+<section class="lesson">
 </section>
 <?php get_footer(); ?>
 
