@@ -236,10 +236,8 @@ header .global-navigation > li > ul > li {
 	left: 0;
 	right: 0;
 	border: 0;
-}
-.slides{
-	margin: 0;
-	padding: 0;
+  height: 100vh;
+  overflow: hidden;
 }
 .slides img {
 	min-height: 100vh;
