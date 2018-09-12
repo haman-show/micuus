@@ -1,6 +1,47 @@
 <?php get_header(); ?>
 <header>
   <div class="container">
+    <div class="header-holder">
+      <h1><img src="<?php echo get_template_directory_uri(); ?>/images/logo.png" /></h1>
+      <div class="menu">
+        <div id="nav-drawer">
+          <input id="nav-input" type="checkbox" class="nav-unshown">
+          <label id="nav-open" for="nav-input"><span></span></label>
+          <label class="nav-unshown" id="nav-close" for="nav-input"></label>
+          <div id="nav-content">
+            <div class="head">
+              <label class="nav-unshown" for="nav-input">MENU</label>
+            </div>
+            <nav>
+              <ul class="global-navigation clearfix">
+                <li>
+                  <a href="<?php echo get_home_url(); ?>">PROFILE</a>
+                </li>
+                <li>
+                  <a href="<?php echo get_home_url(); ?>">SERVICE</a>
+                  <ul class="child">
+                    <li><a href="/">STUDIO PORTRAIT</a></li>
+                    <li><a href="/">LOCATION PHOTO</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="<?php echo get_home_url(); ?>">WORKS</a>
+                  <ul class="child">
+                    <li><a href="/">hoge</a></li>
+                    <li><a href="/">fuga</a></li>
+                    <li><a href="/">hoge</a></li>
+                  </ul>
+                </li>
+                <li><a href="<?php echo get_home_url(); ?>">GALLERY</a></li>
+                <li><a href="<?php echo get_home_url(); ?>">BLOG</a></li>
+                <li><a href="<?php echo get_home_url(); ?>">ACCESS</a></li>
+                <li><a href="<?php echo get_home_url(); ?>">CONTACT</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </header>
 <section class="slider">
