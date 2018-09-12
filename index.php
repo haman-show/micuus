@@ -1,54 +1,9 @@
 <?php get_header(); ?>
 <header>
   <div class="container">
-    <div class="header-holder">
-      <h1><img src="<?php echo get_template_directory_uri(); ?>/images/txt_title.png" width="630" height="65" class="responsive-img" /></h1>
-      <div class="menu">
-        <div id="nav-drawer">
-          <input id="nav-input" type="checkbox" class="nav-unshown">
-          <label id="nav-open" for="nav-input"><span></span></label>
-          <label class="nav-unshown" id="nav-close" for="nav-input"></label>
-          <div id="nav-content">
-            <div class="head">
-              <label class="nav-unshown" for="nav-input">MENU</label>
-            </div>
-            <nav>
-              <ul class="global-navigation">
-                <li>
-                  <a href="<?php echo get_home_url(); ?>">PROFILE</a>
-                </li>
-                <li>
-                  <a href="<?php echo get_home_url(); ?>">SERVICE</a>
-                  <ul class="child">
-                    <li><a href="/">hoge</a></li>
-                    <li><a href="/">fuga</a></li>
-                    <li><a href="/">hoge</a></li>
-                    <li><a href="/">fuga</a></li>
-                    <li><a href="/">hoge</a></li>
-                    <li><a href="/">fuga</a></li>
-                  </ul>
-                </li>
-                <li>
-                  <a href="<?php echo get_home_url(); ?>">WORKS</a>
-                  <ul class="child">
-                    <li><a href="/">hoge</a></li>
-                    <li><a href="/">fuga</a></li>
-                    <li><a href="/">hoge</a></li>
-                  </ul>
-                </li>
-                <li><a href="<?php echo get_home_url(); ?>">GALLERY</a></li>
-                <li><a href="<?php echo get_home_url(); ?>">BLOG</a></li>
-                <li><a href="<?php echo get_home_url(); ?>">ACCESS</a></li>
-                <li><a href="<?php echo get_home_url(); ?>">CONTACT</a></li>
-              </ul>
-            </nav>
-          </div>
-        </div>
-      </div>
-    </div>
   </div>
 </header>
-<section class="slider">
+<!--section class="slider">
   <div class="flexslider">
     <ul class="slides">
       <li><img src="<?php echo get_template_directory_uri(); ?>/images/gr_top_1.jpg" /></li>
@@ -58,7 +13,7 @@
       <li><img src="<?php echo get_template_directory_uri(); ?>/images/gr_top_5.jpg" /></li>
     </ul>
   </div>
-</section>
+</section-->
 <section class="welcome">
   <div class="container">
     <div class="title">
