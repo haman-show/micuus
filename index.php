@@ -3,17 +3,18 @@
   <div class="container">
   </div>
 </header>
-<!--section class="slider">
+<section class="slider">
   <div class="flexslider">
     <ul class="slides">
-      <li><img src="<?php echo get_template_directory_uri(); ?>/images/gr_top_1.jpg" /></li>
-      <li><img src="<?php echo get_template_directory_uri(); ?>/images/gr_top_2.jpg" /></li>
-      <li><img src="<?php echo get_template_directory_uri(); ?>/images/gr_top_3.jpg" /></li>
-      <li><img src="<?php echo get_template_directory_uri(); ?>/images/gr_top_4.jpg" /></li>
-      <li><img src="<?php echo get_template_directory_uri(); ?>/images/gr_top_5.jpg" /></li>
+      <li>
+        <img src="<?php echo get_template_directory_uri(); ?>/images/sl_001.jpg" />
+        <p>テキスト</p>
+      </li>
+      <li><img src="<?php echo get_template_directory_uri(); ?>/images/sl_002.jpg" /></li>
+      <li><img src="<?php echo get_template_directory_uri(); ?>/images/sl_003.jpg" /></li>
     </ul>
   </div>
-</section-->
+</section>
 <section class="welcome">
   <div class="container">
     <div class="title">

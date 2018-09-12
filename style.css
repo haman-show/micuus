@@ -169,7 +169,6 @@ header .container .header-holder .menu {
 }
 @media (min-width: 860px) {
 header {
-  padding: 50px 0;
 }
 header h1 {
   margin-bottom: 50px;
@@ -226,8 +225,42 @@ header .global-navigation > li > ul > li {
   color: white;
 }
 /* flexslider */
+.slider {
+	position: relative;
+	text-align: center;
+  width: 100%;
+  height: 100vh;
+}
 .flexslider {
-  border: 0;
+	position:absolute;
+	left: 0;
+	right: 0;
+	border: 0;
+}
+.slides{
+	margin: 0;
+	padding: 0;
+}
+.slides img {
+	min-height: 100vh;
+	object-fit: cover;
+}
+.slides>li {
+  position: relative;
+}
+.slides>li>p {
+  position: absolute;
+  left: 0;
+  top: 0;
+  transition: all 300ms 0s ease;
+}
+.slides>li>p.af {
+  top: 100px;
+  left: 100px;
+}
+.flex-control-nav {
+	bottom: 20px!important;
+	z-index: 100;
 }
 /* welcome */
 .welcome .title {

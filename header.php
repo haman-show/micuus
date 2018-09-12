@@ -13,8 +13,12 @@
     $(function(){
       $('.flexslider').flexslider({
         animation: "slide",
-	slideshowSpeed: 3000,
-	directionNav: false
+	slideshowSpeed: 5000,
+	directionNav: false,
+        after: function(slider) {
+          var slide = slider.currentSlide;
+          $('p', slide).addClass('af');
+        }
       });
     });
   </script>
