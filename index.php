@@ -56,7 +56,7 @@
     </ul>
   </div>
 </section>
-<section class="content studio-photo">
+<section class="content comp-photo studio-photo">
   <div class="pic"><img src="<?php echo get_template_directory_uri(); ?>/images/pic_studio_1.jpg" class="responsive-img"></div>
   <div class="pic"><img src="<?php echo get_template_directory_uri(); ?>/images/pic_studio_2.jpg" class="responsive-img"></div>
   <div class="txt-section-read ff-min">素直に生きると心地良い。</div>
@@ -95,6 +95,21 @@
       <span>主催するレッスンでは、技術だけでなく、クリエイティブの本質に</span>
       <span>触れる、ワークショップ等も取り入れ、</span>
       <span>創作人間を増やす活動に力を入れている。</span>
+    </p>
+  </div>
+</section>
+<section class="content comp-photo location-photo">
+  <div class="pic"><img src="<?php echo get_template_directory_uri(); ?>/images/pic_location_1.jpg" class="responsive-img"></div>
+  <div class="txt-section-read ff-min">人の持つ奥行きに触れたい</div>
+  <div class="txt-box">
+    <p class="head">LOCATION<br>PHOTO</p>
+    <p class="read">出会いは人のみならず<br>
+ふらっと訪れた場所や<br>
+ふと手に取った物であったり様々だ。</p>
+    <p class="read">人の持つ奥行きを探る<br>
+ロケ撮影。</p>
+    <p class="comp-button">
+      <a href="/">SEE MORE</a>
     </p>
   </div>
 </section>

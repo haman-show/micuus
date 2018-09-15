@@ -275,12 +275,14 @@ header .global-navigation > li > ul > li {
 	bottom: 20px!important;
 	z-index: 100;
 }
-/* studio-photo */
-.studio-photo {
+/* comp-photo */
+.comp-photo {
   position: relative;
 }
-.studio-photo .txt-section-read {
+.comp-photo .txt-section-read {
   position: absolute;
+}
+.studio-photo .txt-section-read {
   -webkit-writing-mode: vertical-rl;
   -ms-writing-mode: tb-rl;
   writing-mode: vertical-rl;
@@ -290,15 +292,15 @@ header .global-navigation > li > ul > li {
   color: #cbb103;
   position: absolute;
 }
-.studio-photo .txt-box {
+.comp-photo .txt-box {
   text-align: center;
 }
-.studio-photo .txt-box .head,
-.studio-photo .txt-box .read {
+.comp-photo .txt-box .head,
+.comp-photo .txt-box .read {
   line-height: 2;
   letter-spacing: 8px;
 }
-.studio-photo .txt-box .head {
+.comp-photo .txt-box .head {
   font-size: 1.25rem;
   font-weight: bold;
   margin: 2rem;
@@ -307,24 +309,33 @@ header .global-navigation > li > ul > li {
 .studio-photo {
   padding-top: 200px;
 }
+.location-photo {
+  margin-top: 100px;
+}
 .studio-photo .txt-section-read {
   right: 1.5rem;
   top: -1.5rem;
   font-size: .9rem;
   letter-spacing: .5rem;
 }
-.studio-photo .txt-section-title {
+.location-photo .txt-section-read {
+  top: -.5rem;
+  left: 1rem;
+  font-size: .9rem;
+  letter-spacing: .5rem;
+}
+.comp-photo .txt-section-title {
   left: 1.5rem;
   top: 160px;
   font-size: 3.5rem;
   letter-spacing: 1.5rem;
 }
-.studio-photo .txt-box .head,
-.studio-photo .txt-box .read {
+.comp-photo .txt-box .head,
+.comp-photo .txt-box .read {
   line-height: 2;
   letter-spacing: 8px;
 }
-.studio-photo .txt-box .head {
+.comp-photo .txt-box .head {
   font-size: 1.25rem;
   margin: 2rem;
 }
@@ -333,13 +344,22 @@ header .global-navigation > li > ul > li {
 .studio-photo {
   padding-top: 260px;
 }
+.location-photo {
+  margin-top: 100px;
+}
 .studio-photo .txt-section-read {
   right: 2rem;
   top: -2rem;
   font-size: 1rem;
   letter-spacing: .75rem;
 }
-.studio-photo .txt-section-title {
+.location-photo .txt-section-read {
+  top: -.5rem;
+  left: 2rem;
+  font-size: 1rem;
+  letter-spacing: .75rem;
+}
+.comp-photo .txt-section-title {
   left: 2rem;
   top: 200px;
   font-size: 5rem;
@@ -350,19 +370,28 @@ header .global-navigation > li > ul > li {
 .studio-photo {
   padding-top: 360px;
 }
+.location-photo {
+  margin-top: 200px;
+}
 .studio-photo .txt-section-read {
   right: 3rem;
   top: -2.5rem;
   font-size: 1.25rem;
   letter-spacing: .9rem;
 }
-.studio-photo .txt-section-title {
+.location-photo .txt-section-read {
+  top: -.75rem;
+  left: 3rem;
+  font-size: 1.25rem;
+  letter-spacing: .9rem;
+}
+.comp-photo .txt-section-title {
   left: 2.5rem;
   top: 280px;
   font-size: 7rem;
   letter-spacing: 3.25rem;
 }
-.studio-photo .txt-box {
+.comp-photo .txt-box {
   bottom: 3rem;
   width: 380px;
   padding: 2rem 0;
@@ -372,31 +401,40 @@ header .global-navigation > li > ul > li {
 .studio-photo {
   padding-top: 450px;
 }
+.location-photo {
+  margin-top: 300px;
+}
 .studio-photo .txt-section-read {
   right: 6rem;
   top: -3.5rem;
   font-size: 1.5rem;
   letter-spacing: 1rem;
 }
-.studio-photo .txt-section-title {
+.location-photo .txt-section-read {
+  top: -.75rem;
+  left: 4rem;
+  font-size: 1.5rem;
+  letter-spacing: 1rem;
+}
+.comp-photo .txt-section-title {
   left: 3rem;
   top: 350px;
   font-size: 8.5rem;
   letter-spacing: 3.5rem;
 }
-.studio-photo .txt-box {
+.comp-photo .txt-box {
   bottom: 6rem;
   width: 400px;
   padding: 3rem 0;
 }
 }
 @media (min-width: 768px) {
-.studio-photo .txt-box {
+.comp-photo .txt-box {
   position: absolute;
   background-color: white;
   right: 3rem;
 }
-.studio-photo .txt-box .comp-button {
+.comp-photo .txt-box .comp-button {
   margin-top: 2rem;
 }
 }
