@@ -10,9 +10,7 @@ Description: micuusのホームページ用テーマ
 }
 @media (min-width: 768px) and (max-width: 992px) {
 }
-@media (min-width: 992px) and (max-width: 1200px) {
-}
-@media (min-width: 1200px) {
+@media (min-width: 992px) {
 }
 body {
   font-family:-apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI","Noto Sans Japanese","ヒラギノ角ゴ ProN W3", Meiryo, sans-serif;
@@ -400,6 +398,98 @@ header .global-navigation > li > ul > li {
 }
 .studio-photo .txt-box .comp-button {
   margin-top: 2rem;
+}
+}
+
+/* profile */
+.profile {
+  position: relative;
+}
+.profile .txt-box .name,
+.profile .txt-box .head,
+.profile .txt-box .read {
+  letter-spacing: 8px;
+}
+.profile .txt-box .name,
+.profile .txt-box .head {
+  text-align: center;
+}
+.profile .txt-box .name {
+  font-weight: bold;
+  font-size: .9rem;
+}
+.profile .txt-box .head {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin: 2rem;
+}
+.profile .txt-box .read {
+  text-align: justify;
+}
+@media (max-width: 576px) {
+.profile .txt-box {
+  padding: 2rem 0;
+}
+.profile .txt-box .head {
+  line-height: 1.5;
+}
+.profile .txt-box .head span {
+  display: block;
+}
+.profile .txt-box .read {
+  padding: 0 2rem;
+  line-height: 2;
+}
+}
+@media (min-width: 576px) and (max-width: 768px) {
+.profile .txt-box {
+  padding: 2rem 0;
+}
+.profile {
+  padding-top: 100px;
+}
+.profile .txt-box .read {
+  padding: 0 2rem;
+  line-height: 2;
+}
+}
+@media (min-width: 768px) and (max-width: 992px) {
+.profile {
+  padding-top: 200px;
+}
+.profile .txt-box {
+  bottom: 1rem;
+  right: 1rem;
+  width: 500px;
+  padding: 1rem;
+}
+.profile .txt-box .head span {
+  display: block;
+}
+}
+@media (min-width: 992px) {
+.profile {
+  padding-top: 300px;
+}
+.profile .txt-box {
+  bottom: 4rem;
+  right: 3rem;
+  width: 600px;
+  padding: 3rem;
+}
+.profile .txt-box .read span {
+  display: block;
+}
+}
+@media (min-width: 768px) {
+.profile .txt-box .name,
+.profile .txt-box .head,
+.profile .txt-box .read {
+  line-height: 2;
+}
+.profile .txt-box {
+  position: absolute;
+  background-color: white;
 }
 }
 /* footer */
