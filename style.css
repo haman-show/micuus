@@ -530,6 +530,64 @@ header .global-navigation > li > ul > li {
   background-color: white;
 }
 }
+/* pick-up-column */
+.pick-up-column {
+  border: solid 1px #ddd;
+  border-right: none;
+  width: 900px;
+  margin: 14rem 0 14rem auto;
+  padding: 1.5rem 2rem;
+}
+.pick-up-column h1,
+.pick-up-column h2 {
+  letter-spacing: .2rem;
+  margin: 0;
+}
+.pick-up-column h1 {
+  margin-bottom: .25rem;
+}
+.pick-up-column h2 {
+  font-size: .9rem;
+}
+.pick-up-column ul {
+}
+.pick-up-column ul li:nth-of-type(odd) {
+  float: left;
+}
+.pick-up-column ul li:nth-of-type(even) {
+  float: right;
+}
+.pick-up-column ul li {
+  position: relative;
+  width: 400px;
+  min-height: 330px;
+  margin: 5rem 0;
+}
+.pick-up-column ul li .text {
+  position: absolute;
+  top: 227px;
+  background-color: white;
+  margin: 0 2rem;
+  padding: 1rem 2rem;
+  font-weight: bold;
+  letter-spacing: .2rem;
+}
+.pick-up-column ul li .text .title {
+  text-align: center;
+  margin-bottom: .5rem;
+}
+.pick-up-column ul li .text .title p {
+  display: inline-block;
+  font-size: 1rem;
+  border-bottom: solid 3px black;
+  padding-bottom: .5rem;
+  margin: 0;
+}
+.pick-up-column ul li .text .read {
+  line-height: 1.5;
+  text-align: justify;
+  text-justify: inter-ideograph;
+}
 /* footer */
 footer {
   padding: 3rem 0;

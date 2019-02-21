@@ -113,6 +113,56 @@
     </p>
   </div>
 </section>
+<section class="content pick-up-column">
+  <h1>PICK UP COLUMN</h1>
+  <h2>撮影コラムやクリエイティブのお話し、イベントレポなどをまとめています！</h2>
+  <ul class="list-holder clearfix">
+    <li>
+      <div class="pic">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/column_1.jpg" class="responsive-img">
+      </div>
+      <div class="text">
+        <div class="title">
+          <p>BABY CALDAMON</p>
+        </div>
+        <div class="read">サイトオープンに伴いメインヴィジュアルの撮影を行いました！</div>
+      </div>
+    </li>
+    <li>
+      <div class="pic">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/column_2.jpg" class="responsive-img">
+      </div>
+      <div class="text">
+        <div class="title">
+          <p>IDEA DESIGN × VENI aja</p>
+        </div>
+        <div class="read">デザイン事務所イデアデザイン様のご依頼で、新規オープンのヘアサロンの内装撮影へ！</div>
+      </div>
+    </li>
+    <li>
+      <div class="pic">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/column_3.jpg" class="responsive-img">
+      </div>
+      <div class="text">
+        <div class="title">
+          <p>BABY CALDAMON</p>
+        </div>
+        <div class="read">サイトオープンに伴いメインヴィジュアルの撮影を行いました！</div>
+      </div>
+    </li>
+    <li>
+      <div class="pic">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/column_4.jpg" class="responsive-img">
+      </div>
+      <div class="text">
+        <div class="title">
+          <p>IDEA DESIGN × VENI aja</p>
+        </div>
+        <div class="read">デザイン事務所イデアデザイン様のご依頼で、新規オープンのヘアサロンの内装撮影へ！</div>
+      </div>
+    </li>
+  </ul>
+</section>
 <?php get_footer(); ?>
 
 
