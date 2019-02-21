@@ -163,6 +163,30 @@
     </li>
   </ul>
 </section>
+<section class="content works">
+  <h1>For BOOK</h1>
+  <h2>書籍の帯撮影はこちら</h2>
+  <ul class="cover-list clearfix">
+    <li>
+      <img src="<?php echo get_template_directory_uri(); ?>/images/cover_1.jpg" class="responsive-img">
+    </li>
+    <li>
+      <img src="<?php echo get_template_directory_uri(); ?>/images/cover_2.jpg" class="responsive-img">
+    </li>
+    <li>
+      <img src="<?php echo get_template_directory_uri(); ?>/images/cover_3.jpg" class="responsive-img">
+    </li>
+    <li>
+      <img src="<?php echo get_template_directory_uri(); ?>/images/cover_4.jpg" class="responsive-img">
+    </li>
+    <li>
+      <img src="<?php echo get_template_directory_uri(); ?>/images/cover_5.jpg" class="responsive-img">
+    </li>
+  </ul>
+  <div class="comp-button">
+    <a href="/">SEE MORE</a>
+  </div>
+</section>
 <?php get_footer(); ?>
 
 

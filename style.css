@@ -588,6 +588,26 @@ header .global-navigation > li > ul > li {
   text-align: justify;
   text-justify: inter-ideograph;
 }
+/* works */
+.works h1,
+.works h2 {
+  letter-spacing: .2rem;
+  margin: 0 0 3rem 5%;
+}
+.works h1 {
+  margin-bottom: .25rem;
+}
+.works h2 {
+  font-size: .9rem;
+}
+.works ul {
+  margin-bottom: 3rem;
+}
+.works ul li {
+  float: left;
+  width: 14%;
+  margin-left: 5%;
+}
 /* footer */
 footer {
   padding: 3rem 0;
