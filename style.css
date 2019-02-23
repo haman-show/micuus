@@ -662,10 +662,12 @@ header .global-navigation > li > ul > li {
 }
 }
 /* works */
+.works {
+  padding: 2rem;
+}
 .works h1,
 .works h2 {
   letter-spacing: .2rem;
-  margin: 0 0 3rem 5%;
 }
 .works h1 {
   margin-bottom: .25rem;
@@ -676,10 +678,41 @@ header .global-navigation > li > ul > li {
 .works ul {
   margin-bottom: 3rem;
 }
+@media (max-width: 576px) {
+.works ul li {
+  width: 48%;
+  margin-bottom: 1rem;
+}
+.works ul li:nth-of-type(odd) {
+  float: left;
+}
+.works ul li:nth-of-type(even) {
+  float: right;
+}
+}
+@media (min-width: 576px) and (max-width: 768px) {
 .works ul li {
   float: left;
-  width: 14%;
-  margin-left: 5%;
+  width: 32%;
+  margin-right: 2%; 
+  margin-bottom: 1rem;
+}
+.works ul li:nth-of-type(3n) {
+  margin-right: 0;
+}
+}
+@media (min-width: 768px) {
+.works {
+  padding: 3rem;
+}
+.works ul li {
+  float: left;
+  width: 18%;
+  margin-right: 2.5%;
+}
+.works ul li:last-child {
+  margin-right: 0;
+}
 }
 /* footer */
 footer {
