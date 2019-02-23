@@ -4,6 +4,7 @@ Author: YoheiTerashima
 Author URI: https://micuus.com
 Description: micuusのホームページ用テーマ
 */
+/*
 @media (max-width: 576px) {
 }
 @media (min-width: 576px) and (max-width: 768px) {
@@ -12,6 +13,7 @@ Description: micuusのホームページ用テーマ
 }
 @media (min-width: 992px) {
 }
+*/
 body {
   font-family:-apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI","Noto Sans Japanese","ヒラギノ角ゴ ProN W3", Meiryo, sans-serif;
   font-size: 13px;
@@ -533,10 +535,6 @@ header .global-navigation > li > ul > li {
 /* pick-up-column */
 .pick-up-column {
   border: solid 1px #ddd;
-  border-right: none;
-  width: 900px;
-  margin: 14rem 0 14rem auto;
-  padding: 1.5rem 2rem;
 }
 .pick-up-column h1,
 .pick-up-column h2 {
@@ -549,26 +547,12 @@ header .global-navigation > li > ul > li {
 .pick-up-column h2 {
   font-size: .9rem;
 }
-.pick-up-column ul {
-}
-.pick-up-column ul li:nth-of-type(odd) {
-  float: left;
-}
-.pick-up-column ul li:nth-of-type(even) {
-  float: right;
-}
 .pick-up-column ul li {
   position: relative;
-  width: 400px;
-  min-height: 330px;
-  margin: 5rem 0;
 }
 .pick-up-column ul li .text {
   position: absolute;
-  top: 227px;
   background-color: white;
-  margin: 0 2rem;
-  padding: 1rem 2rem;
   font-weight: bold;
   letter-spacing: .2rem;
 }
@@ -587,6 +571,95 @@ header .global-navigation > li > ul > li {
   line-height: 1.5;
   text-align: justify;
   text-justify: inter-ideograph;
+}
+@media (max-width: 768px) {
+.pick-up-column {
+  margin: 8rem 2rem;
+  padding: 2rem;
+}
+.pick-up-column ul li {
+  margin: 2rem 0 9rem 0;
+}
+.pick-up-column ul li .text {
+  top: 75%;
+  margin: 0 1rem;
+  padding: 1rem;
+}
+}
+@media (min-width: 576px) and (max-width: 768px) {
+.pick-up-column ul li {
+  margin: 2rem 0 8rem 0;
+}
+.pick-up-column ul li .text {
+  top: 80%;
+  margin: 0 2rem;
+  padding: 2rem;
+}
+}
+@media (min-width: 768px) and (max-width: 992px) {
+.pick-up-column {
+  margin: 12rem 2rem;
+  padding: 1.5rem 5%;
+}
+.pick-up-column ul li {
+  width: 47%;
+  margin: 2.5rem 0 7rem 0;
+}
+.pick-up-column ul li:nth-of-type(odd) {
+  float: left;
+}
+.pick-up-column ul li:nth-of-type(even) {
+  float: right;
+}
+.pick-up-column ul li .text {
+  top: 75%;
+  margin: 0 1rem;
+  padding: 1rem;
+}
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+.pick-up-column {
+  width: 900px;
+  margin: 14rem auto;
+  padding: 1.5rem 2rem;
+}
+.pick-up-column ul li {
+  width: 48%;
+  margin: 5rem 0 8rem;
+}
+.pick-up-column ul li:nth-of-type(odd) {
+  float: left;
+}
+.pick-up-column ul li:nth-of-type(even) {
+  float: right;
+}
+.pick-up-column ul li .text {
+  top: 80%;
+  margin: 0 2rem;
+  padding: 1rem 2rem;
+}
+}
+@media (min-width: 1200px) {
+.pick-up-column {
+  margin: 14rem 3rem;
+  padding: 1.5rem 2rem;
+}
+.pick-up-column ul li {
+  width: 32%;
+  margin: 5rem 0 9rem;
+}
+.pick-up-column ul li {
+  float: left;
+  margin-right: 2%;
+}
+.pick-up-column ul li:nth-of-type(3n) {
+  margin-right: 0;
+}
+.pick-up-column ul li .text {
+  top: 80%;
+  margin: 0 2rem;
+  padding: 1rem 2rem;
+}
 }
 /* works */
 .works h1,
