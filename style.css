@@ -745,3 +745,160 @@ footer .container .footer-container .block .body {
   letter-spacing: .25rem;
   color: #9f9f9f;
 }
+/* photosession */
+.photosession {
+  font-size: 1rem;
+}
+.photosession .title {
+  padding: 2rem 0 0 0;
+}
+.photosession .title h1 {
+  text-align: center;
+  font-size: 2.2rem;
+  letter-spacing: 1rem;
+  margin-bottom: .5rem;
+}
+.photosession .title span {
+  font-size: 4.5rem;
+  letter-spacing: 2.3rem;
+}
+.photosession .information ul {
+  text-align: center;
+  font-size: 2.5rem;
+  letter-spacing: 1.25rem;
+}
+.photosession .information ul li {
+  display: inline-block;
+}
+.photosession .conversion {
+  margin: 4rem 0;
+}
+.photosession .conversion button {
+  width: 25%;
+  margin: 0 auto;
+  display: block;
+  background-color: rgb(27, 204, 169);
+  color: white;
+  border: none;
+  border-radius: 1em;
+  font-size: 1.25rem;
+  padding: 1rem;
+  transition: .2s ease-in-out;
+  cursor: pointer;
+}
+.photosession .conversion button:hover {
+  background-color: rgba(27, 204, 169, .75);
+}
+.photosession .concept .image:first-child {
+  margin-bottom: 4rem;
+}
+.photosession .concept ul {
+  margin: 0 auto 6rem auto;
+  width: 75%;
+}
+.photosession .concept ul li {
+  margin-bottom: 2rem;
+  line-height: 1.5;
+}
+.photosession .solusion {
+  margin-top: 6rem;
+}
+.photosession .solusion h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  letter-spacing: .75rem;
+  margin-bottom: 2rem;
+}
+.photosession .solusion h1 span {
+  font-size: 5.5rem;
+  letter-spacing: 1rem;
+}
+.photosession .solusion .problem {
+  margin: 0 auto 4rem auto;
+  width: 75%;
+  border: solid 3px black;
+  padding-bottom: 3rem;
+}
+.photosession .solusion .problem li {
+  padding: 3rem 6rem 0 6rem;
+  font-size: 1.25rem;
+}
+.photosession .solusion .problem li i {
+  margin-right: 1rem;
+  color: tomato;
+}
+.photosession .solusion .answer {
+  margin: 0 auto 3rem auto;
+  width: 75%;
+  line-height: 1.5;
+}
+.photosession .solusion .answer .head {
+  text-align: center;
+  font-size: 2rem;
+}
+.photosession .solusion .answer .head mark {
+  background: linear-gradient(transparent 75%, #ffc0cb 75%);
+}
+.photosession .solusion .answer2 {
+  margin-bottom: 3rem;
+}
+.photosession .solusion .answer2 .image {
+  float: left;
+  width: 48%;
+}
+.photosession .solusion .answer2 .read {
+  float: right;
+  width: 48%;
+}
+.photosession .solusion .answer2 .read li {
+  margin-bottom: 1rem;
+  line-height: 1.5;
+  padding-right: 5rem;
+}
+.photosession .detail {
+  background-color: rgb(27, 204, 169);
+  color: #333;
+  padding: 3rem 0;
+}
+.photosession .detail .content {
+  width: 75%;
+  margin: 0 auto;
+  font-size: .9rem;
+}
+.photosession .detail h1 {
+  font-size: 1rem;
+  margin-bottom: 3rem;
+}
+.photosession .detail .block {
+  margin-bottom: 3rem;
+}
+.photosession .detail .block:last-child {
+  margin-bottom: 0;
+}
+.photosession .detail .block .head {
+  font-weight: bold;
+}
+.photosession .detail .block ul {
+  list-style-type: disc;
+}
+.photosession .detail .block ul li,
+.photosession .detail .block ol li {
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
+.photosession .detail .block ul li {
+  margin-left: 1rem;
+}
+.photosession .detail .block ol {
+  list-style-type: none;
+  padding-inline-start: 0;
+}
+.photosession .detail .block ol li i {
+  padding-right: .5rem;
+}
+.photosession .detail .block ol li a {
+  text-decoration: underline;
+}
+.photosession .detail .block ol li a:hover {
+  text-decoration: none;
+}
