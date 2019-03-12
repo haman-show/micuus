@@ -49,7 +49,8 @@ Template Name: ミクスフォトセッションのテンプレート
   <div class="answer2 clearfix">
     <div class="image"><img src="<?php echo get_template_directory_uri(); ?>/images/photosession_answer_1.jpg" class="responsive-img"></div>
     <ul class="read">
-      <li>写真には、正解がありません。<br>これをしたから「正解」というマニュアルも無ければ<br>万人に通用するノウハウなんてものもありません。</li>
+      <li>写真には、正解がありません。</li>
+      <li>これをしたから「正解」というマニュアルも無ければ万人に通用するノウハウなんてものもありません。</li>
       <li>それじゃあ何が大切なの？</li>
       <li>私は、何を「信じる」かを明確にする事が一番大切な事だと思います。〇〇したいという欲求や、こうだ！思う直感、〇〇を伝えたいという想い。</li>
       <li>そして、互いに「信じる」事が何より大切だと思っています。</li>

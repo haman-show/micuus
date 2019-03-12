@@ -749,56 +749,26 @@ footer .container .footer-container .block .body {
 .photosession {
   font-size: 1rem;
 }
-.photosession .title {
-  padding: 2rem 0 0 0;
-}
 .photosession .title h1 {
   text-align: center;
-  font-size: 2.2rem;
-  letter-spacing: 1rem;
-  margin-bottom: .5rem;
-}
-.photosession .title span {
-  font-size: 4.5rem;
-  letter-spacing: 2.3rem;
 }
 .photosession .information ul {
   text-align: center;
-  font-size: 2.5rem;
-  letter-spacing: 1.25rem;
 }
 .photosession .information ul li {
   display: inline-block;
 }
-.photosession .conversion {
-  margin: 4rem 0;
-}
 .photosession .conversion button {
-  width: 25%;
   margin: 0 auto;
   display: block;
   background-color: rgb(27, 204, 169);
   color: white;
   border: none;
-  border-radius: 1em;
-  font-size: 1.25rem;
-  padding: 1rem;
   transition: .2s ease-in-out;
   cursor: pointer;
 }
 .photosession .conversion button:hover {
   background-color: rgba(27, 204, 169, .75);
-}
-.photosession .concept .image:first-child {
-  margin-bottom: 4rem;
-}
-.photosession .concept ul {
-  margin: 0 auto 6rem auto;
-  width: 75%;
-}
-.photosession .concept ul li {
-  margin-bottom: 2rem;
-  line-height: 1.5;
 }
 .photosession .solusion {
   margin-top: 6rem;
@@ -827,33 +797,11 @@ footer .container .footer-container .block .body {
   margin-right: 1rem;
   color: tomato;
 }
-.photosession .solusion .answer {
-  margin: 0 auto 3rem auto;
-  width: 75%;
-  line-height: 1.5;
-}
 .photosession .solusion .answer .head {
   text-align: center;
-  font-size: 2rem;
 }
 .photosession .solusion .answer .head mark {
   background: linear-gradient(transparent 75%, #ffc0cb 75%);
-}
-.photosession .solusion .answer2 {
-  margin-bottom: 3rem;
-}
-.photosession .solusion .answer2 .image {
-  float: left;
-  width: 48%;
-}
-.photosession .solusion .answer2 .read {
-  float: right;
-  width: 48%;
-}
-.photosession .solusion .answer2 .read li {
-  margin-bottom: 1rem;
-  line-height: 1.5;
-  padding-right: 5rem;
 }
 .photosession .detail {
   background-color: rgb(27, 204, 169);
@@ -901,4 +849,372 @@ footer .container .footer-container .block .body {
 }
 .photosession .detail .block ol li a:hover {
   text-decoration: none;
+}
+@media (max-width: 576px) {
+.photosession .title {
+  padding: 1rem 0 0 0;
+}
+.photosession .title h1 {
+  font-size: 1.5rem;
+  letter-spacing: .6rem;
+  padding-left: .6rem;
+  margin-bottom: .5rem;
+}
+.photosession .title span {
+  font-size: 2.4rem;
+  letter-spacing: .5rem;
+}
+.photosession .information ul {
+  font-size: 1rem;
+  letter-spacing: .25rem;
+  padding-left: .25rem;
+}
+.photosession .conversion {
+  margin: 2rem 0;
+}
+.photosession .conversion button {
+  width: 60%;
+  border-radius: .5em;
+  font-size: 1rem;
+  padding: .5rem;
+}
+.photosession .concept .image:first-child {
+  margin-bottom: 2rem;
+}
+.photosession .concept ul {
+  margin: 0 auto 3rem auto;
+  width: 90%;
+}
+.photosession .concept ul li {
+  margin-bottom: 1rem;
+  font-size: .9rem;
+  line-height: 1.5;
+}
+.photosession .solusion {
+  margin-top: 3rem;
+}
+.photosession .solusion h1 {
+  font-size: 1.75rem;
+  letter-spacing: .25rem;
+  padding-left: .25rem;
+  margin-bottom: 1rem;
+}
+.photosession .solusion h1 span {
+  font-size: 3rem;
+  letter-spacing: 1rem;
+  padding-left: .75rem;
+}
+.photosession .solusion .problem {
+  margin: 0 auto 2rem auto;
+  width: 90%;
+  border: solid 2px black;
+  padding-bottom: 2rem;
+}
+.photosession .solusion .problem li {
+  padding: 2rem 2rem 0 2rem;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+.photosession .solusion .problem li i {
+  margin-right: .5rem;
+  color: tomato;
+}
+.photosession .solusion .answer {
+  margin: 0 auto 2rem auto;
+  width: 90%;
+  line-height: 1.5;
+}
+.photosession .solusion .answer .head {
+  font-size: 1.25rem;
+}
+.photosession .solusion .answer2 {
+  margin-bottom: 2rem;
+}
+.photosession .solusion .answer2 .image {
+  margin-bottom: 2rem;
+}
+.photosession .solusion .answer2 .read {
+  width: 90%;
+  margin: 0 auto;
+}
+.photosession .solusion .answer2 .read li {
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
+}
+@media (min-width: 576px) and (max-width: 768px) {
+.photosession .title {
+  padding: 2rem 0 0 0;
+}
+.photosession .title h1 {
+  font-size: 1.5rem;
+  letter-spacing: .5rem;
+  padding-left: .5rem;
+  margin-bottom: .5rem;
+}
+.photosession .title span {
+  font-size: 3rem;
+  letter-spacing: 1.25rem;
+  padding-left: .75rem;
+}
+.photosession .information ul {
+  font-size: 1.5rem;
+  letter-spacing: .5rem;
+  padding-left: .5rem;
+}
+.photosession .conversion {
+  margin: 2rem 0;
+}
+.photosession .conversion button {
+  width: 50%;
+  border-radius: .75rem;
+  font-size: 1.1rem;
+  padding: .75rem;
+}
+.photosession .concept .image:first-child {
+  margin-bottom: 3rem;
+}
+.photosession .concept ul {
+  margin: 0 auto 3rem auto;
+  width: 85%;
+}
+.photosession .concept ul li {
+  margin-bottom: 1.25rem;
+  font-size: .9rem;
+  line-height: 1.5;
+}
+.photosession .solusion {
+  margin-top: 3rem;
+}
+.photosession .solusion h1 {
+  font-size: 2rem;
+  letter-spacing: .5rem;
+  padding-left: .5rem;
+  margin-bottom: 1rem;
+}
+.photosession .solusion h1 span {
+  font-size: 4rem;
+  letter-spacing: 1rem;
+  padding-left: .5rem;
+}
+.photosession .solusion .problem {
+  margin: 0 auto 2rem auto;
+  width: 90%;
+  border: solid 2px black;
+  padding-bottom: 2rem;
+}
+.photosession .solusion .problem li {
+  padding: 2rem 2.5rem 0 2.5rem;
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+.photosession .solusion .problem li i {
+  margin-right: .5rem;
+  color: tomato;
+}
+.photosession .solusion .answer {
+  margin: 0 auto 2rem auto;
+  width: 90%;
+  line-height: 1.5;
+}
+.photosession .solusion .answer .head {
+  font-size: 1.5rem;
+}
+.photosession .solusion .answer2 {
+  margin-bottom: 2rem;
+}
+.photosession .solusion .answer2 .image {
+  margin-bottom: 2rem;
+}
+.photosession .solusion .answer2 .read {
+  width: 90%;
+  margin: 0 auto;
+}
+.photosession .solusion .answer2 .read li {
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
+}
+@media (min-width: 768px) and (max-width: 992px) {
+.photosession .title {
+  padding: 2rem 0 0 0;
+}
+.photosession .title h1 {
+  font-size: 2rem;
+  letter-spacing: .75rem;
+  padding-left: .75rem;
+  margin-bottom: .5rem;
+}
+.photosession .title span {
+  font-size: 4rem;
+  letter-spacing: 2rem;
+  padding-left: 1.25rem;
+}
+.photosession .information ul {
+  font-size: 1.75rem;
+  letter-spacing: .75rem;
+  padding-left: .75rem;
+}
+.photosession .conversion {
+  margin: 3rem 0;
+}
+.photosession .conversion button {
+  width: 30%;
+  border-radius: 1rem;
+  font-size: 1.2rem;
+  padding: 1rem;
+}
+.photosession .concept .image:first-child {
+  margin-bottom: 3rem;
+}
+.photosession .concept ul {
+  margin: 0 auto 3rem auto;
+  width: 80%;
+}
+.photosession .concept ul li {
+  margin-bottom: 1.75rem;
+  line-height: 1.5;
+}
+.photosession .solusion {
+  margin-top: 5rem;
+}
+.photosession .solusion h1 {
+  font-size: 2.5rem;
+  letter-spacing: .5rem;
+  padding-left: .5rem;
+  margin-bottom: 2rem;
+}
+.photosession .solusion h1 span {
+  font-size: 5rem;
+  letter-spacing: 1rem;
+  padding-left: .5rem;
+}
+.photosession .solusion .problem {
+  margin: 0 auto 3rem auto;
+  width: 80%;
+  border: solid 3px black;
+  padding-bottom: 3rem;
+}
+.photosession .solusion .problem li {
+  padding: 3rem 4rem 0 4rem;
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+.photosession .solusion .problem li i {
+  margin-right: .75rem;
+  color: tomato;
+}
+.photosession .solusion .answer {
+  margin: 0 auto 3rem auto;
+  width: 80%;
+  line-height: 1.5;
+}
+.photosession .solusion .answer .head {
+  font-size: 2rem;
+}
+.photosession .solusion .answer2 {
+  margin-bottom: 3rem;
+}
+.photosession .solusion .answer2 .image {
+  margin-bottom: 3rem;
+}
+.photosession .solusion .answer2 .read {
+  width: 80%;
+  margin: 0 auto;
+}
+.photosession .solusion .answer2 .read li {
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
+}
+@media (min-width: 992px) {
+.photosession .title {
+  padding: 2rem 0 0 0;
+}
+.photosession .title h1 {
+  font-size: 2.2rem;
+  letter-spacing: 1rem;
+  margin-bottom: .5rem;
+}
+.photosession .title span {
+  font-size: 4.5rem;
+  letter-spacing: 2.3rem;
+  padding-left: 2.3rem;
+}
+.photosession .information ul {
+  font-size: 2.5rem;
+  letter-spacing: 1.25rem;
+  padding-left: 1.25rem;
+}
+.photosession .conversion {
+  margin: 4rem 0;
+}
+.photosession .conversion button {
+  width: 25%;
+  border-radius: 1em;
+  font-size: 1.25rem;
+  padding: 1rem;
+}
+.photosession .concept .image:first-child {
+  margin-bottom: 4rem;
+}
+.photosession .concept ul {
+  margin: 0 auto 6rem auto;
+  width: 75%;
+}
+.photosession .concept ul li {
+  margin-bottom: 2rem;
+  line-height: 1.5;
+}
+.photosession .solusion {
+  margin-top: 6rem;
+}
+.photosession .solusion h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  letter-spacing: .75rem;
+  margin-bottom: 2rem;
+}
+.photosession .solusion h1 span {
+  font-size: 5.5rem;
+  letter-spacing: 1rem;
+}
+.photosession .solusion .problem {
+  margin: 0 auto 4rem auto;
+  width: 75%;
+  border: solid 3px black;
+  padding-bottom: 3rem;
+}
+.photosession .solusion .problem li {
+  padding: 3rem 6rem 0 6rem;
+  font-size: 1.25rem;
+}
+.photosession .solusion .problem li i {
+  margin-right: 1rem;
+  color: tomato;
+}
+.photosession .solusion .answer {
+  margin: 0 auto 3rem auto;
+  width: 75%;
+  line-height: 1.5;
+}
+.photosession .solusion .answer .head {
+  font-size: 2rem;
+}
+.photosession .solusion .answer2 {
+  margin-bottom: 3rem;
+}
+.photosession .solusion .answer2 .image {
+  float: left;
+  width: 48%;
+}
+.photosession .solusion .answer2 .read {
+  float: right;
+  width: 48%;
+}
+.photosession .solusion .answer2 .read li {
+  margin-bottom: 1rem;
+  line-height: 1.5;
+  padding-right: 5rem;
+}
 }
