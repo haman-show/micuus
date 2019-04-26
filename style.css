@@ -237,13 +237,20 @@ header .global-navigation > li > ul > li {
   color: white;
 }
 /* flexslider */
-.slider {
+.gallery .slider {
+  padding: 0 5%;
+}
+.gallery .slider .flexslider {
+  margin-bottom: 0;
+  border: none;
+}
+.creator .slider {
 	position: relative;
 	text-align: center;
   width: 100%;
   height: 100vh;
 }
-.flexslider {
+.creator .flexslider {
 	position:absolute;
 	left: 0;
 	right: 0;
@@ -251,11 +258,11 @@ header .global-navigation > li > ul > li {
   height: 100vh;
   overflow: hidden;
 }
-.slides img {
+.creator .slides img {
 	min-height: 100vh;
 	object-fit: cover;
 }
-.slides>li {
+.creator .slides>li {
   position: relative;
 }
 .slides>li>p {
@@ -736,7 +743,7 @@ footer .container .footer-container .block .body {
 }
 /* copy right */
 .copyright {
-  padding: 3rem 0 1rem 0;
+  padding: 1rem 0;
 }
 .copyright h1 {
   text-align: center;
@@ -745,12 +752,75 @@ footer .container .footer-container .block .body {
   letter-spacing: .25rem;
   color: #9f9f9f;
 }
+/* contents */
+.contents .title h1 {
+  text-align: center;
+}
+@media (max-width: 576px) {
+.contents .title {
+  padding: 1rem 0 0 0;
+}
+.contents .title h1 {
+  font-size: 1.5rem;
+  letter-spacing: .6rem;
+  padding-left: .6rem;
+  margin-bottom: .5rem;
+}
+.contents .title span {
+  font-size: 2.4rem;
+  letter-spacing: .5rem;
+}
+}
+@media (min-width: 576px) and (max-width: 768px) {
+.contents .title {
+  padding: 2rem 0 0 0;
+}
+.contents .title h1 {
+  font-size: 1.5rem;
+  letter-spacing: .5rem;
+  padding-left: .5rem;
+  margin-bottom: .5rem;
+}
+.contents .title span {
+  font-size: 3rem;
+  letter-spacing: 1.25rem;
+  padding-left: .75rem;
+}
+}
+@media (min-width: 768px) and (max-width: 992px) {
+.contents .title {
+  padding: 2rem 0 0 0;
+}
+.contents .title h1 {
+  font-size: 2rem;
+  letter-spacing: .75rem;
+  padding-left: .75rem;
+  margin-bottom: .5rem;
+}
+.contents .title span {
+  font-size: 4rem;
+  letter-spacing: 2rem;
+  padding-left: 1.25rem;
+}
+}
+@media (min-width: 992px) {
+.contents .title {
+  padding: 2rem 0 0 0;
+}
+.contents .title h1 {
+  font-size: 2.2rem;
+  letter-spacing: 1rem;
+  margin-bottom: .5rem;
+}
+.contents .title span {
+  font-size: 4.5rem;
+  letter-spacing: 2.3rem;
+  padding-left: 2.3rem;
+}
+}
 /* photosession */
 .photosession {
   font-size: 1rem;
-}
-.photosession .title h1 {
-  text-align: center;
 }
 .photosession .information ul {
   text-align: center;
@@ -851,19 +921,6 @@ footer .container .footer-container .block .body {
   text-decoration: none;
 }
 @media (max-width: 576px) {
-.photosession .title {
-  padding: 1rem 0 0 0;
-}
-.photosession .title h1 {
-  font-size: 1.5rem;
-  letter-spacing: .6rem;
-  padding-left: .6rem;
-  margin-bottom: .5rem;
-}
-.photosession .title span {
-  font-size: 2.4rem;
-  letter-spacing: .5rem;
-}
 .photosession .information ul {
   font-size: 1rem;
   letter-spacing: .25rem;
@@ -943,20 +1000,6 @@ footer .container .footer-container .block .body {
 }
 }
 @media (min-width: 576px) and (max-width: 768px) {
-.photosession .title {
-  padding: 2rem 0 0 0;
-}
-.photosession .title h1 {
-  font-size: 1.5rem;
-  letter-spacing: .5rem;
-  padding-left: .5rem;
-  margin-bottom: .5rem;
-}
-.photosession .title span {
-  font-size: 3rem;
-  letter-spacing: 1.25rem;
-  padding-left: .75rem;
-}
 .photosession .information ul {
   font-size: 1.5rem;
   letter-spacing: .5rem;
@@ -1036,20 +1079,6 @@ footer .container .footer-container .block .body {
 }
 }
 @media (min-width: 768px) and (max-width: 992px) {
-.photosession .title {
-  padding: 2rem 0 0 0;
-}
-.photosession .title h1 {
-  font-size: 2rem;
-  letter-spacing: .75rem;
-  padding-left: .75rem;
-  margin-bottom: .5rem;
-}
-.photosession .title span {
-  font-size: 4rem;
-  letter-spacing: 2rem;
-  padding-left: 1.25rem;
-}
 .photosession .information ul {
   font-size: 1.75rem;
   letter-spacing: .75rem;
@@ -1128,19 +1157,6 @@ footer .container .footer-container .block .body {
 }
 }
 @media (min-width: 992px) {
-.photosession .title {
-  padding: 2rem 0 0 0;
-}
-.photosession .title h1 {
-  font-size: 2.2rem;
-  letter-spacing: 1rem;
-  margin-bottom: .5rem;
-}
-.photosession .title span {
-  font-size: 4.5rem;
-  letter-spacing: 2.3rem;
-  padding-left: 2.3rem;
-}
 .photosession .information ul {
   font-size: 2.5rem;
   letter-spacing: 1.25rem;
@@ -1217,4 +1233,22 @@ footer .container .footer-container .block .body {
   line-height: 1.5;
   padding-right: 5rem;
 }
+}
+/* gallery */
+.gallery .title {
+  margin-bottom: 2rem;
+}
+.slide-show {
+  padding: 0 5%;
+}
+.photo-list .comp-button {
+  margin: 3.5rem 0;
+}
+.photo-list .flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.photo-list .flex-container .flex-box {
+  width: 14%;
+  margin: 5% 0 0 5%;
 }

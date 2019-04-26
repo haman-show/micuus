@@ -19,7 +19,7 @@
   </div>
 </footer>
 <section class="copyright">
-  <h1>Copyright SECRET GIRLS GARDEN-ASUMIENDO-2018 All Right Reserved</h1>
+  <h1>Copyright STUDIO KUM All Right Reserved</h1>
 </section>
 <script src="<?php echo get_template_directory_uri(); ?>/script.js"></script>
 </html>

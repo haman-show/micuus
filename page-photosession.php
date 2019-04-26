@@ -5,7 +5,7 @@ Template Name: ミクスフォトセッションのテンプレート
 ?>
 <?php remove_filter('the_content', 'wpautop'); ?>
 <?php get_header(); ?>
-<div class="photosession">
+<div class="contents photosession">
 <section class="title">
   <h1><span>ASUMI ENDO</span><br>PHOTO SESSION</h1>
   <div><img src="<?php echo get_template_directory_uri(); ?>/images/photosession_top.jpg" class="responsive-img"></div>

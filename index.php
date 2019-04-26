@@ -1,4 +1,5 @@
 <?php get_header(); ?>
+<div class="contents creator">
 <header>
   <div class="container">
     <div class="header-holder">
@@ -187,6 +188,7 @@
     <a href="/">SEE MORE</a>
   </div>
 </section>
+</div>
 <?php get_footer(); ?>
 
 
