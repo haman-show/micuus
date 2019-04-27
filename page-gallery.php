@@ -35,4 +35,10 @@ Template Name: ギャラリーページのテンプレート
     <a href="/">SEE MORE</a>
   </p>
 </section>
+<section class="instagram">
+  <div class="head">
+    <div class="icon"><img src="<?php echo get_template_directory_uri(); ?>/images/glyph-logo_May2016.png" class="responsive-img"></div>
+    <div class="text"><img src="<?php echo get_template_directory_uri(); ?>/images/Instagram_logo.svg" class="responsive-img"></div>
+  </div>
+</section>
 <?php get_footer(); ?>

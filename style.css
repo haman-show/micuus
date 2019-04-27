@@ -1252,3 +1252,22 @@ footer .container .footer-container .block .body {
   width: 14%;
   margin: 5% 0 0 5%;
 }
+.gallery .instagram {
+  padding: 0 5%;
+}
+.gallery .instagram .head {
+  display: table;
+  width: 300px;
+  margin: 0 auto;
+}
+.gallery .instagram .head .icon,
+.gallery .instagram .head .text {
+  display: table-cell;
+  vertical-align: middle;
+}
+.gallery .instagram .head .icon {
+  width: 60px;
+}
+.gallery .instagram .head .text {
+  padding: .5rem;
+}
