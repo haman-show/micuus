@@ -55,6 +55,71 @@ img {
 .container {
   padding: 0 1rem;
 }
+/* loader */
+.loader {
+  font-size: .5rem;
+  margin: 0 auto;
+  text-indent: -9999em;
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+  border-radius: 50%;
+  background: #333;
+  background: -moz-linear-gradient(left, #333 10%, rgba(255, 255, 255, 0) 42%);
+  background: -webkit-linear-gradient(left, #333 10%, rgba(255, 255, 255, 0) 42%);
+  background: -o-linear-gradient(left, #333 10%, rgba(255, 255, 255, 0) 42%);
+  background: -ms-linear-gradient(left, #333 10%, rgba(255, 255, 255, 0) 42%);
+  background: linear-gradient(to right, #333 10%, rgba(255, 255, 255, 0) 42%);
+  position: relative;
+  -webkit-animation: load3 1.4s infinite linear;
+  animation: load3 1.4s infinite linear;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+}
+.loader:before {
+  width: 50%;
+  height: 50%;
+  background: #333;
+  border-radius: 100% 0 0 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: '';
+}
+.loader:after {
+  background: #eee;
+  width: 75%;
+  height: 75%;
+  border-radius: 50%;
+  content: '';
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+@-webkit-keyframes load3 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes load3 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
 /* header */
 header {
   position: absolute;
@@ -237,13 +302,6 @@ header .global-navigation > li > ul > li {
   color: white;
 }
 /* flexslider */
-.gallery .slider {
-  padding: 0 5%;
-}
-.gallery .slider .flexslider {
-  margin-bottom: 0;
-  border: none;
-}
 .creator .slider {
 	position: relative;
 	text-align: center;
@@ -447,94 +505,93 @@ header .global-navigation > li > ul > li {
   margin-top: 2rem;
 }
 }
-
 /* profile */
-.profile {
+.creator .profile {
   position: relative;
 }
-.profile .txt-box .name,
-.profile .txt-box .head,
-.profile .txt-box .read {
+.creator .profile .txt-box .name,
+.creator .profile .txt-box .head,
+.creator .profile .txt-box .read {
   letter-spacing: 8px;
 }
-.profile .txt-box .name,
-.profile .txt-box .head {
+.creator .profile .txt-box .name,
+.creator .profile .txt-box .head {
   text-align: center;
 }
-.profile .txt-box .name {
+.creator .profile .txt-box .name {
   font-weight: bold;
   font-size: .9rem;
 }
-.profile .txt-box .head {
+.creator .profile .txt-box .head {
   font-size: 1.25rem;
   font-weight: bold;
   margin: 2rem;
 }
-.profile .txt-box .read {
+.creator .profile .txt-box .read {
   text-align: justify;
 }
 @media (max-width: 576px) {
-.profile .txt-box {
+.creator .profile .txt-box {
   padding: 2rem 0;
 }
-.profile .txt-box .head {
+.creator .profile .txt-box .head {
   line-height: 1.5;
 }
-.profile .txt-box .head span {
+.creator .profile .txt-box .head span {
   display: block;
 }
-.profile .txt-box .read {
+.creator .profile .txt-box .read {
   padding: 0 2rem;
   line-height: 2;
 }
 }
 @media (min-width: 576px) and (max-width: 768px) {
-.profile .txt-box {
+.creator .profile .txt-box {
   padding: 2rem 0;
 }
-.profile {
+.creator .profile {
   padding-top: 100px;
 }
-.profile .txt-box .read {
+.creator .profile .txt-box .read {
   padding: 0 2rem;
   line-height: 2;
 }
 }
 @media (min-width: 768px) and (max-width: 992px) {
-.profile {
+.creator .profile {
   padding-top: 200px;
 }
-.profile .txt-box {
+.creator .profile .txt-box {
   bottom: 1rem;
   right: 1rem;
   width: 500px;
   padding: 1rem;
 }
-.profile .txt-box .head span {
+.creator .profile .txt-box .head span {
   display: block;
 }
 }
 @media (min-width: 992px) {
-.profile {
+.creator .profile {
   padding-top: 300px;
 }
-.profile .txt-box {
+.creator .profile .txt-box {
   bottom: 4rem;
   right: 3rem;
   width: 600px;
   padding: 3rem;
 }
-.profile .txt-box .read span {
+.creator .profile .txt-box .read span {
   display: block;
 }
 }
 @media (min-width: 768px) {
-.profile .txt-box .name,
-.profile .txt-box .head,
-.profile .txt-box .read {
+.creator .profile .txt-box .name,
+.creator .profile .txt-box .head,
+.creator .profile .txt-box .read {
   line-height: 2;
 }
-.profile .txt-box {
+.creator .profile .txt-box {
   position: absolute;
   background-color: white;
 }
@@ -1238,27 +1295,39 @@ footer .container .footer-container .block .body {
 .gallery .title {
   margin-bottom: 2rem;
 }
-.slide-show {
-  padding: 0 5%;
+.gallery .slider {
+  padding: 0 2rem;
+  margin-bottom: 3rem;
+}
+.gallery .slider .flexslider {
+  margin-bottom: 0;
+  border: none;
 }
 .photo-list .comp-button {
   margin: 3.5rem 0;
 }
-.photo-list .flex-container {
-  display: flex;
-  flex-wrap: wrap;
+.photo-list .list-container {
+  column-width: 15rem;
+  column-gap: 2rem;
+  padding: 0 2rem;
 }
-.photo-list .flex-container .flex-box {
-  width: 14%;
-  margin: 5% 0 0 5%;
+.photo-list .list-container .box {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 2rem;
+  transition: opacity .25s linear;
+}
+.photo-list .list-container .box:hover {
+  opacity: .6;
 }
 .gallery .instagram {
-  padding: 0 5%;
+  padding: 0 2rem;
+  margin-bottom: 2rem;
 }
 .gallery .instagram .head {
   display: table;
   width: 300px;
-  margin: 0 auto;
+  margin: 0 auto 2rem auto;
 }
 .gallery .instagram .head .icon,
 .gallery .instagram .head .text {
@@ -1270,4 +1339,29 @@ footer .container .footer-container .block .body {
 }
 .gallery .instagram .head .text {
   padding: .5rem;
+}
+.gallery .instagram .body .list {
+  display: table;
+  width: 100%;
+  background-color: #eee;
+}
+.gallery .instagram .body .list>div {
+  display: table-cell;
+  vertical-align: middle;
+  height: 190px;
+}
+.gallery .instagram .body .list .profile {
+  width: 190px;
+}
+.gallery .instagram .body .list .profile .thumb {
+  width: 50%;
+  margin: 0 auto;
+}
+.gallery .instagram .body .list .profile .name {
+  text-align: center;
+  margin-top: .5rem;
+  font-weight: bold;
+}
+.gallery .instagram .body .list .photo ul {
+  display: flex;
 }
