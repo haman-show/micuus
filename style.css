@@ -1538,3 +1538,95 @@ header {
   -ms-flex-pack: justify;
   justify-content: space-between;
 }
+.top-page .contact {
+  color: #666;
+  margin-bottom: 200px;
+}
+.top-page .content-head {
+  color: #666;
+  margin-bottom: 90px;
+}
+.top-page .content-head h1 {
+  letter-spacing: .5rem;
+  text-indent: .5rem;
+  font-size: 1rem;
+  text-align: center;
+}
+.top-page .content-head hr {
+  width: 140px;
+  border: 0;
+  border-top: 1px solid #666;
+}
+.top-page .content-head h2 {
+  text-align: center;
+  font-size: .8rem;
+  font-weight: normal;
+  letter-spacing: .25rem;
+}
+.top-page .contact .phone {
+  margin-bottom: 90px;
+}
+.top-page .contact .phone .holder {
+  display: table;
+  width: 280px;
+  margin: 0 auto .5rem auto;
+}
+.top-page .contact .phone .holder>div {
+  display: table-cell;
+}
+.top-page .contact .phone .holder .icon {
+  text-align: left;
+  font-size: 1.5rem;
+}
+.top-page .contact .phone .holder .number {
+  letter-spacing: .25rem;
+  text-align: right;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.top-page .contact .phone .caution {
+  text-align: center;
+  font-size: .7rem;
+}
+.top-page .contact .contact-form h3 {
+  letter-spacing: .25rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.top-page .contact .contact-form .form-line {
+  display: table;
+  width: 900px;
+  margin: 0 auto 2rem auto;
+}
+.top-page .contact .contact-form .form-line>div {
+  display: table-cell;
+  vertical-align: middle;
+}
+.top-page .contact .contact-form .form-line>.information {
+  vertical-align: top;
+}
+.top-page .contact .contact-form .form-line>.label {
+  width: 25%;
+  text-align: right;
+}
+.top-page .contact .contact-form .form-line>.label .head {
+  font-weight: bold;
+  font-size: 1rem;
+  letter-spacing: .5rem;
+}
+.top-page .contact .contact-form .form-line>.label .caution {
+  color: red;
+  font-size: .7rem;
+}
+.top-page .contact .contact-form .form-line>.input {
+  text-align: left;
+  padding-left: 2rem;
+}
+.top-page .contact .contact-form .form-line>.input input,
+.top-page .contact .contact-form .form-line>.input textarea {
+  width: 100%;
+  box-sizing: border-box;
+  padding: .5rem;
+  background-color: #eee;
+  border: none;
+}
