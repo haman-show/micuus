@@ -120,36 +120,6 @@ img {
     transform: rotate(360deg);
   }
 }
-/* header */
-header {
-  position: absolute;
-  left: 0px;
-  top: 1rem;
-  z-index: 101;
-  width: 100%;
-}
-header h1 img {
-  width: 144px;
-  height: auto;
-}
-@media (max-width: 768px) {
-header .container .header-holder {
-  display: table;
-  width: 100%;
-}
-header .container .header-holder h1,
-header .container .header-holder .menu {
-  display: table-cell;
-  vertical-align: middle;
-  height: 50px;
-}
-header .container .header-holder h1 {
-  width: 75%;
-}
-header .container .header-holder .menu {
-  width: 25%;
-  text-align: right;
-}
 /* nav-drawer */
 #nav-drawer {
   position: relative;
@@ -1365,10 +1335,9 @@ footer .container .footer-container .block .body {
 .gallery .instagram .body .list .photo ul {
   display: flex;
 }
-/* top-page */
-.top-page {
-}
 /* global-header */
+header {
+}
 .global-header {
   width: 100%;
   height: 400px;
@@ -1422,5 +1391,25 @@ footer .container .footer-container .block .body {
 }
 .global-header nav ul li a:hover:before {
   width: 90%;
+}
+}
+/* top-page */
+.top-page {
+}
+@media (min-width: 576px) {
+.scale-effect {
+  overflow: hidden;
+  display: block;
+}
+.scale-effect img {
+  transition: all .5s ease;
+}
+.scale-effect img:hover {
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -o-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+  z-index: 9999;
 }
 }
