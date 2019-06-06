@@ -5,9 +5,9 @@
 </section>
 <section class="concept clearfix">
   <div class="photo">
-    <img src="<?php echo get_template_directory_uri(); ?>/images/top/concept-photo.jpg" class="responsive-img">
+    <img src="<?php echo get_template_directory_uri(); ?>/images/top/concept-photo.png" class="responsive-img">
   </div>
-  <div class="message" style="background-image: url(<?php echo get_template_directory_uri(); ?>/images/top/concept-background.jpg);">
+  <div class="message" style="background-image: url(<?php echo get_template_directory_uri(); ?>/images/top/concept-background.png);">
     <div class="text">
       <div class="holder">
         <h1 class="ff-min">CONCEPT</h1>
@@ -30,6 +30,38 @@
       </div>
     </div>
   </div>
+</section>
+<section class="artist">
+  <h1>ARTIST</h1>
+  <ul>
+    <li>
+      <a href="" class="gray-effect">
+        <div class="photo"><img src="<?php echo get_template_directory_uri(); ?>/images/top/photo-kumu.png" alt="HAIR-MAKE & PHOTO Mr kumu" class="responsive-img"></div>
+        <div class="text">
+          <div class="service">HAIR-MAKE & PHOTO</div>
+          <div class="name"> Mrkumu</div>
+        </div>
+      </a>
+    </li>
+    <li>
+      <a href="" class="gray-effect">
+        <div class="photo"><img src="<?php echo get_template_directory_uri(); ?>/images/top/photo-asumi.png" alt="HAIR-MAKE & PHOTO 遠藤あすみ" class="responsive-img"></div>
+        <div class="text">
+          <div class="service">HAIR-MAKE & PHOTO</div>
+          <div class="name">遠藤あすみ</div>
+        </div>
+      </a>
+    </li>
+    <li>
+      <a href="" class="gray-effect">
+        <div class="photo"><img src="<?php echo get_template_directory_uri(); ?>/images/top/photo-yumi.png" alt="IMAGE-CONSULTANT 営野友美" class="responsive-img"></div>
+        <div class="text">
+          <div class="service">IMAGE-CONSULTANT</div>
+          <div class="name">営野友美</div>
+        </div>
+      </a>
+    </li>
+  </ul>
 </section>
 </div>
 <?php get_footer(); ?>
