@@ -12,7 +12,7 @@ function getInstagramItems() {
   if($_SERVER['REQUEST_METHOD'] == 'POST'){
     $access_token = "xxxxxxxxxx";
     $userid = xxxxxxxxxx;
-    $count = 8;
+    $count = 6;
     $request_url = 'https://api.instagram.com/v1/users/'.$userid.'/media/recent/?access_token='.$access_token.'&count='.$count;
     $results = @file_get_contents($request_url);
     echo $results;

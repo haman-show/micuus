@@ -90,7 +90,7 @@ $(function(){
 	    href: data[i]['link'],
 	    src: data[i]['images']['thumbnail']['url']
           };
-          insert += '<li><a href="' + dataObject.href + '" target="_blank"><img src="' + dataObject.src + '" width="222" height="222"></a></li>';
+          insert += '<li><a href="' + dataObject.href + '" target="_blank"><img src="' + dataObject.src + '" width="200" height="200"></a></li>';
 	}
         insert += '</ul>';
 	$('.instagram .loader').remove();

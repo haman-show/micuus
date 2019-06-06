@@ -1486,8 +1486,8 @@ header {
 }
 .top-page .artist ul {
   display: flex;
-   -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
 }
 .top-page .artist ul li {
@@ -1530,8 +1530,11 @@ header {
   border-left: solid 1px #333;
 }
 .top-page .instagram .photo {
-  margin-bottom: 100px;
+  padding: 0 1rem 100px 1rem;
 }
 .top-page .instagram .photo ul {
   display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
