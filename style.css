@@ -1393,9 +1393,7 @@ header {
   width: 90%;
 }
 }
-/* top-page */
-.top-page {
-}
+/* scale-effect */
 @media (min-width: 576px) {
 .scale-effect {
   overflow: hidden;
@@ -1413,3 +1411,55 @@ header {
   z-index: 9999;
 }
 }
+/* top-page */
+.top-page {
+}
+.top-page .concept {
+  width: 1080px;
+  margin: 10rem auto 0 auto;
+}
+.top-page .concept .photo {
+  float: left;
+  width: 450px;
+}
+.top-page .concept .message {
+  float: right;
+  width: 630px;
+  height: 740px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.top-page .concept .message .text {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 80%;
+  height: 80%;
+  margin: auto;
+  background: white;
+}
+.top-page .concept .message .text>.holder {
+  position: relative;
+  text-align: center;
+  color: #666;
+  height: 100%;
+}
+.top-page .concept .message .text h1 {
+  letter-spacing: .5rem;
+  padding: 3rem 0 2rem 0;
+}
+.top-page .concept .message .text p {
+  font-size: 1rem;
+  letter-spacing: .25rem;
+  line-height: 1.75;
+  margin-bottom: 3rem;
+}
+.top-page .concept .message .text .comp-button {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
