@@ -88,7 +88,7 @@ img {
   content: '';
 }
 .loader:after {
-  background: #eee;
+  background: white;
   width: 75%;
   height: 75%;
   border-radius: 50%;
@@ -1507,4 +1507,31 @@ header {
 .top-page .artist ul li .text .name {
   font-size: 1rem;
   letter-spacing: .5rem;
+}
+.top-page .instagram {
+  margin-top: 100px;
+}
+.top-page .instagram .head {
+  display: table;
+  width: 180px;
+  margin: 0 auto 100px auto;
+}
+.top-page .instagram .head .icon,
+.top-page .instagram .head .text {
+  display: table-cell;
+  vertical-align: middle;
+}
+.top-page .instagram .head .icon {
+  padding-right: 1rem;
+  width: 25%;
+}
+.top-page .instagram .head .text {
+  padding-left: .5rem;
+  border-left: solid 1px #333;
+}
+.top-page .instagram .photo {
+  margin-bottom: 100px;
+}
+.top-page .instagram .photo ul {
+  display: flex;
 }
