@@ -8,7 +8,7 @@ Template Name: ミクスフォトセッションのテンプレート
 <div class="contents photosession">
 <section class="title">
   <h1><span>ASUMI ENDO</span><br>PHOTO SESSION</h1>
-  <div><img src="<?php echo get_template_directory_uri(); ?>/images/photosession_top.jpg" class="responsive-img"></div>
+  <div><img src="<?php echo get_template_directory_uri(); ?>/images/photosession/top.jpg" class="responsive-img"></div>
 </section>
 <section class="information">
   <ul class="ff-min">
@@ -21,7 +21,7 @@ Template Name: ミクスフォトセッションのテンプレート
   <button>ご予約はこちらから</button>
 </section>
 <section class="concept">
-  <div class="image"><img src="<?php echo get_template_directory_uri(); ?>/images/photosession_concept_1.jpg" class="responsive-img"></div>
+  <div class="image"><img src="<?php echo get_template_directory_uri(); ?>/images/photosession/concept_1.jpg" class="responsive-img"></div>
   <ul class="read ff-min">
     <li>「可能性を可視化して、未来を先撮り」と聞くと、皆さんはどんなイメージを持ちますか？</li>
     <li>一人一人の可能性は、目に見えない性質的なものもあれば、生まれてから備わっている顔立ち、選ぶ服装、仕草まで、様々です。</li>
@@ -31,7 +31,7 @@ Template Name: ミクスフォトセッションのテンプレート
     <li>遠藤あすみフォトセッションでは、ヘアメイクからライティング、撮影まで全て一人一人に合わせたオーダーメイドの撮影を行なっていきます。</li>
     <li>素材の声を聞き、可能性を切り開く事が私の特技です。自分で「大好き！」と心から思える写真を手にして、可能性の扉を開きましょう！</li>
   </ul>
-  <div class="image"><img src="<?php echo get_template_directory_uri(); ?>/images/photosession_concept_2.jpg" class="responsive-img"></div>
+  <div class="image"><img src="<?php echo get_template_directory_uri(); ?>/images/photosession/concept_2.jpg" class="responsive-img"></div>
 </section>
 <section class="solusion">
   <h1 class="ff-min">写真のお悩み<br><span>TOP5</span></h1>
@@ -47,7 +47,7 @@ Template Name: ミクスフォトセッションのテンプレート
     <p>不安は、ただ不慣れなだけ。なりたい自分は、自分だけで悩まない。コンプレックスは進化への道筋。分からないは、より良い方法に出会っていないだけ！悩みや不安をそのままにしといては、勿体無い！今よりも更なる高みを目指して進化してしまいましょう！</p>
   </div>
   <div class="answer2 clearfix">
-    <div class="image"><img src="<?php echo get_template_directory_uri(); ?>/images/photosession_answer_1.jpg" class="responsive-img"></div>
+    <div class="image"><img src="<?php echo get_template_directory_uri(); ?>/images/photosession/answer_1.jpg" class="responsive-img"></div>
     <ul class="read">
       <li>写真には、正解がありません。</li>
       <li>これをしたから「正解」というマニュアルも無ければ万人に通用するノウハウなんてものもありません。</li>

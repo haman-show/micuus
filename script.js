@@ -1,9 +1,12 @@
 'use strict';
 
 $(function(){
-  $('.global-navigation li').hover(function() {
-    $('ul:not(:animated)', this).slideDown('fast');
-  }, function() {
-    $('ul.child', this).slideUp('fast');
+  $('a[href^="#"]').click(function() {
+    var speed = 800;
+    var href= $(this).attr("href");
+    var target = $(href == "#" || href == "" ? 'html' : href);
+    var position = target.offset().top;
+    $('body, html').animate({scrollTop:position}, speed, 'jswing');
+    return false;
   });
 });

@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: ミクスのテンプレート
+Template Name: 遠藤あすみアーティストページのテンプレート
 */
 ?>
 <?php get_header(); ?>
@@ -8,15 +8,15 @@ Template Name: ミクスのテンプレート
 <section class="slider">
   <div class="flexslider">
     <ul class="slides">
-      <li> <img src="<?php echo get_template_directory_uri(); ?>/images/slider_1.jpg" /> </li>
-      <li><img src="<?php echo get_template_directory_uri(); ?>/images/slider_2.jpg" /></li>
-      <li><img src="<?php echo get_template_directory_uri(); ?>/images/slider_3.jpg" /></li>
+      <li> <img src="<?php echo get_template_directory_uri(); ?>/images/asumi/slider_1.jpg" /> </li>
+      <li><img src="<?php echo get_template_directory_uri(); ?>/images/asumi/slider_2.jpg" /></li>
+      <li><img src="<?php echo get_template_directory_uri(); ?>/images/asumi/slider_3.jpg" /></li>
     </ul>
   </div>
 </section>
 <section class="content comp-photo studio-photo">
-  <div class="pic"><img src="<?php echo get_template_directory_uri(); ?>/images/pic_studio_1.jpg" class="responsive-img"></div>
-  <div class="pic"><img src="<?php echo get_template_directory_uri(); ?>/images/pic_studio_2.jpg" class="responsive-img"></div>
+  <div class="pic"><img src="<?php echo get_template_directory_uri(); ?>/images/asumi/pic_studio_1.jpg" class="responsive-img"></div>
+  <div class="pic"><img src="<?php echo get_template_directory_uri(); ?>/images/asumi/pic_studio_2.jpg" class="responsive-img"></div>
   <div class="txt-section-read ff-min">素直に生きると心地良い。</div>
   <div class="txt-section-title">STUDIO<br>PORT<br>LAITE</div>
   <div class="txt-box">
@@ -29,7 +29,7 @@ Template Name: ミクスのテンプレート
   </div>
 </section>
 <section class="content profile">
-  <div class="pic"><img src="<?php echo get_template_directory_uri(); ?>/images/pic_profile_1.jpg" class="responsive-img"></div>
+  <div class="pic"><img src="<?php echo get_template_directory_uri(); ?>/images/asumi/pic_profile_1.jpg" class="responsive-img"></div>
   <div class="txt-box">
     <p class="name">-ASUMI ENDO 遠藤あすみ-</p>
     <p class="head">
@@ -57,7 +57,7 @@ Template Name: ミクスのテンプレート
   </div>
 </section>
 <section class="content comp-photo location-photo">
-  <div class="pic"><img src="<?php echo get_template_directory_uri(); ?>/images/pic_location_1.jpg" class="responsive-img"></div>
+  <div class="pic"><img src="<?php echo get_template_directory_uri(); ?>/images/asumi/pic_location_1.jpg" class="responsive-img"></div>
   <div class="txt-section-read ff-min">人の持つ奥行きに触れたい</div>
   <div class="txt-box">
     <p class="head">LOCATION<br>PHOTO</p>
@@ -77,7 +77,7 @@ Template Name: ミクスのテンプレート
   <ul class="list-holder clearfix">
     <li>
       <div class="pic">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/column_1.jpg" class="responsive-img">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/asumi/column_1.jpg" class="responsive-img">
       </div>
       <div class="text">
         <div class="title">
@@ -88,7 +88,7 @@ Template Name: ミクスのテンプレート
     </li>
     <li>
       <div class="pic">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/column_2.jpg" class="responsive-img">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/asumi/column_2.jpg" class="responsive-img">
       </div>
       <div class="text">
         <div class="title">
@@ -99,7 +99,7 @@ Template Name: ミクスのテンプレート
     </li>
     <li>
       <div class="pic">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/column_3.jpg" class="responsive-img">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/asumi/column_3.jpg" class="responsive-img">
       </div>
       <div class="text">
         <div class="title">
@@ -110,7 +110,7 @@ Template Name: ミクスのテンプレート
     </li>
     <li>
       <div class="pic">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/column_4.jpg" class="responsive-img">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/asumi/column_4.jpg" class="responsive-img">
       </div>
       <div class="text">
         <div class="title">
@@ -126,19 +126,19 @@ Template Name: ミクスのテンプレート
   <h2>書籍の帯撮影はこちら</h2>
   <ul class="cover-list clearfix">
     <li>
-      <img src="<?php echo get_template_directory_uri(); ?>/images/cover_1.jpg" class="responsive-img">
+      <img src="<?php echo get_template_directory_uri(); ?>/images/asumi/cover_1.jpg" class="responsive-img">
     </li>
     <li>
-      <img src="<?php echo get_template_directory_uri(); ?>/images/cover_2.jpg" class="responsive-img">
+      <img src="<?php echo get_template_directory_uri(); ?>/images/asumi/cover_2.jpg" class="responsive-img">
     </li>
     <li>
-      <img src="<?php echo get_template_directory_uri(); ?>/images/cover_3.jpg" class="responsive-img">
+      <img src="<?php echo get_template_directory_uri(); ?>/images/asumi/cover_3.jpg" class="responsive-img">
     </li>
     <li>
-      <img src="<?php echo get_template_directory_uri(); ?>/images/cover_4.jpg" class="responsive-img">
+      <img src="<?php echo get_template_directory_uri(); ?>/images/asumi/cover_4.jpg" class="responsive-img">
     </li>
     <li>
-      <img src="<?php echo get_template_directory_uri(); ?>/images/cover_5.jpg" class="responsive-img">
+      <img src="<?php echo get_template_directory_uri(); ?>/images/asumi/cover_5.jpg" class="responsive-img">
     </li>
   </ul>
   <div class="comp-button">

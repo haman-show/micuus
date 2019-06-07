@@ -10,7 +10,7 @@
   <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/css/lightbox.css" rel="stylesheet">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/js/lightbox.min.js" type="text/javascript"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
   <script src="<?php echo get_template_directory_uri(); ?>/js/jquery.flexslider-min.js"></script>
@@ -36,16 +36,16 @@
   <h1><img src="<?php echo get_template_directory_uri(); ?>/images/common/logo.png" width="220" height="90" alt="STUDIO KUMU" /></h1>
   <nav>
     <ul>
-      <li><a href="/">TOP</a></li>
-      <li><a href="/service">SERVICE</a></li>
-      <li><a href="/artist">ARTIST</a></li>
-      <li><a href="/contact">CONTACT</a></li>
-      <li><a href="/access">ACCESS</a></li>
+      <li><a href="<?php echo home_url('/'); ?>">TOP</a></li>
+      <li><a href="#service">SERVICE</a></li>
+      <li><a href="#artist">ARTIST</a></li>
+      <li><a href="#contact">CONTACT</a></li>
+      <li><a href="#access">ACCESS</a></li>
     </ul>
   </nav>
   <div class="social">
-    <a href="" class="facebook"><i class="fab fa-facebook-f fa-lg"></i></a>
-    <a href="" class="youtube"><i class="fab fa-youtube fa-lg"></i></a>
+    <a href="" class="facebook" target="_blank"><i class="fab fa-facebook-f fa-lg"></i></a>
+    <a href="" class="youtube" target="_blank"><i class="fab fa-youtube fa-lg"></i></a>
   </div>
 </section>
 </header>
