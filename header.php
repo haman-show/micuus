@@ -33,7 +33,7 @@
 <body>
 <header>
 <section class="global-header" style="background-image:url(<?php echo get_template_directory_uri(); ?>/images/global-header/background.png);">
-  <h1><img src="<?php echo get_template_directory_uri(); ?>/images/global-header/txt-title.png" width="220" height="90" alt="STUDIO KUMU" /></h1>
+  <h1><img src="<?php echo get_template_directory_uri(); ?>/images/common/logo.png" width="220" height="90" alt="STUDIO KUMU" /></h1>
   <nav>
     <ul>
       <li><a href="/">TOP</a></li>
