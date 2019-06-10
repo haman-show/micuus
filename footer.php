@@ -3,8 +3,8 @@
     <div class="box">
       <div class="head">SERVICE</div>
       <ul class="body">
-        <li><a href="<?php echo home_url('/standard'); ?>">STANDARD</a></li>
-        <li><a href="<?php echo home_url('/premium'); ?>">PREMIUM</a></li>
+        <li><a href="<?php echo home_url('/service#standard'); ?>">STANDARD</a></li>
+        <li><a href="<?php echo home_url('/service#premium'); ?>">PREMIUM</a></li>
         <li><a href="<?php echo home_url('/photosession'); ?>">ASUMI ENDO</a></li>
       </ul>
     </div>
@@ -19,15 +19,15 @@
     <div class="box">
       <div class="head">ACCESS</div>
       <ul class="body">
-        <li><a href="#address">ADDRESS</a></li>
-        <li><a href="#map">MAP</a></li>
+        <li><a href="<?php echo home_url('/access#address'); ?>">ADDRESS</a></li>
+        <li><a href="<?php echo home_url('/access#map'); ?>">MAP</a></li>
       </ul>
     </div>
     <div class="box">
       <div class="head">CONTACT</div>
       <ul class="body">
-        <li><a href="#phone">PHONE</a></li>
-        <li><a href="#mail">MAIL</a></li>
+        <li><a href="<?php echo home_url('/contact#phone'); ?>">PHONE</a></li>
+        <li><a href="<?php echo home_url('/contact#mail'); ?>">MAIL</a></li>
       </ul>
     </div>
   </div>

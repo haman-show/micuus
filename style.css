@@ -267,9 +267,11 @@ header .global-navigation > li > ul > li {
   text-indent: .25rem;
   transition: background-color .25s linear, color .25s linear;
 }
+@media (min-width: 576px) {
 .comp-button a:hover {
   background-color: black;
   color: white;
+}
 }
 /* flexslider */
 .creator .slider {
@@ -1450,6 +1452,9 @@ header {
 /* top-page */
 .top-page {
 }
+.top-container {
+  padding: 0 60px;
+}
 .top-page .concept {
   width: 1080px;
   margin: 10rem auto 0 auto;
@@ -1563,144 +1568,152 @@ header {
   -ms-flex-pack: justify;
   justify-content: space-between;
 }
-.top-page .contact {
+/* contact */
+.contact {
   color: #666;
   margin-bottom: 200px;
 }
-.top-page .contact .content-head {
+.contact .content-head {
   margin-bottom: 90px;
 }
-.top-page .content-head {
+.contact .content-head {
   color: #666;
 }
-.top-page .content-head h1 {
+.contact .content-head h1 {
   letter-spacing: .5rem;
   text-indent: .5rem;
   font-size: 1rem;
   text-align: center;
 }
-.top-page .content-head hr {
+.contact .content-head hr {
   width: 140px;
   border: 0;
   border-top: 1px solid #666;
 }
-.top-page .content-head h2 {
+.contact .content-head h2 {
   text-align: center;
   font-size: .8rem;
   font-weight: normal;
   letter-spacing: .25rem;
 }
-.top-page .contact .phone {
-  margin-bottom: 90px;
+.contact .phone {
 }
-.top-page .contact .phone .holder {
+.contact .phone .holder {
   display: table;
   width: 280px;
   margin: 0 auto .5rem auto;
 }
-.top-page .contact .phone .holder>div {
+.contact .phone .holder>div {
   display: table-cell;
 }
-.top-page .contact .phone .holder .icon {
+.contact .phone .holder .icon {
   text-align: left;
   font-size: 1.5rem;
 }
-.top-page .contact .phone .holder .number {
+.contact .phone .holder .number {
   letter-spacing: .25rem;
   text-align: right;
   font-size: 1.5rem;
   font-weight: bold;
 }
-.top-page .contact .phone .caution {
+.contact .phone .caution {
   text-align: center;
   font-size: .7rem;
 }
-.top-page .contact .contact-form h3 {
+.contact .contact-form {
+  padding-top: 90px;
+}
+.contact .contact-form h3 {
   letter-spacing: .25rem;
   text-align: center;
   margin-bottom: 2rem;
 }
-.top-page .contact .contact-form .form-line {
+.contact .contact-form .form-line {
   display: table;
   width: 900px;
   margin: 0 auto 2rem auto;
 }
-.top-page .contact .contact-form .form-line>div {
+.contact .contact-form .form-line>div {
   display: table-cell;
   vertical-align: middle;
 }
-.top-page .contact .contact-form .form-line>.information {
+.contact .contact-form .form-line>.information {
   vertical-align: top;
 }
-.top-page .contact .contact-form .form-line>.label {
+.contact .contact-form .form-line>.label {
   width: 25%;
   text-align: right;
 }
-.top-page .contact .contact-form .form-line>.label .head {
+.contact .contact-form .form-line>.label .head {
   font-weight: bold;
   font-size: 1rem;
   letter-spacing: .5rem;
 }
-.top-page .contact .contact-form .form-line>.label .caution {
+.contact .contact-form .form-line>.label .caution {
   color: red;
   font-size: .7rem;
 }
-.top-page .contact .contact-form .form-line>.input {
+.contact .contact-form .form-line>.input {
   text-align: left;
   padding-left: 2rem;
 }
-.top-page .contact .contact-form .form-line>.input input,
-.top-page .contact .contact-form .form-line>.input textarea {
+.contact .contact-form .form-line>.input input,
+.contact .contact-form .form-line>.input textarea {
   width: 100%;
   box-sizing: border-box;
   padding: .5rem;
   background-color: #eee;
   border: none;
 }
-.top-page .access {
-}
-.top-page .access .content-head {
+/* access */
+.access .content-head {
   margin-bottom: 45px;
 }
-.top-page .top-container {
-  padding: 0 60px;
+.access .content-head {
+  color: #666;
 }
-.top-page .access .top-container {
+.access .content-head h1 {
+  letter-spacing: .5rem;
+  text-indent: .5rem;
+  font-size: 1rem;
+  text-align: center;
+}
+.access .top-container {
   background-color: #f5f2f2;
   padding-top: 50px;
   padding-bottom: 50px;
 }
-.top-page .access .top-container .logo {
+.access .top-container .logo {
   margin-bottom: 50px;
 }
-.top-page .access .top-container .holder .information {
+.access .top-container .holder .information {
   float: left;
   width: 40%;
   color: #666;
 }
-.top-page .access .top-container .holder .photo {
+.access .top-container .holder .photo {
   float: right;
   width: 60%;
 }
-.top-page .access .top-container .holder .information table {
+.access .top-container .holder .information table {
   width: 100%;
 }
-.top-page .access .top-container .holder .information th,
-.top-page .access .top-container .holder .information td {
+.access .top-container .holder .information th,
+.access .top-container .holder .information td {
   letter-spacing: .25rem;
   font-size: .8rem;
   vertical-align: top;
   padding-bottom: .5rem;
   line-height: 1.5;
 }
-.top-page .access .top-container .holder .information th {
+.access .top-container .holder .information th {
   text-align: left;
   font-weight: normal;
 }
-.top-page .access .top-container .holder .information td {
+.access .top-container .holder .information td {
   font-weight: bold;
 }
-.top-page .access .top-container .holder .information a {
+.access .top-container .holder .information a {
   display: inline-block;
   border: solid 1px #666;
   padding: .25rem .5rem;
@@ -1708,7 +1721,7 @@ header {
   transition: .3s ease-in-out;
 }
 @media (min-width: 576px) {
-.top-page .access .top-container .holder .information a:hover {
+.access .top-container .holder .information a:hover {
   background-color: #666;
   color: white;
 }
@@ -1731,4 +1744,73 @@ header {
 .google-map {
   padding-bottom: 30%;
 }
+}
+/* service */
+.service .container {
+  width: 90%;
+  margin: 0 auto;
+}
+.service .upper {
+  margin-bottom: 190px;
+}
+.service .upper .read,
+.service .bottom .read {
+  text-align: center;
+  font-size: 1rem;
+  line-height: 2;
+  letter-spacing: 1.25rem;
+  margin-bottom: 75px;
+}
+.service .plan {
+  background-color: #f6f5f5;
+  padding: 3rem 0;
+  letter-spacing: .5rem;
+  line-height: 1.5;
+  margin-bottom: 80px;
+}
+.service .plan h1 {
+  display: inline-block;
+  border: solid 1px #666;
+  padding: .5rem 1rem;
+  font-weight: normal;
+  font-size: .9rem;
+  margin-bottom: 2rem;
+}
+.service .plan .text .read,
+.service .plan .text h2 {
+  padding-bottom: 2rem;
+}
+.service .plan .text .price {
+  font-weight: normal;
+}
+.service .plan .detail .head {
+  display: inline-block;
+  border-bottom: solid 1px #666;
+  margin-bottom: 1rem;
+}
+.service .plan .detail .body {
+  margin-bottom: 1rem;
+}
+.service .plan .detail .sub {
+  margin-bottom: 3rem;
+}
+.service .standard .text {
+  float: left;
+  width: 48%;
+}
+.service .standard .photo {
+  float: right;
+  width: 48%;
+}
+.service .premium .photo {
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-bottom: 3rem;
+}
+.service .premium .photo li {
+  width: 33.33%;
+}
+.service .bottom .read li {
+  margin-bottom: 2rem;
 }

@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: 遠藤あすみアーティストページのテンプレート
+Template Name: アスミ アーティストページのテンプレート
 */
 ?>
 <?php get_header(); ?>
@@ -8,7 +8,7 @@ Template Name: 遠藤あすみアーティストページのテンプレート
 <section class="slider">
   <div class="flexslider">
     <ul class="slides">
-      <li> <img src="<?php echo get_template_directory_uri(); ?>/images/asumi/slider_1.jpg" /> </li>
+      <li><img src="<?php echo get_template_directory_uri(); ?>/images/asumi/slider_1.jpg" /></li>
       <li><img src="<?php echo get_template_directory_uri(); ?>/images/asumi/slider_2.jpg" /></li>
       <li><img src="<?php echo get_template_directory_uri(); ?>/images/asumi/slider_3.jpg" /></li>
     </ul>
