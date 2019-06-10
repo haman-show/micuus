@@ -1503,38 +1503,42 @@ header {
   bottom: 0;
   width: 100%;
 }
+/* artist */
 .top-page .artist {
   margin-top: -120px;
-  background-color: #f6f5f5;
   padding: 280px 60px 140px 60px;
 }
-.top-page .artist h1 {
+.artist {
+  background-color: #f6f5f5;
+  padding: 140px 60px;
+}
+.artist h1 {
   color: #666;
   font-size: 1rem;
   letter-spacing: .5rem;
   margin-bottom: 45px;
 }
-.top-page .artist ul {
+.artist ul {
   display: flex;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
 }
-.top-page .artist ul li {
+.artist ul li {
   width: 333px;
 }
-.top-page .artist ul li .photo {
+.artist ul li .photo {
   margin-bottom: 35px;
 }
-.top-page .artist ul li .text {
+.artist ul li .text {
   text-align: center;
   color: #666;
 }
-.top-page .artist ul li .text .service {
+.artist ul li .text .service {
   letter-spacing: .25rem;
   margin-bottom: .5rem;
 }
-.top-page .artist ul li .text .name {
+.artist ul li .text .name {
   font-size: 1rem;
   letter-spacing: .5rem;
 }
