@@ -1832,11 +1832,13 @@ header {
   width: 50%;
   margin: 0 auto;
 }
-.directions h1 {
+.directions h1,
+.parking h1 {
   text-align: center;
   letter-spacing: .5rem;
   font-weight: normal;
   font-size: 1.5rem;
+  color: #666;
   margin-bottom: 5rem;
 }
 .directions .body li {
@@ -1863,4 +1865,54 @@ header {
   width: 2rem;
   line-height: 2rem;
   text-align: center;
+}
+/* parking */
+.parking .parking-container {
+  width: 50%;
+  margin: 0 auto;
+  color: #666;
+}
+.parking ul li {
+  margin-bottom: 4rem;
+  background-color: #f1f1f1;
+  padding: 1rem;
+  position: relative;
+}
+.parking ul li .text {
+  margin-bottom: 1rem;
+  display: table;
+  width: 100%;
+}
+.parking ul li .text>div {
+  display: table-cell;
+}
+.parking ul li .text .num {
+  width: 50px;
+}
+.parking ul li .text .num span {
+  display: inline-block;
+  background-color: #666;
+  color: white;
+  width: 2rem;
+  line-height: 2rem;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 1rem;
+}
+.parking ul li .text .name {
+  font-size: 1rem;
+}
+.parking ul li .text .googlemap {
+  text-align: right;
+}
+.parking ul li .text .googlemap.comp-button {
+  margin: 0;
+}
+.parking ul li .photo .image {
+  float: left;
+  width: 49%;
+}
+.parking ul li .photo .fee {
+  float: right;
+  width: 49%;
 }

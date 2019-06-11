@@ -31,7 +31,7 @@
         </table>
         <ul>
           <li><a href="<?php echo home_url('/directions'); ?>">地図だけではどうも自信がないお客様はこちらから</a></li>
-          <li><a href="<?php echo home_url('/drive'); ?>">お車でお越しの方はこちら</a></li>
+          <li><a href="<?php echo home_url('/parking'); ?>">お車でお越しの方はこちら</a></li>
         </ul>
       </div>
       <div class="photo"><img src="<?php echo get_template_directory_uri(); ?>/images/top/photo-studio.jpg" alt="STUDIO KUMU" class="responsive-img" /></div>
