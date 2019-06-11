@@ -14,6 +14,12 @@ Description: micuusのホームページ用テーマ
 @media (min-width: 992px) {
 }
 */
+.underconstruction {
+  text-align: center;
+  padding: 100px 0 200px 0;
+  font-size: 4rem;
+  color: #666;
+}
 body {
   font-family:-apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI","Noto Sans Japanese","ヒラギノ角ゴ ProN W3", Meiryo, sans-serif;
   font-size: 13px;
@@ -1817,4 +1823,44 @@ header {
 }
 .service .bottom .read li {
   margin-bottom: 2rem;
+}
+/* directions */
+.directions {
+  color: #666;
+}
+.directions .directions-container {
+  width: 50%;
+  margin: 0 auto;
+}
+.directions h1 {
+  text-align: center;
+  letter-spacing: .5rem;
+  font-weight: normal;
+  font-size: 1.5rem;
+  margin-bottom: 5rem;
+}
+.directions .body li {
+  margin-bottom: 4rem;
+  background-color: #f1f1f1;
+  padding: 1rem;
+  position: relative;
+}
+.directions .body .photo {
+  margin-bottom: 1rem;
+}
+.directions .body .text {
+  line-height: 1.5;
+  font-size: 1rem;
+}
+.directions .body li .num {
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
+  background-color: #666;
+  color: white;
+  border: solid 3px white;
+  border-radius: 50%;
+  width: 2rem;
+  line-height: 2rem;
+  text-align: center;
 }

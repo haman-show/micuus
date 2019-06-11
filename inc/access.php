@@ -30,7 +30,7 @@
           </tr>
         </table>
         <ul>
-          <li><a href="<?php echo home_url('/load'); ?>">地図だけではどうも自信がないお客様はこちらから</a></li>
+          <li><a href="<?php echo home_url('/directions'); ?>">地図だけではどうも自信がないお客様はこちらから</a></li>
           <li><a href="<?php echo home_url('/drive'); ?>">お車でお越しの方はこちら</a></li>
         </ul>
       </div>
