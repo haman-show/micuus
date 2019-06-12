@@ -1875,11 +1875,11 @@ header {
 .parking ul li {
   margin-bottom: 4rem;
   background-color: #f1f1f1;
-  padding: 1rem;
+  padding: 1.5rem 1rem;
   position: relative;
 }
 .parking ul li .text {
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
   display: table;
   width: 100%;
 }
@@ -1915,4 +1915,14 @@ header {
 .parking ul li .photo .fee {
   float: right;
   width: 49%;
+}
+.parking ul li .photo .fee h2 {
+  font-size: 1rem;
+  margin-top: 0;
+}
+.parking ul li .photo .fee p {
+  font-size: 1rem;
+}
+.parking ul li .photo .fee p span {
+  padding-right: 1rem;
 }

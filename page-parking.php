@@ -10,8 +10,21 @@ Template Name: 駐車場 アーティストページのテンプレート
 </section>
 <section class="body">
   <div class="parking-container">
+    <div>
+    </div>
     <ul>
       <li>
+        <div class="photo clearfix">
+          <div class="image"><img src="<?php echo get_template_directory_uri(); ?>/images/parking/map.png" class="responsive-img"></div>
+	  <div class="fee">
+            <h2>近隣の駐車場</h2>
+            <p><a href="#park_a"><span>A</span>エコロパーク広尾第4駐車場</a></p>
+            <p><a href="#park_b"><span>B</span> Parking Lot</a></p>
+            <p><a href="#park_c"><span>C</span> パラカ広尾第５</a></p>
+          </div>
+        </div>
+      </li>
+      <li id="park_a">
         <div class="text clearfix">
           <div class="num"><span>A</span></div>
           <div class="name">エコロパーク広尾第4駐車場</div>
@@ -22,7 +35,7 @@ Template Name: 駐車場 アーティストページのテンプレート
           <div class="fee"><img src="<?php echo get_template_directory_uri(); ?>/images/parking/fee_a.jpg" class="responsive-img"></div>
         </div>
       </li>
-      <li>
+      <li id="park_b">
         <div class="text clearfix">
           <div class="num"><span>B</span></div>
           <div class="name">Parking Lot</div>
@@ -33,7 +46,7 @@ Template Name: 駐車場 アーティストページのテンプレート
           <div class="fee"><img src="<?php echo get_template_directory_uri(); ?>/images/parking/fee_b.jpg" class="responsive-img"></div>
         </div>
       </li>
-      <li>
+      <li id="park_c">
         <div class="text clearfix">
           <div class="num"><span>C</span></div>
           <div class="name">パラカ広尾第５</div>

@@ -24,7 +24,7 @@ Template Name: アスミ アーティストページのテンプレート
     <p class="read">自分の可能性は自分には見え辛い。<br>「今の自分が全て」だって<br>そんな事はなくて</p>
     <p class="read">いつだってやってみたい！<br>と思った時がタイミング</p>
     <p class="comp-button">
-      <a href="/">SEE MORE</a>
+      <a href="<?php echo home_url('/photosession'); ?>">SEE MORE</a>
     </p>
   </div>
 </section>
@@ -67,7 +67,7 @@ Template Name: アスミ アーティストページのテンプレート
     <p class="read">人の持つ奥行きを探る<br>
 ロケ撮影。</p>
     <p class="comp-button">
-      <a href="/">SEE MORE</a>
+      <a href="<?php echo home_url('/photosession'); ?>">SEE MORE</a>
     </p>
   </div>
 </section>
@@ -120,6 +120,9 @@ Template Name: アスミ アーティストページのテンプレート
       </div>
     </li>
   </ul>
+  <div class="comp-button">
+    <a href="/">SEE MORE</a>
+  </div>
 </section>
 <section class="content works">
   <h1>For BOOK</h1>
@@ -141,9 +144,6 @@ Template Name: アスミ アーティストページのテンプレート
       <img src="<?php echo get_template_directory_uri(); ?>/images/asumi/cover_5.jpg" class="responsive-img">
     </li>
   </ul>
-  <div class="comp-button">
-    <a href="/">SEE MORE</a>
-  </div>
 </section>
 </div>
 <?php get_footer(); ?>
