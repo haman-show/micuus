@@ -19,15 +19,15 @@
     <div class="box">
       <div class="head">ACCESS</div>
       <ul class="body">
-        <li><a href="<?php echo home_url('/access#address'); ?>">ADDRESS</a></li>
-        <li><a href="<?php echo home_url('/access#map'); ?>">MAP</a></li>
+        <li><a href="<?php echo home_url('/#address'); ?>">ADDRESS</a></li>
+        <li><a href="<?php echo home_url('/#map'); ?>">MAP</a></li>
       </ul>
     </div>
     <div class="box">
       <div class="head">CONTACT</div>
       <ul class="body">
-        <li><a href="<?php echo home_url('/contact#phone'); ?>">PHONE</a></li>
-        <li><a href="<?php echo home_url('/contact#mail'); ?>">MAIL</a></li>
+        <li><a href="<?php echo home_url('/#contact'); ?>">PHONE</a></li>
+        <li><a href="<?php echo home_url('/#mail'); ?>">MAIL</a></li>
       </ul>
     </div>
   </div>

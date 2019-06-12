@@ -1,9 +1,10 @@
 <?php
 /*
-Template Name: 道順 アーティストページのテンプレート
+Template Name: 道順 ページのテンプレート
 */
 ?>
 <?php get_header(); ?>
+<?php get_template_part('inc/globalheader'); ?>
 <div class="contents directions">
 <section class="head">
   <h1>地図だけではどうも自信がないお客様はこちらから</h1>

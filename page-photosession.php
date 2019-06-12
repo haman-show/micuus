@@ -1,10 +1,11 @@
 <?php
 /*
-Template Name: ミクスフォトセッションのテンプレート
+Template Name: アスミ フォトセッションのテンプレート
 */
 ?>
 <?php remove_filter('the_content', 'wpautop'); ?>
 <?php get_header(); ?>
+<?php get_template_part('inc/globalheader'); ?>
 <div class="contents photosession">
 <section class="title">
   <h1><span>ASUMI ENDO</span><br>PHOTO SESSION</h1>

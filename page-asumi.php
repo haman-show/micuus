@@ -4,6 +4,7 @@ Template Name: アスミ アーティストページのテンプレート
 */
 ?>
 <?php get_header(); ?>
+<?php get_template_part('inc/globalheader'); ?>
 <div class="contents creator">
 <section class="slider">
   <div class="flexslider">
@@ -147,5 +148,3 @@ Template Name: アスミ アーティストページのテンプレート
 </section>
 </div>
 <?php get_footer(); ?>
-
-

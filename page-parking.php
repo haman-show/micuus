@@ -1,9 +1,10 @@
 <?php
 /*
-Template Name: 駐車場 アーティストページのテンプレート
+Template Name: 駐車場 ページのテンプレート
 */
 ?>
 <?php get_header(); ?>
+<?php get_template_part('inc/globalheader'); ?>
 <div class="contents parking">
 <section class="head">
   <h1>お車でお越しの方はこちら</h1>

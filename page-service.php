@@ -4,6 +4,7 @@ Template Name: サービスのテンプレート
 */
 ?>
 <?php get_header(); ?>
+<?php get_template_part('inc/globalheader'); ?>
 <div class="contents service">
 <section class="upper ff-min">
   <div class="container">
