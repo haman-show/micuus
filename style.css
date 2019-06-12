@@ -21,11 +21,14 @@ Description: スタジオクムのホームページ用テーマ
   color: #666;
 }
 body {
-  font-family:-apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI","Noto Sans Japanese","ヒラギノ角ゴ ProN W3", Meiryo, sans-serif;
+  font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
   font-size: 13px;
 }
 .ff-min {
   font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+}
+b, strong, .bold {
+ font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", ... ,sans-serif;
 }
 html, body {
   width: 100%;
