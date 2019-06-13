@@ -1408,16 +1408,19 @@ header {
   width: 100%;
 }
 /* artist */
-.artist {
+.top-page .artist {
   background-color: #f6f5f5;
-  margin-top: -120px;
-  padding: 280px 60px 140px 60px;
+  padding: 200px 60px 140px 60px;
 }
-.artist h1 {
+.top-page .artist h1 {
   color: #666;
   font-size: 1rem;
   letter-spacing: .5rem;
+  padding-top: 80px;
   margin-bottom: 45px;
+}
+.artist {
+  padding: 200px 60px 140px 60px;
 }
 .artist ul {
   display: flex;
@@ -1823,4 +1826,69 @@ header {
 }
 .parking ul li .photo .fee p span {
   padding-right: 1rem;
+}
+/* yumi */
+.yumi {
+}
+.yumi .main {
+  background-color: #c6d1de;
+  padding-top: 50px;
+}
+.yumi .main .message {
+  width: 80%;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+.yumi .main .message .head {
+  letter-spacing: .5rem;
+  margin-bottom: 2rem;
+}
+.yumi .main .message .head h2 {
+  margin-bottom: .5rem;
+}
+.yumi .main .message .head h1 {
+  margin-bottom: 1.5rem;
+}
+.yumi .main .message .head h3 {
+  line-height: 1.75;
+}
+.yumi .main .message .body {
+}
+.yumi .main .message .body li {
+  line-height: 1.75;
+  margin-bottom: 2.5rem;
+  letter-spacing: .5rem;
+  font-size: 1rem;
+}
+.yumi .social {
+  padding: 160px 0;
+  text-align: center;
+  color: #444;
+}
+.yumi .social h1 {
+  letter-spacing: .5rem;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+.yumi .social span {
+  display: inline-block;
+  padding: 0 .5rem;
+}
+.yumi .artist {
+  padding: 0 60px 140px 60px;
+}
+.yumi .artist .head {
+  text-align: center;
+  letter-spacing: .5rem;
+  margin-bottom: 3rem;
+}
+.yumi .artist .head h1,
+.yumi .artist .head h2 {
+  font-weight: normal;
+}
+.yumi .artist .head h1 {
+
+}
+.yumi .artist .head h2 {
+  font-size: 1rem;
 }
