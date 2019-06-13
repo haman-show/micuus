@@ -177,483 +177,6 @@ header .global-navigation > li > ul > li {
   color: white;
 }
 }
-/* flexslider */
-.creator .slider {
-	position: relative;
-	text-align: center;
-  width: 100%;
-  height: 100vh;
-}
-.creator .flexslider {
-	position:absolute;
-	left: 0;
-	right: 0;
-	border: 0;
-  height: 100vh;
-  overflow: hidden;
-}
-.creator .slides img {
-	min-height: 100vh;
-	object-fit: cover;
-}
-.creator .slides>li {
-  position: relative;
-}
-.slides>li>p {
-  height: 1rem;
-  width: 300px;
-  position: absolute;
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  margin: auto;
-  font-size: 1rem;
-  transition: all 300ms 0s ease;
-}
-.slides>li>p.af {
-  font-size: 3rem;
-}
-.flex-control-nav {
-	bottom: 20px!important;
-	z-index: 100;
-}
-/* comp-photo */
-.comp-photo {
-  position: relative;
-}
-.comp-photo .txt-section-read {
-  position: absolute;
-}
-.studio-photo .txt-section-read {
-  -webkit-writing-mode: vertical-rl;
-  -ms-writing-mode: tb-rl;
-  writing-mode: vertical-rl;
-}
-.studio-photo .txt-section-title {
-  font-family: 'Oswald', sans-serif;
-  color: #cbb103;
-  position: absolute;
-}
-.comp-photo .txt-box {
-  text-align: center;
-}
-.comp-photo .txt-box .head,
-.comp-photo .txt-box .read {
-  line-height: 2;
-  letter-spacing: 8px;
-}
-.comp-photo .txt-box .head {
-  font-size: 1.25rem;
-  font-weight: bold;
-  margin: 2rem;
-}
-@media (max-width: 576px) {
-.studio-photo {
-  padding-top: 200px;
-}
-.location-photo {
-  margin-top: 100px;
-}
-.studio-photo .txt-section-read {
-  right: 1.5rem;
-  top: -1.5rem;
-  font-size: .9rem;
-  letter-spacing: .5rem;
-}
-.location-photo .txt-section-read {
-  top: -.5rem;
-  left: 1rem;
-  font-size: .9rem;
-  letter-spacing: .5rem;
-}
-.comp-photo .txt-section-title {
-  left: 1.5rem;
-  top: 160px;
-  font-size: 3.5rem;
-  letter-spacing: 1.5rem;
-}
-.comp-photo .txt-box .head,
-.comp-photo .txt-box .read {
-  line-height: 2;
-  letter-spacing: 8px;
-}
-.comp-photo .txt-box .head {
-  font-size: 1.25rem;
-  margin: 2rem;
-}
-}
-@media (min-width: 576px) and (max-width: 768px) {
-.studio-photo {
-  padding-top: 260px;
-}
-.location-photo {
-  margin-top: 100px;
-}
-.studio-photo .txt-section-read {
-  right: 2rem;
-  top: -2rem;
-  font-size: 1rem;
-  letter-spacing: .75rem;
-}
-.location-photo .txt-section-read {
-  top: -.5rem;
-  left: 2rem;
-  font-size: 1rem;
-  letter-spacing: .75rem;
-}
-.comp-photo .txt-section-title {
-  left: 2rem;
-  top: 200px;
-  font-size: 5rem;
-  letter-spacing: 3rem;
-}
-}
-@media (min-width: 768px) and (max-width: 992px) {
-.studio-photo {
-  padding-top: 360px;
-}
-.location-photo {
-  margin-top: 200px;
-}
-.studio-photo .txt-section-read {
-  right: 3rem;
-  top: -2.5rem;
-  font-size: 1.25rem;
-  letter-spacing: .9rem;
-}
-.location-photo .txt-section-read {
-  top: -.75rem;
-  left: 3rem;
-  font-size: 1.25rem;
-  letter-spacing: .9rem;
-}
-.comp-photo .txt-section-title {
-  left: 2.5rem;
-  top: 280px;
-  font-size: 7rem;
-  letter-spacing: 3.25rem;
-}
-.comp-photo .txt-box {
-  bottom: 3rem;
-  width: 380px;
-  padding: 2rem 0;
-}
-}
-@media (min-width: 992px) {
-.studio-photo {
-  padding-top: 450px;
-}
-.location-photo {
-  margin-top: 300px;
-}
-.studio-photo .txt-section-read {
-  right: 6rem;
-  top: -3.5rem;
-  font-size: 1.5rem;
-  letter-spacing: 1rem;
-}
-.location-photo .txt-section-read {
-  top: -.75rem;
-  left: 4rem;
-  font-size: 1.5rem;
-  letter-spacing: 1rem;
-}
-.comp-photo .txt-section-title {
-  left: 3rem;
-  top: 350px;
-  font-size: 8.5rem;
-  letter-spacing: 3.5rem;
-}
-.comp-photo .txt-box {
-  bottom: 6rem;
-  width: 400px;
-  padding: 3rem 0;
-}
-}
-@media (min-width: 768px) {
-.comp-photo .txt-box {
-  position: absolute;
-  background-color: white;
-  right: 3rem;
-}
-.comp-photo .txt-box .comp-button {
-  margin-top: 2rem;
-}
-}
-/* profile */
-.creator .profile {
-  position: relative;
-}
-.creator .profile .txt-box .name,
-.creator .profile .txt-box .head,
-.creator .profile .txt-box .read {
-  letter-spacing: 8px;
-}
-.creator .profile .txt-box .name,
-.creator .profile .txt-box .head {
-  text-align: center;
-}
-.creator .profile .txt-box .name {
-  font-weight: bold;
-  font-size: .9rem;
-}
-.creator .profile .txt-box .head {
-  font-size: 1.25rem;
-  font-weight: bold;
-  margin: 2rem;
-}
-.creator .profile .txt-box .read {
-  text-align: justify;
-}
-@media (max-width: 576px) {
-.creator .profile .txt-box {
-  padding: 2rem 0;
-}
-.creator .profile .txt-box .head {
-  line-height: 1.5;
-}
-.creator .profile .txt-box .head span {
-  display: block;
-}
-.creator .profile .txt-box .read {
-  padding: 0 2rem;
-  line-height: 2;
-}
-}
-@media (min-width: 576px) and (max-width: 768px) {
-.creator .profile .txt-box {
-  padding: 2rem 0;
-}
-.creator .profile {
-  padding-top: 100px;
-}
-.creator .profile .txt-box .read {
-  padding: 0 2rem;
-  line-height: 2;
-}
-}
-@media (min-width: 768px) and (max-width: 992px) {
-.creator .profile {
-  padding-top: 200px;
-}
-.creator .profile .txt-box {
-  bottom: 1rem;
-  right: 1rem;
-  width: 500px;
-  padding: 1rem;
-}
-.creator .profile .txt-box .head span {
-  display: block;
-}
-}
-@media (min-width: 992px) {
-.creator .profile {
-  padding-top: 300px;
-}
-.creator .profile .txt-box {
-  bottom: 4rem;
-  right: 3rem;
-  width: 600px;
-  padding: 3rem;
-}
-.creator .profile .txt-box .read span {
-  display: block;
-}
-}
-@media (min-width: 768px) {
-.creator .profile .txt-box .name,
-.creator .profile .txt-box .head,
-.creator .profile .txt-box .read {
-  line-height: 2;
-}
-.creator .profile .txt-box {
-  position: absolute;
-  background-color: white;
-}
-}
-/* pick-up-column */
-.pick-up-column {
-  border: solid 1px #ddd;
-}
-.pick-up-column h1,
-.pick-up-column h2 {
-  letter-spacing: .2rem;
-  margin: 0;
-}
-.pick-up-column h1 {
-  margin-bottom: .25rem;
-}
-.pick-up-column h2 {
-  font-size: .9rem;
-}
-.pick-up-column ul li {
-  position: relative;
-}
-.pick-up-column ul li .text {
-  position: absolute;
-  background-color: white;
-  font-weight: bold;
-  letter-spacing: .2rem;
-}
-.pick-up-column ul li .text .title {
-  text-align: center;
-  margin-bottom: .5rem;
-}
-.pick-up-column ul li .text .title p {
-  display: inline-block;
-  font-size: 1rem;
-  border-bottom: solid 3px black;
-  padding-bottom: .5rem;
-  margin: 0;
-}
-.pick-up-column ul li .text .read {
-  line-height: 1.5;
-  text-align: justify;
-  text-justify: inter-ideograph;
-}
-@media (max-width: 768px) {
-.pick-up-column {
-  margin: 8rem 2rem;
-  padding: 2rem;
-}
-.pick-up-column ul li {
-  margin: 2rem 0 9rem 0;
-}
-.pick-up-column ul li .text {
-  top: 75%;
-  margin: 0 1rem;
-  padding: 1rem;
-}
-}
-@media (min-width: 576px) and (max-width: 768px) {
-.pick-up-column ul li {
-  margin: 2rem 0 8rem 0;
-}
-.pick-up-column ul li .text {
-  top: 80%;
-  margin: 0 2rem;
-  padding: 2rem;
-}
-}
-@media (min-width: 768px) and (max-width: 992px) {
-.pick-up-column {
-  margin: 12rem 2rem;
-  padding: 1.5rem 5%;
-}
-.pick-up-column ul li {
-  width: 47%;
-  margin: 2.5rem 0 7rem 0;
-}
-.pick-up-column ul li:nth-of-type(odd) {
-  float: left;
-}
-.pick-up-column ul li:nth-of-type(even) {
-  float: right;
-}
-.pick-up-column ul li .text {
-  top: 75%;
-  margin: 0 1rem;
-  padding: 1rem;
-}
-}
-@media (min-width: 992px) and (max-width: 1200px) {
-.pick-up-column {
-  width: 900px;
-  margin: 14rem auto;
-  padding: 1.5rem 2rem;
-}
-.pick-up-column ul li {
-  width: 48%;
-  margin: 5rem 0 8rem;
-}
-.pick-up-column ul li:nth-of-type(odd) {
-  float: left;
-}
-.pick-up-column ul li:nth-of-type(even) {
-  float: right;
-}
-.pick-up-column ul li .text {
-  top: 80%;
-  margin: 0 2rem;
-  padding: 1rem 2rem;
-}
-}
-@media (min-width: 1200px) {
-.pick-up-column {
-  margin: 14rem 3rem;
-  padding: 1.5rem 2rem;
-}
-.pick-up-column ul li {
-  width: 32%;
-  margin: 5rem 0 9rem;
-}
-.pick-up-column ul li {
-  float: left;
-  margin-right: 2%;
-}
-.pick-up-column ul li:nth-of-type(3n) {
-  margin-right: 0;
-}
-.pick-up-column ul li .text {
-  top: 80%;
-  margin: 0 2rem;
-  padding: 1rem 2rem;
-}
-}
-/* works */
-.works {
-  padding: 2rem;
-}
-.works h1,
-.works h2 {
-  letter-spacing: .2rem;
-}
-.works h1 {
-  margin-bottom: .25rem;
-}
-.works h2 {
-  font-size: .9rem;
-}
-.works ul {
-  margin-bottom: 3rem;
-}
-@media (max-width: 576px) {
-.works ul li {
-  width: 48%;
-  margin-bottom: 1rem;
-}
-.works ul li:nth-of-type(odd) {
-  float: left;
-}
-.works ul li:nth-of-type(even) {
-  float: right;
-}
-}
-@media (min-width: 576px) and (max-width: 768px) {
-.works ul li {
-  float: left;
-  width: 32%;
-  margin-right: 2%; 
-  margin-bottom: 1rem;
-}
-.works ul li:nth-of-type(3n) {
-  margin-right: 0;
-}
-}
-@media (min-width: 768px) {
-.works {
-  padding: 3rem;
-}
-.works ul li {
-  float: left;
-  width: 18%;
-  margin-right: 2.5%;
-}
-.works ul li:last-child {
-  margin-right: 0;
-}
-}
 /* footer */
 footer {
   background-color: #f5f2f2;
@@ -1891,4 +1414,133 @@ header {
 }
 .yumi .artist .head h2 {
   font-size: 1rem;
+}
+/* asumi */
+.asumi {
+  position: relative;
+}
+.asumi .logo {
+  position: absolute;
+  top: 35px;
+  left: 35px;
+  width: 200px;
+  z-index: 99;
+}
+.asumi .slider {
+	position: relative;
+	text-align: center;
+  width: 100%;
+  height: 100vh;
+}
+.asumi .flexslider {
+	position:absolute;
+	left: 0;
+	right: 0;
+	border: 0;
+  height: 100vh;
+  overflow: hidden;
+}
+.asumi .slides img {
+	min-height: 100vh;
+	object-fit: cover;
+}
+.asumi .slides>li {
+  position: relative;
+}
+.asumi .slides>li>p {
+  height: 1rem;
+  width: 300px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  font-size: 1rem;
+  transition: all 300ms 0s ease;
+}
+.asumi .slides>li>p.af {
+  font-size: 3rem;
+}
+.asumi .flex-control-nav {
+	bottom: 20px!important;
+	z-index: 100;
+}
+.asumi .consept {
+  position: relative;
+  background-color: #eee;
+  padding: 9rem 0 6rem 0;
+}
+.asumi .consept .sign {
+  position: absolute;
+  top: 9px;
+  left: 15px;
+}
+.asumi .consept h1,
+.asumi .consept h2 {
+  margin: 0;
+  text-align: center;
+  letter-spacing: .5rem;
+}
+.asumi .consept h2 {
+  font-size: 2.5rem;
+  font-weight: normal;
+  margin-bottom: 1rem;
+}
+.asumi .consept h1 {
+  font-size: 2.25rem;
+  margin-bottom: 5rem;
+}
+.asumi .consept ul {
+  width: 800px;
+  margin: 0 auto;
+}
+.asumi .consept ul li {
+  letter-spacing: .5rem;
+  font-size: 1rem;
+  margin-bottom: 2.5rem;
+  line-height: 2;
+  font-weight: bold;
+}
+.asumi .works {
+  padding: 2rem;
+}
+.asumi .works ul {
+  margin-bottom: 3rem;
+}
+@media (max-width: 576px) {
+.asumi .works ul li {
+  width: 48%;
+  margin-bottom: 1rem;
+}
+.asumi .works ul li:nth-of-type(odd) {
+  float: left;
+}
+.asumi .works ul li:nth-of-type(even) {
+  float: right;
+}
+}
+@media (min-width: 576px) and (max-width: 768px) {
+.asumi .works ul li {
+  float: left;
+  width: 32%;
+  margin-right: 2%; 
+  margin-bottom: 1rem;
+}
+.asumi .works ul li:nth-of-type(3n) {
+  margin-right: 0;
+}
+}
+@media (min-width: 768px) {
+.asumi .works {
+  padding: 3rem;
+}
+.asumi .works ul li {
+  float: left;
+  width: 18%;
+  margin-right: 2.5%;
+}
+.asumi .works ul li:last-child {
+  margin-right: 0;
+}
 }
