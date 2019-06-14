@@ -34,8 +34,8 @@
   <div class="bottom-container clearfix">
     <h1>Copyright STUDIOKUM All Right Reserved</h1>
     <div class="social">
-      <a href="" class="facebook" target="_blank"><i class="fab fa-facebook-f fa-lg"></i></a>
-      <a href="" class="youtube" target="_blank"><i class="fab fa-youtube fa-lg"></i></a>
+      <a href="https://www.facebook.com/asumi.eino.9" class="facebook" target="_blank"><i class="fab fa-facebook-f fa-lg"></i></a>
+      <a href="https://www.youtube.com/channel/UCmtI94f4rzkQJDIU-MmUYYQ?view_as=subscriber" class="youtube" target="_blank"><i class="fab fa-youtube fa-lg"></i></a>
     </div>
   </div>
 </footer>

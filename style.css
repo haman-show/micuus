@@ -1502,6 +1502,36 @@ header {
   line-height: 2;
   font-weight: bold;
 }
+.asumi .localnavigation {
+  padding: 45px 0 200px 0;
+}
+.asumi .localnavigation .head {
+  margin-bottom: 2rem;
+}
+.asumi .localnavigation .head .sign {
+  float: left;
+  width: 550px;
+}
+.asumi .localnavigation .head .sub {
+  float: right;
+  font-weight: bold;
+  line-height: 1.75;
+  font-size: 1rem;
+  letter-spacing: .25rem;
+  margin: 1rem 3rem 0 0;
+}
+.asumi .localnavigation nav ul {
+  display: flex;
+   -webkit-box-pack: center;
+    -ms-flex-pack: center;
+  justify-content: center;
+}
+.asumi .localnavigation nav ul li a {
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 0 1.5rem;
+  letter-spacing: .25rem;
+}
 .asumi .works {
   padding: 2rem;
 }

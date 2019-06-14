@@ -19,7 +19,7 @@ Template Name: アスミ アーティストページのテンプレート
 </section>
 <section class="consept">
   <div class="sign">
-    <img src="<?php echo get_template_directory_uri(); ?>/images/asumi/text_sign.png" width="985" height="230">
+    <img src="<?php echo get_template_directory_uri(); ?>/images/asumi/text_sign_1.png" width="985" height="230">
   </div>
   <h2 class="ff-min">可能性を可視化して未来を先撮りする</h2>
   <h1>ASUI ENDO PHOTOGRAPHY</h1>
@@ -34,6 +34,24 @@ Template Name: アスミ アーティストページのテンプレート
     気付いている魅力も、まだ気付いてない魅力も、
     もっと引き出そう！</li>
   </ul>
+</section>
+<section class="localnavigation">
+  <div class="head clearfix">
+    <div class="sign">
+      <img src="<?php echo get_template_directory_uri(); ?>/images/asumi/text_sign_2.png" width="550" height="80">
+    </div>
+    <div class="sub">The future depends on<br>what you do today.</div>
+  </div>
+  <nav>
+    <ul>
+      <li><a href="">ABOUT US</a></li>
+      <li><a href="">SERVICE</a></li>
+      <li><a href="">GALLERY</a></li>
+      <li><a href="">NOTE</a></li>
+      <li><a href="">ACCESS</a></li>
+      <li><a href="">CONTACT</a></li>
+    </ul>
+  </nav>
 </section>
 <section class="works">
   <ul class="cover-list clearfix">
