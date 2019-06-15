@@ -23,7 +23,7 @@ Template Name: サービスのテンプレート
     <div class="clearfix">
       <div class="text">
         <div class="read">各種オーディションや<br>初めての撮影にオススメのプランです</div>
-        <h2 class="price">税込 21600円</h2>
+        <h2 class="price">税込 20000円</h2>
         <div class="detail">
           <div class="head">撮影詳細</div>
           <ul class="body">
@@ -49,7 +49,7 @@ Template Name: サービスのテンプレート
     </h1>
     <div class="text">
       <div class="read">セルフブランディングにぴったりな<br>雰囲気を入れた撮影です。<br>個人事業主の方や音楽家の方など<br>ご自身で活動をしていく方にオススメのプランです。</div>
-      <h2 class="price">税込 32400円</h2>
+      <h2 class="price">税込 30000円</h2>
     </div>
   </div>
   <ul class="photo">
