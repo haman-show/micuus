@@ -1676,7 +1676,7 @@ header {
   font-weight: bold;
 }
 .asumi .servicemenu.salon {
-  padding-bottom: 8rem;
+  padding-bottom: 6rem;
 }
 .asumi .servicemenu.salon .photo {
   padding: 0 1rem;
@@ -1704,6 +1704,35 @@ header {
   width: 800px;
   margin: 0 auto;
   padding-bottom: 3rem;
+}
+.asumi .note {
+  padding: 4rem 0;
+}
+.asumi .note .photo {
+  width: 250px;
+  margin: 0 auto;
+  padding-bottom: 2rem;
+}
+.asumi .note .head {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.asumi .note .head .line.left {
+  padding-right: .5rem;
+}
+.asumi .note .head .text {
+  font-size: 2rem;
+  font-weight: bold;
+  letter-spacing: .5rem;
+  padding-left: .5rem;
+}
+.asumi .note .read {
+  text-align: center;
+  font-size: 1rem;
+  font-weight: bold;
+  letter-spacing: .5rem;
+  line-height: 1.5;
+  margin-bottom: 2rem;
 }
 .asumi .works {
   padding: 2rem;

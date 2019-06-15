@@ -116,6 +116,19 @@ Template Name: アスミ アーティストページのテンプレート
     <a href="https://reserva.be/studiomicuus/contact" target="_blank">お問い合わせ</a>
   </div>
 </section>
+<section class="note" id="note">
+  <div class="photo"><img src="<?php echo get_template_directory_uri(); ?>/images/top/photo-asumi.png" alt="HAIR-MAKE & PHOTO 遠藤あすみ" class="responsive-img"></div>
+  <div class="head">
+    <span class="line left"><img src="<?php echo get_template_directory_uri(); ?>/images/asumi/line_left.png" width="20" height="31"></span>
+    <span><img src="<?php echo get_template_directory_uri(); ?>/images/asumi/logo_note.gif" width="158" height="40"></span>
+    <span class="text">始めました</span>
+    <span class="line right"><img src="<?php echo get_template_directory_uri(); ?>/images/asumi/line_right.png" width="20" height="31"></span>
+  </div>
+  <div class="read">撮影レポやクリエイティブのお話し<br>イベントレポなどを執筆しております。是非チェックしてみて下さい！</div>
+  <div class="comp-button">
+    <a href="https://note.mu/asumi_studiokumu" target="_blank">CHECK</a>
+  </div>
+</section>
 <section class="works">
   <ul class="cover-list clearfix">
     <li>
