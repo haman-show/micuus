@@ -27,8 +27,7 @@ Template Name: ユミ アーティストページのテンプレート
 <section class="social">
   <h1>是非チェックしてくださいね！</h1>
   <div class="logo">
-    <span><a href="" target="_blank"><i class="fab fa-facebook-f fa-2x"></a></i></span>
-    <span><a href="" target="_blank"><i class="fab fa-instagram fa-2x"></a></i></span>
+    <span><a href="https://www.facebook.com/profile.php?id=100030026293412" target="_blank"><i class="fab fa-facebook-f fa-2x"></a></i></span>
   </div>
 </section>
 <?php get_template_part('inc/artist'); ?>
