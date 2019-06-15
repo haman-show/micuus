@@ -1628,6 +1628,9 @@ header {
   width: 90%;
   margin: 0 auto 3rem auto;
 }
+.asumi .servicemenu.location {
+  padding-bottom: 8rem;
+}
 .asumi .servicemenu.location .title {
   padding: 2rem 3rem;
 }
@@ -1671,6 +1674,36 @@ header {
   line-height: 1.5;
   font-size: 1rem;
   font-weight: bold;
+}
+.asumi .servicemenu.salon {
+  padding-bottom: 8rem;
+}
+.asumi .servicemenu.salon .photo {
+  padding: 0 1rem;
+  position: relative;
+  margin-bottom: 3rem;
+}
+.asumi .servicemenu.salon .photo .text {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  height: 580px;
+  margin: auto;
+  -ms-writing-mode: tb-rl;
+  writing-mode: vertical-rl;
+  -webkit-text-orientation: sideways;
+  text-orientation: sideways;
+  letter-spacing: .25rem;
+  font-weight: bold;
+}
+.asumi .servicemenu.salon .read {
+  letter-spacing: .5rem;
+  font-size: 1rem;
+  line-height: 2;
+  width: 800px;
+  margin: 0 auto;
+  padding-bottom: 3rem;
 }
 .asumi .works {
   padding: 2rem;

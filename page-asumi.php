@@ -107,6 +107,14 @@ Template Name: アスミ アーティストページのテンプレート
   </div>
 </section>
 <section class="servicemenu salon" id="salon-photo">
+  <div class="photo clearfix">
+    <div class="text">STUDIO KUMU - ASUMI ENDO - Creative photo MAGIC.</div>
+    <div class="image"><img src="<?php echo get_template_directory_uri(); ?>/images/asumi/salon_photo.jpg" class="responsive-img"></div>
+  </div>
+  <div class="read">サロンイメージ撮影や各種店舗商用撮影なども承っております<br>撮影詳細はお問い合わせください。</div>
+  <div class="comp-button">
+    <a href="https://reserva.be/studiomicuus/contact" target="_blank">お問い合わせ</a>
+  </div>
 </section>
 <section class="works">
   <ul class="cover-list clearfix">
