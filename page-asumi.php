@@ -84,6 +84,30 @@ Template Name: アスミ アーティストページのテンプレート
     </div>
   </div>
 </section>
+<section class="servicemenu location" id="location-photo">
+  <div class="title clearfix">
+    <div class="holder">
+      <div class="image">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/asumi/logo_sgg.png" class="responsive-img">
+      </div>
+      <div class="catch ff-min">もっと色濃く、より鮮やかに</div>
+    </div>
+  </div>
+  <div class="photo">
+    <img src="<?php echo get_template_directory_uri(); ?>/images/asumi/location_photo.jpg" class="responsive-img">
+  </div>
+  <h2 class="ff-min">世界観の中に感じる物語り</h2>
+  <ul class="read ff-min">
+    <li>野外やハウススタジオ等を使用して創る<br>
+    ロケーションフォトプラン</li>
+    <li>より色濃く、より鮮やかに貴方の世界を可視化します</li>
+  </ul>
+  <div class="comp-button">
+    <a href="https://reserva.be/studiomicuus/contact" target="_blank">お問い合わせ</a>
+  </div>
+</section>
+<section class="servicemenu salon" id="salon-photo">
+</section>
 <section class="works">
   <ul class="cover-list clearfix">
     <li>
@@ -102,10 +126,6 @@ Template Name: アスミ アーティストページのテンプレート
       <img src="<?php echo get_template_directory_uri(); ?>/images/asumi/cover_5.jpg" class="responsive-img">
     </li>
   </ul>
-</section>
-<section class="servicemenu studio" id="location-photo">
-</section>
-<section class="servicemenu studio" id="salon-photo">
 </section>
 </div>
 <?php get_footer(); ?>
