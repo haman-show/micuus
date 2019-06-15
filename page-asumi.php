@@ -48,9 +48,9 @@ Template Name: アスミ アーティストページのテンプレート
       <li>
 	<div class="parent">SERVICE</div>
         <div class="child-elements">
-          <a href="#studio-portlaite">STUDIO PORTLAITE</a>
+          <a href="#studio-portrait">STUDIO PORTRAIT</a>
           <a href="#location-photo">LOCATION PHOTO</a>
-          <a href="#salon-hoto">SALON PHOTO</a>
+          <a href="#salon-photo">SALON PHOTO</a>
         </div>
       </li>
       <li><a href="<?php echo home_url('/asumi/gallery'); ?>" class="parent">GALLERY</a></li>
@@ -59,6 +59,30 @@ Template Name: アスミ アーティストページのテンプレート
       <li><a href="<?php echo home_url('/asumi/contact'); ?>" class="parent">CONTACT</a></li>
     </ul>
   </nav>
+</section>
+<section class="servicemenu studio" id="studio-portrait">
+  <div class="asumi-container">
+    <div class="head-box">
+      <span>SERVICE</span>
+    </div>
+    <h1>STUDIO<br>PORTRAIT</h1>
+    <h2>完全オーダーメイドで創り上げられる世界</h2>
+    <ul class="read">
+      <li>白い背景とライディング技術で創り出すその世界観は<br>
+      一人一人に合わせた完全オーダーメイドで創り上げられる。</li>
+      <li>ヘアメイク、フォログラファー、レタッチャー<br>
+      全てを一人でデザインしていくからこそ<br>
+      作られるその世界のバランスは</li>
+      <li>余計なものを削ぎ落とし、一直線に写真を見た人の元へ<br>
+      駆けていく。</li>
+    </ul>
+    <div class="photo">
+      <img src="<?php echo get_template_directory_uri(); ?>/images/asumi/studio_portlait.jpg" class="responsive-img">
+    </div>
+    <div class="comp-button">
+      <a href="<?php echo home_url('/studio-portrait'); ?>">撮影詳細</a>
+    </div>
+  </div>
 </section>
 <section class="works">
   <ul class="cover-list clearfix">
@@ -78,6 +102,10 @@ Template Name: アスミ アーティストページのテンプレート
       <img src="<?php echo get_template_directory_uri(); ?>/images/asumi/cover_5.jpg" class="responsive-img">
     </li>
   </ul>
+</section>
+<section class="servicemenu studio" id="location-photo">
+</section>
+<section class="servicemenu studio" id="salon-photo">
 </section>
 </div>
 <?php get_footer(); ?>

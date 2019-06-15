@@ -1419,10 +1419,13 @@ header {
 .asumi {
   position: relative;
 }
+.asumi .asumi-container {
+  padding: 0 3rem;
+}
 .asumi .logo {
   position: absolute;
-  top: 35px;
-  left: 35px;
+  top: 3rem;
+  left: 3rem;
   width: 200px;
   z-index: 99;
 }
@@ -1578,6 +1581,49 @@ header {
 .asumi .asumi-navigation nav ul li:hover .parent:before {
   width: 80%;
 }
+}
+.asumi .head-box {
+  margin-bottom: 1rem;
+}
+.asumi .head-box span {
+  display: inline-block;
+  border: solid 1px #666;
+  padding: .5rem;
+  letter-spacing: .25rem;
+  font-size: .8rem;
+  font-weight: bold;
+  color: #666;
+}
+.asumi .servicemenu.studio h1 {
+  font-size: 5rem;
+  line-height: 1.2;
+  letter-spacing: 2.5rem;
+  color: #333;
+  margin-bottom: 3rem;
+}
+.asumi .servicemenu.studio h2,
+.asumi .servicemenu.studio .read {
+  margin: 0 auto;
+  width: 700px;
+  letter-spacing: .5rem;
+  color: #333;
+}
+.asumi .servicemenu.studio h2 {
+  font-size: 1.5rem;
+  margin-bottom: 3rem;
+}
+.asumi .servicemenu.studio .read {
+  padding-bottom: 1rem;
+}
+.asumi .servicemenu.studio .read li {
+  margin-bottom: 1.75rem;
+  line-height: 1.5;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.asumi .servicemenu.studio .photo {
+  width: 90%;
+  margin: 0 auto 3rem auto;
 }
 .asumi .works {
   padding: 2rem;
