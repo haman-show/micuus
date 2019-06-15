@@ -17,7 +17,7 @@ Template Name: アスミ アーティストページのテンプレート
     </ul>
   </div>
 </section>
-<section class="consept">
+<section class="consept" id="concept">
   <div class="sign">
     <img src="<?php echo get_template_directory_uri(); ?>/images/asumi/text_sign_1.png" width="985" height="230">
   </div>
@@ -35,7 +35,7 @@ Template Name: アスミ アーティストページのテンプレート
     もっと引き出そう！</li>
   </ul>
 </section>
-<section class="localnavigation">
+<section class="asumi-navigation">
   <div class="head clearfix">
     <div class="sign">
       <img src="<?php echo get_template_directory_uri(); ?>/images/asumi/text_sign_2.png" width="550" height="80">
@@ -44,12 +44,19 @@ Template Name: アスミ アーティストページのテンプレート
   </div>
   <nav>
     <ul>
-      <li><a href="">ABOUT US</a></li>
-      <li><a href="">SERVICE</a></li>
-      <li><a href="">GALLERY</a></li>
-      <li><a href="">NOTE</a></li>
-      <li><a href="">ACCESS</a></li>
-      <li><a href="">CONTACT</a></li>
+      <li><a href="#concept" class="parent">ABOUT US</a></li>
+      <li>
+	<div class="parent">SERVICE</div>
+        <div class="child-elements">
+          <a href="#studio-portlaite">STUDIO PORTLAITE</a>
+          <a href="#location-photo">LOCATION PHOTO</a>
+          <a href="#salon-hoto">SALON PHOTO</a>
+        </div>
+      </li>
+      <li><a href="<?php echo home_url('/asumi/gallery'); ?>" class="parent">GALLERY</a></li>
+      <li><a href="#note" class="parent">NOTE</a></li>
+      <li><a href="<?php echo home_url('/#access'); ?>" class="parent">ACCESS</a></li>
+      <li><a href="<?php echo home_url('/asumi/contact'); ?>" class="parent">CONTACT</a></li>
     </ul>
   </nav>
 </section>
