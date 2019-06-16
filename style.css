@@ -1087,6 +1087,7 @@ header {
 .contact .contact-form .form-line>.input {
   text-align: left;
   padding-left: 2rem;
+  position: relative;
 }
 .contact .contact-form .form-line>.input input,
 .contact .contact-form .form-line>.input textarea {
@@ -1095,6 +1096,49 @@ header {
   padding: .5rem;
   background-color: #eee;
   border: none;
+}
+.contact .contact-form .form-line input[type="submit"] {
+  display: block;
+  width: 100%;
+  padding: 1rem;
+  border: none;
+  background-color: #ccc;
+  color: #666;
+  font-weight: bold;
+}
+.contact div.screen-reader-response{
+  display: none;
+}
+.contact .contact-form .form-line span.wpcf7-not-valid-tip {
+  position: absolute;
+  bottom: -22px;
+  left: 34px;
+  letter-spacing: .25rem;
+  font-size: .9rem;
+  color: red;
+}
+.contact .contact-form .form-line div.wpcf7-response-output,
+.contact .contact-form .form-line div.wpcf7-validation-errors,
+.contact .contact-form .form-line div.wpcf7-acceptance-missing {
+  text-align: center;
+  font-size: 1rem;
+  line-height: 1.5;
+  letter-spacing: .25rem;
+  color: red;
+}
+.contact .contact-form .form-line input.wpcf7-not-valid,
+.contact .contact-form .form-line textarea.wpcf7-not-valid {
+  background-color: #FFDBC9;
+}
+@media (min-width: 576px) {
+.contact .contact-form .form-line input[type="submit"] {
+  cursor: pointer;
+  transition: background-color .25s linear, color .25s linear;
+}
+.contact .contact-form .form-line input[type="submit"]:hover {
+  background-color: #333;
+  color: white;
+}
 }
 /* access */
 .access {
