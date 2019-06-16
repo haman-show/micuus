@@ -9,7 +9,7 @@ $(function(){
     $('body, html').animate({scrollTop:position}, speed, 'jswing');
     return false;
   });
-  $('.asumi .asumi-navigation nav ul li').hover(function() {
+  $('.asumi-navigation nav ul li').hover(function() {
     $('.parent', this).next().stop().slideToggle('fast');
   });
 });

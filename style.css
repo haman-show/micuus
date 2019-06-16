@@ -1400,18 +1400,19 @@ header {
 .yumi .artist {
   padding: 0 60px 140px 60px;
 }
+.asumi .artist .head,
 .yumi .artist .head {
   text-align: center;
   letter-spacing: .5rem;
   margin-bottom: 3rem;
 }
+.asumi .artist .head h1,
+.asumi .artist .head h2,
 .yumi .artist .head h1,
 .yumi .artist .head h2 {
   font-weight: normal;
 }
-.yumi .artist .head h1 {
-
-}
+.asumi .artist .head h2,
 .yumi .artist .head h2 {
   font-size: 1rem;
 }
@@ -1506,16 +1507,19 @@ header {
   font-weight: bold;
 }
 .asumi .asumi-navigation {
-  padding: 45px 0 200px 0;
+  margin-bottom: 80px;
 }
-.asumi .asumi-navigation .head {
+.asumi-navigation {
+  padding: 45px 0 120px 0;
+}
+.asumi-navigation .head {
   margin-bottom: 2rem;
 }
-.asumi .asumi-navigation .head .sign {
+.asumi-navigation .head .sign {
   float: left;
   width: 550px;
 }
-.asumi .asumi-navigation .head .sub {
+.asumi-navigation .head .sub {
   float: right;
   font-weight: bold;
   line-height: 1.75;
@@ -1523,23 +1527,23 @@ header {
   letter-spacing: .25rem;
   margin: 1rem 3rem 0 0;
 }
-.asumi .asumi-navigation nav ul {
+.asumi-navigation nav ul {
   display: flex;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
 }
-.asumi .asumi-navigation nav ul li {
+.asumi-navigation nav ul li {
   position: relative;
 }
-.asumi .asumi-navigation nav ul li .parent {
+.asumi-navigation nav ul li .parent {
   position: relative;
   font-size: 1rem;
   font-weight: bold;
   letter-spacing: .25rem;
   padding: 0 1.5rem;
 }
-.asumi .asumi-navigation nav ul li .child-elements {
+.asumi-navigation nav ul li .child-elements {
   display: none;
   position: absolute;
   top: 20px;
@@ -1548,24 +1552,24 @@ header {
   border-left: solid 2px #666;
   padding: 20px 0 0 10px;
 }
-.asumi .asumi-navigation nav ul li .child-elements a {
+.asumi-navigation nav ul li .child-elements a {
   display: block;
   margin-bottom: .5rem;
   font-size: .9rem;
   font-weight: bold;
   letter-spacing: .1rem;
 }
-.asumi .asumi-navigation nav ul li .child-elements a:last-child {
+.asumi-navigation nav ul li .child-elements a:last-child {
   margin-bottom: 0;
 }
-.asumi .asumi-navigation nav ul li .child-elements a:hover {
+.asumi-navigation nav ul li .child-elements a:hover {
   text-decoration: underline;
 }
 @media (min-width: 576px) {
-.asumi .asumi-navigation nav ul li .parent {
+.asumi-navigation nav ul li .parent {
   cursor: pointer;
 }
-.asumi .asumi-navigation nav ul li .parent:before {
+.asumi-navigation nav ul li .parent:before {
   position: absolute;
   display: inline-block;
   top: 1.1rem;
@@ -1578,7 +1582,7 @@ header {
   background: #666;
   transition: .25s;
 }
-.asumi .asumi-navigation nav ul li:hover .parent:before {
+.asumi-navigation nav ul li:hover .parent:before {
   width: 80%;
 }
 }
@@ -1706,7 +1710,7 @@ header {
   padding-bottom: 3rem;
 }
 .asumi .note {
-  padding: 4rem 0;
+  padding: 6rem 0 8rem 0;
 }
 .asumi .note .photo {
   width: 250px;
@@ -1734,12 +1738,6 @@ header {
   line-height: 1.5;
   margin-bottom: 2rem;
 }
-.asumi .works {
-  padding: 2rem;
-}
-.asumi .works ul {
-  margin-bottom: 3rem;
-}
 @media (max-width: 576px) {
 .asumi .works ul li {
   width: 48%;
@@ -1765,7 +1763,8 @@ header {
 }
 @media (min-width: 768px) {
 .asumi .works {
-  padding: 3rem;
+  padding: 0 3rem;
+  margin-bottom: 12rem;
 }
 .asumi .works ul li {
   float: left;
