@@ -714,80 +714,6 @@ footer .footer-container .box .body li a:hover {
   padding-right: 5rem;
 }
 }
-/* gallery */
-.gallery .title {
-  margin-bottom: 2rem;
-}
-.gallery .slider {
-  padding: 0 2rem;
-  margin-bottom: 3rem;
-}
-.gallery .slider .flexslider {
-  margin-bottom: 0;
-  border: none;
-}
-.photo-list .comp-button {
-  margin: 3.5rem 0;
-}
-.photo-list .list-container {
-  column-width: 15rem;
-  column-gap: 2rem;
-  padding: 0 2rem;
-}
-.photo-list .list-container .box {
-  display: inline-block;
-  width: 100%;
-  margin-bottom: 2rem;
-  transition: opacity .25s linear;
-}
-.photo-list .list-container .box:hover {
-  opacity: .6;
-}
-.gallery .instagram {
-  padding: 0 2rem;
-  margin-bottom: 2rem;
-}
-.gallery .instagram .head {
-  display: table;
-  width: 300px;
-  margin: 0 auto 2rem auto;
-}
-.gallery .instagram .head .icon,
-.gallery .instagram .head .text {
-  display: table-cell;
-  vertical-align: middle;
-}
-.gallery .instagram .head .icon {
-  width: 60px;
-}
-.gallery .instagram .head .text {
-  padding: .5rem;
-}
-.gallery .instagram .body .list {
-  display: table;
-  width: 100%;
-  background-color: #eee;
-}
-.gallery .instagram .body .list>div {
-  display: table-cell;
-  vertical-align: middle;
-  height: 190px;
-}
-.gallery .instagram .body .list .profile {
-  width: 190px;
-}
-.gallery .instagram .body .list .profile .thumb {
-  width: 50%;
-  margin: 0 auto;
-}
-.gallery .instagram .body .list .profile .name {
-  text-align: center;
-  margin-top: .5rem;
-  font-weight: bold;
-}
-.gallery .instagram .body .list .photo ul {
-  display: flex;
-}
 /* global-header */
 header {
 }
@@ -877,8 +803,6 @@ header {
 }
 }
 /* top-page */
-.top-page {
-}
 .top-container {
   padding: 0 60px;
 }
@@ -969,31 +893,43 @@ header {
   font-size: 1rem;
   letter-spacing: .5rem;
 }
+/* instagram */
 .top-page .instagram {
   margin-top: 100px;
 }
-.top-page .instagram .head {
+.instagram .head {
   display: table;
-  width: 180px;
-  margin: 0 auto 100px auto;
+  margin-bottom: 3rem;
 }
-.top-page .instagram .head .icon,
-.top-page .instagram .head .text {
+.top-page .instagram .head {
+  margin: 0 auto 100px auto;
+  width: 180px;
+}
+.instagram .head .icon,
+.instagram .head .logo,
+.instagram .head .text {
   display: table-cell;
   vertical-align: middle;
 }
-.top-page .instagram .head .icon {
+.instagram .head .icon {
   padding-right: 1rem;
-  width: 25%;
+  width: 40px;
 }
-.top-page .instagram .head .text {
+.instagram .head .logo {
   padding-left: .5rem;
   border-left: solid 1px #333;
+  width: 140px;
 }
-.top-page .instagram .photo {
+.instagram .head .text {
+  font-size: .9rem;
+  font-weight: bold;
+  letter-spacing: .25rem;
+  padding-left: 2rem;
+}
+.instagram .photo {
   padding: 0 1rem;
 }
-.top-page .instagram .photo ul {
+.instagram .photo ul {
   display: flex;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
@@ -1002,12 +938,10 @@ header {
 /* contact */
 .contact {
   color: #666;
-}
-.top-page .contact {
-  padding-top: 100px;
+  margin-top: 100px;
 }
 .contact .content-head {
-  margin-bottom: 90px;
+  padding-bottom: 90px;
 }
 .contact .content-head {
   color: #666;
@@ -1821,4 +1755,49 @@ header {
 .asumi .works ul li:last-child {
   margin-right: 0;
 }
+}
+/* kumu */
+.kumu .container {
+  padding: 0 6rem;
+}
+.kumu .concept {
+  padding: 3rem 0;
+  background-color: #eee;
+  margin-bottom: 4rem;
+}
+.kumu .concept .photo {
+  margin-bottom: 4rem;
+}
+.kumu .concept .copy {
+  width: 400px;
+  margin: 0 auto 3rem auto;
+}
+.kumu .concept .read {
+}
+.kumu .concept .read li {
+  letter-spacing: .5rem;
+  font-size: 1rem;
+  line-height: 2;
+  margin-bottom: 3rem;
+}
+.kumu .concept .read li:last-child {
+  margin-bottom: 0;
+}
+.kumu .movie-wrap {
+  position: relative;
+  padding-bottom: 56.25%; /*アスペクト比 16:9の場合の縦幅*/
+  height: 0;
+  overflow: hidden;
+}
+
+.kumu .movie-wrap iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.kumu .instagram {
+  padding: 0 3rem;
+  margin: 6rem 0 0 0;
 }
