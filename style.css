@@ -1002,6 +1002,8 @@ header {
 /* contact */
 .contact {
   color: #666;
+}
+.top-page .contact {
   padding-top: 100px;
 }
 .contact .content-head {
@@ -1051,13 +1053,14 @@ header {
   text-align: center;
   font-size: .7rem;
 }
-.contact .contact-form {
+.top-page .contact .contact-form {
   padding-top: 90px;
 }
 .contact .contact-form h3 {
   letter-spacing: .25rem;
   text-align: center;
   margin-bottom: 2rem;
+  line-height: 1.75;
 }
 .contact .contact-form .form-line {
   display: table;

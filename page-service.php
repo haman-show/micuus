@@ -33,7 +33,7 @@ Template Name: サービスのテンプレート
           </ul>
 	  <div class="sub">オススメレタッチ4枚付き<br>データはその日にCD-Rに焼いてお渡し</div>
           <div class="comp-button">
-            <a href="">予約する</a>
+            <a href="<?php echo home_url('/reserve-standard'); ?>">予約する</a>
           </div>
         </div>
       </div>
@@ -70,7 +70,7 @@ Template Name: サービスのテンプレート
       </ul>
       <div class="sub">オススメレタッチ4枚付き<br>データはその日にCD-Rに焼いてお渡し</div>
       <div class="comp-button">
-        <a href="">予約する</a>
+        <a href="<?php echo home_url('/reserve-premium'); ?>">予約する</a>
       </div>
     </div>
 </section>

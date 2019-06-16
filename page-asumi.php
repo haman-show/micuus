@@ -56,7 +56,7 @@ Template Name: アスミ アーティストページのテンプレート
       <li><a href="<?php echo home_url('/asumi/gallery'); ?>" class="parent">GALLERY</a></li>
       <li><a href="#note" class="parent">NOTE</a></li>
       <li><a href="<?php echo home_url('/#access'); ?>" class="parent">ACCESS</a></li>
-      <li><a href="<?php echo home_url('/asumi/contact'); ?>" class="parent">CONTACT</a></li>
+      <li><a href="<?php echo home_url('/contact-asumi'); ?>" class="parent">CONTACT</a></li>
     </ul>
   </nav>
 </section>
@@ -169,7 +169,7 @@ Template Name: アスミ アーティストページのテンプレート
         <li><a href="<?php echo home_url('/asumi/gallery'); ?>" class="parent">GALLERY</a></li>
         <li><a href="#note" class="parent">NOTE</a></li>
         <li><a href="<?php echo home_url('/#access'); ?>" class="parent">ACCESS</a></li>
-        <li><a href="<?php echo home_url('/asumi/contact'); ?>" class="parent">CONTACT</a></li>
+        <li><a href="<?php echo home_url('/contact-asumi'); ?>" class="parent">CONTACT</a></li>
       </ul>
     </nav>   
   </div>
