@@ -1488,9 +1488,6 @@ header {
   font-weight: bold;
 }
 /* asumi-navigation */
-.asumi .asumi-navigation {
-  margin-bottom: 80px;
-}
 .asumi-navigation {
   padding: 45px 0 120px 0;
 }
@@ -1500,6 +1497,7 @@ header {
 .asumi-navigation .head .sign {
   float: left;
   width: 550px;
+  margin-left: 3rem;
 }
 .asumi-navigation .head .sub {
   float: right;
@@ -1583,12 +1581,18 @@ header {
 .asumi .servicemenu.studio {
   padding-bottom: 3rem;
 }
+.asumi.studioportrait .servicemenu.studio {
+  margin-bottom: 6rem;
+}
 .asumi .servicemenu.studio h1 {
   font-size: 5rem;
   line-height: 1.2;
   letter-spacing: 2.5rem;
   color: #333;
   margin-bottom: 3rem;
+}
+.asumi.studioportrait .servicemenu.studio h1 {
+  margin-bottom: 1.5rem;
 }
 .asumi .servicemenu.studio h2,
 .asumi .servicemenu.studio .read {
@@ -1600,6 +1604,12 @@ header {
 .asumi .servicemenu.studio h2 {
   font-size: 1.5rem;
   margin-bottom: 3rem;
+}
+.asumi.studioportrait .servicemenu.studio h2 {
+  width: auto;
+  font-weight: normal;
+  font-size: 2rem;
+  letter-spacing: .6rem;
 }
 .asumi .servicemenu.studio .read {
   padding-bottom: 1rem;
@@ -1755,6 +1765,69 @@ header {
 }
 .asumi .works ul li:last-child {
   margin-right: 0;
+}
+}
+/* studioportrait */
+.asumi.studioportrait .news {
+  margin-bottom: 6rem;
+}
+.asumi.studioportrait .news .asumi-container {
+  position: relative;
+}
+.asumi.studioportrait .news .icon {
+  position: absolute;
+  left: 3rem;
+  top: -6rem;
+}
+.asumi.studioportrait .news .icon span {
+  background-color: #fff799;
+  display: inline-block;
+  width: 140px;
+  height: 140px;
+  line-height: 145px;
+  text-align: center;
+  border-radius: 50%;
+  font-weight: bold;
+  letter-spacing: .5rem;
+  text-indent: .5rem;
+  font-size: 1.25rem;
+}
+.asumi.studioportrait .news .holder {
+  width: 90%;
+  margin: 0 auto;
+}
+.asumi.studioportrait .news .main {
+  background-color: #f2e8dc;
+  text-align: center;
+  padding: 3rem 0 2rem 0;
+  font-weight: bold;
+  letter-spacing: .5rem;
+  text-indent: .5rem;
+  margin-bottom: 1rem;
+}
+.asumi.studioportrait .news .main .text {
+  font-size: 1.75rem;
+  margin-bottom: 3rem;
+}
+.asumi.studioportrait .news .main .button {
+  border: solid 3px #333;
+  padding: .5rem 1rem;
+  font-size: 1rem;
+  transition: background-color .25s linear, color .25s linear;
+}
+.asumi.studioportrait .news .sub {
+  text-align: right;
+}
+.asumi.studioportrait .news .sub a {
+  font-size: 1rem;
+  font-weight: bold;
+  text-decoration: underline;
+  letter-spacing: .5rem;
+}
+@media (min-width: 576px) {
+.asumi.studioportrait .news .main .button:hover {
+  background-color: #333;
+  color: white;
 }
 }
 /* kumu */

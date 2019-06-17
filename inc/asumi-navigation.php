@@ -7,17 +7,17 @@
   </div>
   <nav>
     <ul>
-      <li><a href="#concept" class="parent">ABOUT US</a></li>
+      <li><a href="<?php echo home_url('/asumi'); ?>" class="parent">ABOUT US</a></li>
       <li>
 	<div class="parent">SERVICE</div>
         <div class="child-elements">
-          <a href="#studio-portrait">STUDIO PORTRAIT</a>
-          <a href="#location-photo">LOCATION PHOTO</a>
-          <a href="#salon-photo">SALON PHOTO</a>
+          <a href="<?php echo home_url('/asumi#studio-portrait'); ?>">STUDIO PORTRAIT</a>
+          <a href="<?php echo home_url('/asumi#location-photo'); ?>">LOCATION PHOTO</a>
+          <a href="<?php echo home_url('/asumi#salon-photo'); ?>">SALON PHOTO</a>
         </div>
       </li>
       <li><a href="<?php echo home_url('/asumi/gallery'); ?>" class="parent">GALLERY</a></li>
-      <li><a href="#note" class="parent">NOTE</a></li>
+      <li><a href="<?php echo home_url('/asumi#note'); ?>" class="parent">NOTE</a></li>
       <li><a href="<?php echo home_url('/#access'); ?>" class="parent">ACCESS</a></li>
       <li><a href="<?php echo home_url('/contact-asumi'); ?>" class="parent">CONTACT</a></li>
     </ul>
