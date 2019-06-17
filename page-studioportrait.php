@@ -23,7 +23,7 @@ Template Name: スタジオポートレートのテンプレート
     <div class="holder">
       <div class="main">
         <div class="text">現在2019年8月の撮影先行案内申し込み開始中です！</div>
-        <a href="" target="_blank" class="button">お申し込みはこちら</a>
+        <a href="<?php echo home_url('/reserve-studioportrait'); ?>" class="button">お申し込みはこちら</a>
       </div>
       <div class="sub">
         <a href="" target="_blank">6月7月のキャンセル待ちのご登録はこちら</a>
@@ -117,7 +117,7 @@ Template Name: スタジオポートレートのテンプレート
     それぞれの衣装1枚ずつ文字入れもしていますので、是非色々なシーンでお使いになってください。</li>
     <li>当日はスッピン又はベースメイク程度のナチュラルなお化粧でお越しくださいね！</li>
   </ul>
-  <a href="" target="_blank" class="button">アクセスはこちら</a>
+  <a href="<?php echo home_url('/#access'); ?>" class="button">アクセスはこちら</a>
 </section>
 <section class="waiting">
   <h1>こちらからキャンセル待ちのご登録も可能です！！</h1>

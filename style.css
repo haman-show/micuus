@@ -941,6 +941,9 @@ header {
   color: #666;
   margin-top: 100px;
 }
+.asumi .contact {
+  margin-top: 0;
+}
 .contact .content-head {
   padding-bottom: 90px;
 }
