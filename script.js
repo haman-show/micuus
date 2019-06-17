@@ -1,6 +1,9 @@
 'use strict';
 
 $(function(){
+  $('.global-header nav .menu, .global-header nav .close').on('click', function() {
+    $('.global-header nav ul').stop().slideToggle();
+  });
   $('a[href^="#"]').click(function() {
     var speed = 800;
     var href= $(this).attr("href");

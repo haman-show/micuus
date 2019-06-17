@@ -1,9 +1,11 @@
 <?php get_header(); ?>
 <header>
 <section class="global-header" style="background-image:url(<?php echo get_template_directory_uri(); ?>/images/global-header/background.png);">
-  <h1><a href="<?php echo home_url('/'); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/common/logo.png" width="220" height="90" alt="STUDIO KUMU" /></a></h1>
+  <h1 class="logo"><a href="<?php echo home_url('/'); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/common/logo.png" alt="STUDIO KUMU" class="responsive-img"></a></h1>
   <nav>
+    <div class="menu"><i class="fas fa-bars fa-2x"></i></div>
     <ul>
+      <li class="close">&times;</li>
       <li><a href="<?php echo home_url('/'); ?>">TOP</a></li>
       <li><a href="<?php echo home_url('/service'); ?>">SERVICE</a></li>
       <li><a href="#artist">ARTIST</a></li>

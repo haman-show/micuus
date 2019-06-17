@@ -11,15 +11,11 @@ Description: スタジオクムのホームページ用テーマ
 }
 @media (min-width: 768px) and (max-width: 992px) {
 }
-@media (min-width: 992px) {
+@media (min-width: 992px) and (max-width: 1200px) {
+}
+@media (min-width: 1200px) {
 }
 */
-.underconstruction {
-  text-align: center;
-  padding: 100px 0 200px 0;
-  font-size: 4rem;
-  color: #666;
-}
 body {
   font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
   font-size: 13px;
@@ -58,12 +54,6 @@ img {
 .responsive-img {
   width: 100%;
   height: auto;
-}
-.read-text {
-  line-height: 1.5;
-}
-.container {
-  padding: 0 1rem;
 }
 /* loader */
 .loader {
@@ -130,35 +120,7 @@ img {
     transform: rotate(360deg);
   }
 }
-/* global-navigation */
-header .global-navigation {
-  margin: 0 auto;
-  width: 700px;
-}
-header .global-navigation > li {
-  float: left;
-  width: 100px;
-  position: relative;
-}
-header .global-navigation > li > a:hover,
-header .global-navigation > li > ul > li a:hover {
-  border-bottom: 1px solid black;
-  padding-bottom: 2px;
-}
-header .global-navigation > li > ul {
-  display: none;
-  position: absolute;
-  left: 0;
-  top: 18px;
-  padding: 1rem 0 0 1rem;
-  width: 200%;
-  border-left: solid 1px black;
-}
-header .global-navigation > li > ul > li {
-  text-align: left;
-  padding-bottom: 1rem;
-}
-/* comp */
+/* comp-button */
 .comp-button {
   text-align: center;
   margin-bottom: 3rem;
@@ -176,6 +138,121 @@ header .global-navigation > li > ul > li {
 .comp-button a:hover {
   background-color: black;
   color: white;
+}
+}
+/* global-header */
+.global-header {
+  width: 100%;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.global-header .social {
+  position: absolute;
+}
+.global-header .social a {
+  display: inline-block;
+  color: #666;
+  padding-left: 1rem;
+}
+.global-header .logo {
+  margin: 0 auto;
+}
+.global-header nav ul li a {
+  color: #666;
+  letter-spacing: .5rem;
+  text-indent: .5rem;
+}
+@media (max-width: 768px) {
+.global-header {
+  height: 100px;
+  background-size: 40%;
+  background-position: left top;
+}
+.global-header .social {
+  top: 13px;
+  right: 1rem;
+}
+.global-header .logo {
+  padding-top: 13px;
+  width: 180px;
+}
+.global-header nav .menu {
+  position: absolute;
+  right: 1rem;
+  bottom: 1rem;
+}
+.global-header nav ul {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, .9);
+  z-index: 100;
+  text-align: center;
+}
+.global-header nav ul li a {
+  display: block;
+  line-height: 8rem;
+  border-bottom: solid 1px #666;
+}
+.global-header nav ul li.close {
+  font-size: 3rem;
+  display: block;
+  line-height: 8rem;
+  background-color: rgba(0, 0, 0, .6);
+  color: white;
+}
+}
+@media (min-width: 768px) {
+.global-header {
+  height: 400px;
+  background-size: 50%;
+  background-position: center top;
+}
+.global-header .social {
+  top: 2rem;
+  right: 2rem;
+}
+.global-header .logo {
+  width: 220px;
+  padding-top: 165px;
+}
+.global-header nav .menu {
+  display: none;
+}
+.global-header nav ul {
+  margin-top: 35px;
+  text-align: center;
+}
+.global-header nav ul li.close {
+  display: none;
+}
+.global-header nav ul li {
+  display: inline-block;
+  padding: 0 18px;
+}
+.global-header nav ul li a {
+  position: relative;
+  display: inline-block;
+  color: #666;
+}
+.global-header nav ul li a:before {
+  position: absolute;
+  display: inline-block;
+  top: 1rem;
+  left: 0;
+  right: 0;
+  margin: auto;
+  content: "";
+  width: 0;
+  height: 1px;
+  background: #666;
+  transition: .25s;
+}
+.global-header nav ul li a:hover:before {
+  width: 90%;
 }
 }
 /* footer */
@@ -249,7 +326,6 @@ footer .footer-container .box .body li a:hover {
 }
 .contents .title span {
   font-size: 2.4rem;
-  letter-spacing: .5rem;
 }
 }
 @media (min-width: 576px) and (max-width: 768px) {
@@ -297,64 +373,6 @@ footer .footer-container .box .body li a:hover {
   font-size: 4.5rem;
   letter-spacing: 2.3rem;
   padding-left: 2.3rem;
-}
-}
-/* global-header */
-header {
-}
-.global-header {
-  width: 100%;
-  height: 400px;
-  background-size: 50%;
-  background-repeat: no-repeat;
-  background-position: center top;
-  position: relative;
-}
-.global-header h1 {
-  text-align: center;
-  padding-top: 165px;
-}
-.global-header nav ul {
-  margin-top: 35px;
-  text-align: center;
-}
-.global-header nav ul li {
-  display: inline-block;
-  padding: 0 18px;
-}
-.global-header nav ul li a {
-  position: relative;
-  display: inline-block;
-  color: #666;
-  letter-spacing: .5rem;
-  text-indent: .5rem;
-}
-.global-header .social {
-  position: absolute;
-  top: 2rem;
-  right: 2rem;
-}
-.global-header .social a {
-  display: inline-block;
-  color: #666;
-  padding-left: 1rem;
-}
-@media (min-width: 576px) {
-.global-header nav ul li a:before {
-  position: absolute;
-  display: inline-block;
-  top: 1rem;
-  left: 0;
-  right: 0;
-  margin: auto;
-  content: "";
-  width: 0;
-  height: 1px;
-  background: #666;
-  transition: .25s;
-}
-.global-header nav ul li a:hover:before {
-  width: 90%;
 }
 }
 /* gray-effect */
@@ -984,6 +1002,7 @@ header {
 .asumi .artist .head h2,
 .yumi .artist .head h2 {
   font-size: 1rem;
+  margin-top: 1rem;
 }
 /* asumi */
 .asumi {
