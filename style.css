@@ -23,6 +23,7 @@ Description: スタジオクムのホームページ用テーマ
 body {
   font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
   font-size: 13px;
+  color: #333;
 }
 .ff-min {
   font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
@@ -34,7 +35,7 @@ html, body {
   width: 100%;
   height: 100%;
 }
-body, h1 {
+body, h1, h2 {
   margin: 0;
 }
 a {
@@ -1823,6 +1824,28 @@ header {
   font-weight: bold;
   text-decoration: underline;
   letter-spacing: .5rem;
+}
+.asumi.studioportrait .concept .holder {
+  padding: 6rem 9rem;
+  background-color: #f3f3f3;
+}
+.asumi.studioportrait .concept h1,
+.asumi.studioportrait .concept h2 {
+  letter-spacing: .5rem;
+}
+.asumi.studioportrait .concept h1 {
+  margin-bottom: .5rem;
+  font-size: 2rem;
+}
+.asumi.studioportrait .concept h2 {
+  margin-bottom: 4rem;
+}
+.asumi.studioportrait .concept ul li {
+  letter-spacing: .5rem;
+  margin-bottom: 3rem;
+  font-size: 1rem;
+  line-height: 1.75;
+  font-weight: bold;
 }
 @media (min-width: 576px) {
 .asumi.studioportrait .news .main .button:hover {
