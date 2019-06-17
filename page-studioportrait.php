@@ -53,5 +53,38 @@ Template Name: スタジオポートレートのテンプレート
   </div>
   <div class="photo"><img src="<?php echo get_template_directory_uri(); ?>/images/studioportrait/concept_photo_b.jpg" class="responsive-img"></div>
 </section>
+<section class="worry">
+  <div class="holder">
+    <div class="head ff-min">
+      <span>写真のお悩み</span>
+      <span class="top">TOP5</span>
+      <span class="icon"><img src="<?php echo get_template_directory_uri(); ?>/images/studioportrait/icon_camera.gif" class="responsive-img"></span>
+    </div>
+    <ul class="problem">
+      <li><i class="far fa-check-square"></i>写真が苦手で撮られる事が怖い</li>
+      <li><i class="far fa-check-square"></i>今までに気に入った写真がない</li>
+      <li><i class="far fa-check-square"></i>なりたい自分が分からない</li>
+      <li><i class="far fa-check-square"></i>コンプレックスが気になる</li>
+      <li><i class="far fa-check-square"></i>似合うポージングやメイクが分からない</li>
+    </ul>
+    <div class="solution">
+      <h2>どんな悩みも問題無し！！</h2>
+      <ul>
+        <li>写真には、正解がありません。<br>
+        これをしたから「正解」というマニュアルも無ければ<br>
+        万人に通用するノウハウなんてものもありません。</li>
+        <li>それじゃあ何が大切なの？</li>
+        <li>私は、何を「信じる」かを明確にする事が一番大切な事だと思います。<br>
+        〇〇したいという欲求や、こうだ！思う直感、〇〇を伝えたいという想い。</li>
+        <li>そして、互いに「信じる」事が何より大切だと思っています。</li>
+        <li>私の技術は、誰に習ったものでもなく、<br>
+        今までに出会ってきた1万人以上の方々と共に育ててきた「信じる力」の塊です！</li>
+        <li>些細な事でも大丈夫。もしも自分が信じれなかったら、私を信じてください！（笑）</li>
+        <li>そして、撮りたい！と思ったその直感を大切にして下さい。</li>
+        <li>皆様にお会い出来るのを楽しみにお待ちしております。</li>
+      </ul>
+    </div>
+  </div>
+</section>
 </div>
 <?php get_template_part('inc/asumi-footer'); ?>

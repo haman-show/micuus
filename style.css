@@ -1847,6 +1847,58 @@ header {
   line-height: 1.75;
   font-weight: bold;
 }
+.asumi.studioportrait .worry .holder {
+  padding: 6rem 9rem;
+}
+.asumi.studioportrait .worry .head {
+  margin-bottom: 3rem;
+  display: flex;
+  -webkit-box-pack: center;
+     -ms-flex-pack: center;
+   justify-content: center;
+  -webkit-box-align: center;
+     -ms-flex-align: center;
+        align-items: center;
+}
+.asumi.studioportrait .worry .head span {
+  font-size: 2.5rem;
+  letter-spacing: 1rem;
+}
+.asumi.studioportrait .worry .head .top {
+  padding: 0 1rem;
+  font-weight: bold;
+  font-size: 3rem;
+}
+.asumi.studioportrait .worry .head .icon {
+  width: 75px;
+}
+.asumi.studioportrait .worry .problem {
+  border: solid 3px #333;
+  padding-bottom: 3rem;
+  margin-bottom: 6rem;
+}
+.asumi.studioportrait .worry .problem li {
+  padding: 3rem 6rem 0 6rem;
+  font-size: 1.25rem;
+  letter-spacing: .5rem;
+}
+.asumi.studioportrait .worry .problem li i {
+  margin-right: 1rem;
+  color: tomato;
+}
+.asumi.studioportrait .worry .solution h2 {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 3rem;
+  letter-spacing: .5rem;
+}
+.asumi.studioportrait .worry .solution ul li {
+  letter-spacing: .5rem;
+  margin-bottom: 3rem;
+  font-size: 1rem;
+  line-height: 1.75;
+  font-weight: bold;
+}
 @media (min-width: 576px) {
 .asumi.studioportrait .news .main .button:hover {
   background-color: #333;
