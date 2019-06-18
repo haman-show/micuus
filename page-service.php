@@ -6,13 +6,21 @@ Template Name: サービスのテンプレート
 <?php get_header(); ?>
 <?php get_template_part('inc/globalheader'); ?>
 <div class="contents service">
-<section class="upper ff-min">
-  <div class="container">
-    <ul class="read">
-      <li>一人一人の中に無限に眠る可能性を<br>写真と言う見える形にデザインし<br>新しい未来を切り開く世界を提案する。</li> 
-    </ul>
-    <div class="photo"><img src="<?php echo get_template_directory_uri(); ?>/images/service/photo_upper.jpg" class="responsive-img" /></div>
-  </div>
+<section class="concept">
+  <div class="photo"><img src="<?php echo get_template_directory_uri(); ?>/images/service/photo_service.jpg" class="responsive-img" /></div>
+  <ul class="responsive-read ff-min">
+    <li>
+      <span>恵比寿駅から徒歩10分</span>
+      <span>明治通り沿いにあるSTUDIOKUMUは18年前から、</span>
+      <span>西村知美さんや吉田羊さん等の芸能人の方々や文化人、音楽家を始め</span>
+      <span>様々なジャンルの方々からご愛顧頂いております。</span>
+    </li>
+    <li>
+      <span>宣材撮影やオーディション写真、SNSのお写真からアーティスト撮影まで</span>
+      <span>幅広い撮影にご対応させて頂きます。</span>
+      <span>新しい魅力を開花して、貴方の未来を切り開く１枚を撮影します。</span>
+    </li>
+  </ul>
 </section>
 <section class="plan read-text standard ff-min" id="standard">
   <div class="container">
