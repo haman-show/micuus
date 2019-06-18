@@ -31,19 +31,21 @@
     <div class="text">
       <div class="holder">
         <h1 class="ff-min">CONCEPT</h1>
-        <p>
-          一人一人の中に無限に眠る可能性を<br>
-          写真と言う見える形にしてデザインし<br>
-          新しい未来を切り開く世界を提案する。
-        </p>
-        <p>
-          スタジオクムはヘアメイクから撮影まで<br>
-          一人のアーティストが創り上げ
-        </p>
-        <p>
-          表現できる世界を<br>
-          皆様にお届けしています。
-        </p>
+        <ul class="responsive-read">
+	  <li>
+            <span>一人一人の中に無限に眠る可能性を</span>
+            <span>写真と言う見える形にしてデザインし</span>
+            <span>新しい未来を切り開く世界を提案する。</span>
+          </li>
+          <li>
+            <span>スタジオクムはヘアメイクから撮影まで</span>
+            <span>一人のアーティストが創り上げ</span>
+          </li>
+          <li>
+            <span>表現できる世界を</span>
+            <span>皆様にお届けしています。</span>
+          </li>
+        </ul>
         <div class="comp-button">
           <a href="<?php echo home_url('/service'); ?>">SERVICE</a>
         </div>
