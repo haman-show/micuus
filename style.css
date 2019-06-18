@@ -722,20 +722,11 @@ footer .bottom-container {
 }
 }
 /* instagram */
-.top-page .instagram {
-  margin-top: 100px;
-}
-.instagram .head {
+.instagram .head .holder {
   display: table;
-  margin-bottom: 3rem;
-}
-.top-page .instagram .head {
-  margin: 0 auto 100px auto;
   width: 180px;
 }
-.instagram .head .icon,
-.instagram .head .logo,
-.instagram .head .text {
+.instagram .head .holder>div {
   display: table-cell;
   vertical-align: middle;
 }
@@ -749,10 +740,8 @@ footer .bottom-container {
   width: 140px;
 }
 .instagram .head .text {
-  font-size: .9rem;
   font-weight: bold;
   letter-spacing: .25rem;
-  padding-left: 2rem;
 }
 .instagram .photo {
   padding: 0 1rem;
@@ -762,6 +751,55 @@ footer .bottom-container {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
+}
+@media (max-width: 576px) {
+.instagram .head {
+  padding-bottom: 1rem;
+}
+}
+@media (max-width: 992px) {
+.top-page .instagram {
+  margin-top: 3rem;
+}
+.instagram .head {
+  padding-bottom: 2rem;
+}
+.instagram .head .holder {
+  margin: 0 auto;
+  padding-bottom: 1rem;
+}
+.instagram .head .text {
+  font-size: .8rem;
+  text-align: center;
+}
+.instagram .photo {
+  margin-bottom: 3rem;
+}
+}
+@media (min-width: 992px) {
+.top-page .instagram {
+  margin-top: 6rem;
+}
+.instagram {
+  padding: 0 3rem;
+}
+.instagram .head {
+  padding-bottom: 3rem;
+}
+.instagram .head .holder,
+.instagram .head .text {
+  float: left;
+}
+.instagram .head .text {
+  padding-left: 2rem;
+  line-height: 43px;
+}
+.instagram .head .text {
+  font-size: .9rem;
+}
+.instagram .photo {
+  margin-bottom: 3rem;
+}
 }
 /* contact */
 .contact {
@@ -1837,28 +1875,11 @@ footer .bottom-container {
 }
 }
 /* kumu */
-.kumu .container {
-  padding: 0 6rem;
-}
 .kumu .concept {
-  padding: 3rem 0;
   background-color: #eee;
-  margin-bottom: 4rem;
-}
-.kumu .concept .photo {
-  margin-bottom: 4rem;
-}
-.kumu .concept .copy {
-  width: 400px;
-  margin: 0 auto 3rem auto;
-}
-.kumu .concept .read {
 }
 .kumu .concept .read li {
   letter-spacing: .5rem;
-  font-size: 1rem;
-  line-height: 2;
-  margin-bottom: 3rem;
 }
 .kumu .concept .read li:last-child {
   margin-bottom: 0;
@@ -1868,8 +1889,8 @@ footer .bottom-container {
   padding-bottom: 56.25%; /*アスペクト比 16:9の場合の縦幅*/
   height: 0;
   overflow: hidden;
+  margin-bottom: 3rem;
 }
-
 .kumu .movie-wrap iframe {
   position: absolute;
   top: 0;
@@ -1877,7 +1898,68 @@ footer .bottom-container {
   width: 100%;
   height: 100%;
 }
-.kumu .instagram {
+@media (max-width: 576px) {
+.kumu .container {
+  padding: 0 2rem;
+}
+.kumu .concept {
+  padding: 2rem 0;
+}
+.kumu .concept .photo {
+  margin-bottom: 2rem;
+}
+.kumu .concept .copy {
+  margin-bottom: 2rem;
+}
+.kumu .concept .read li {
+  font-size: .9rem;
+  margin-bottom: 2rem;
+  line-height: 1.75;
+}
+}
+@media (min-width: 576px) {
+.kumu .concept .photo {
+  margin-bottom: 4rem;
+}
+.kumu .concept .copy {
+  width: 400px;
+  margin: 0 auto 3rem auto;
+}
+.kumu .concept .read li {
+  font-size: 1rem;
+  line-height: 2;
+  margin-bottom: 3rem;
+}
+}
+@media (min-width: 576px) and (max-width: 768px) {
+.kumu .concept {
+  padding: 2rem 0;
+}
+.kumu .container {
   padding: 0 3rem;
-  margin: 6rem 0 0 0;
+}
+}
+@media (min-width: 768px) and (max-width: 992px) {
+.kumu .concept {
+  padding: 3rem 0;
+}
+.kumu .container {
+  padding: 0 4rem;
+}
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+.kumu .concept {
+  padding: 4rem 0;
+}
+.kumu .container {
+  padding: 0 5rem;
+}
+}
+@media (min-width: 1200px) {
+.kumu .concept {
+  padding: 5rem 0;
+}
+.kumu .container {
+  padding: 0 6rem;
+}
 }

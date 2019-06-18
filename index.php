@@ -86,9 +86,11 @@
   </ul>
 </section>
 <section class="instagram">
-  <div class="head">
-    <div class="icon"><img src="<?php echo get_template_directory_uri(); ?>/images/common/glyph-logo_May2016.png" class="responsive-img"></div>
-    <div class="logo"><img src="<?php echo get_template_directory_uri(); ?>/images/common/Instagram_logo.svg" class="responsive-img"></div>
+  <div class="head clearfix">
+    <div class="holder">
+      <div class="icon"><img src="<?php echo get_template_directory_uri(); ?>/images/common/glyph-logo_May2016.png" class="responsive-img"></div>
+      <div class="logo"><img src="<?php echo get_template_directory_uri(); ?>/images/common/Instagram_logo.svg" class="responsive-img"></div>
+    </div>
   </div>
   <div class="photo">
     <div class="loader">Loading...</div>
