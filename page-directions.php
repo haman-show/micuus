@@ -5,12 +5,12 @@ Template Name: 道順 ページのテンプレート
 ?>
 <?php get_header(); ?>
 <?php get_template_part('inc/globalheader'); ?>
-<div class="contents directions">
+<div class="contents sub directions">
 <section class="head">
-  <h1 class="read-text">地図だけではどうも自信がないお客様はこちらから</h1>
+  <h1 class="read-text">地図だけではどうも自信がない<br>お客様はこちらから</h1>
 </section>
 <section class="body">
-  <div class="directions-container">
+  <div class="container">
     <ul>
       <li>
         <div class="photo"><img src="<?php echo get_template_directory_uri(); ?>/images/directions/001.jpg" class="responsive-img"></div>

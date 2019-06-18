@@ -61,7 +61,7 @@
         <div class="photo"><img src="<?php echo get_template_directory_uri(); ?>/images/top/photo-kumu.png" alt="HAIR-MAKE & PHOTO Mr kumu" class="responsive-img"></div>
         <div class="text">
           <div class="service">HAIR-MAKE & PHOTO</div>
-          <div class="name"> Mrkumu</div>
+          <div class="name read-text"> Mrkumu</div>
         </div>
       </a>
     </li>
@@ -70,7 +70,7 @@
         <div class="photo"><img src="<?php echo get_template_directory_uri(); ?>/images/top/photo-asumi.png" alt="HAIR-MAKE & PHOTO 遠藤あすみ" class="responsive-img"></div>
         <div class="text">
           <div class="service">HAIR-MAKE & PHOTO</div>
-          <div class="name">遠藤あすみ</div>
+          <div class="name read-text">遠藤あすみ</div>
         </div>
       </a>
     </li>
@@ -79,7 +79,7 @@
         <div class="photo"><img src="<?php echo get_template_directory_uri(); ?>/images/top/photo-yumi.png" alt="IMAGE-CONSULTANT 営野友美" class="responsive-img"></div>
         <div class="text">
           <div class="service">IMAGE-CONSULTANT</div>
-          <div class="name">営野友美</div>
+          <div class="name read-text">営野友美</div>
         </div>
       </a>
     </li>

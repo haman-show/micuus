@@ -269,15 +269,16 @@ img {
   z-index: 100;
   text-align: center;
 }
-.global-header nav ul li a {
+.global-header nav ul li a,
+.global-header nav ul li.close {
   display: block;
-  line-height: 8rem;
+  line-height: 6rem;
+}
+.global-header nav ul li a {
   border-bottom: solid 1px #666;
 }
 .global-header nav ul li.close {
   font-size: 3rem;
-  display: block;
-  line-height: 8rem;
   background-color: rgba(0, 0, 0, .6);
   color: white;
 }
@@ -1177,36 +1178,26 @@ footer .bottom-container {
 .service .bottom .read li {
   margin-bottom: 2rem;
 }
-/* directions */
-.directions {
+/* contents.sub */
+.contents.sub {
   color: #666;
 }
-.directions .directions-container {
-  width: 50%;
-  margin: 0 auto;
-}
-.directions h1,
-.parking h1 {
+.contents.sub h1 {
   text-align: center;
   font-weight: normal;
-  font-size: 1.5rem;
+  line-height: 1.5;
   color: #666;
-  margin-bottom: 5rem;
 }
-.directions .body li {
-  margin-bottom: 4rem;
+.contents.sub .body li {
   background-color: #f1f1f1;
   padding: 1rem;
   position: relative;
 }
-.directions .body .photo {
-  margin-bottom: 1rem;
-}
-.directions .body .text {
+.contents.sub .body .text {
   line-height: 1.5;
   font-size: 1rem;
 }
-.directions .body li .num {
+.contents.sub .body li .num {
   position: absolute;
   top: 2rem;
   left: 2rem;
@@ -1217,30 +1208,65 @@ footer .bottom-container {
   width: 2rem;
   line-height: 2rem;
   text-align: center;
+  font-weight: bold;
 }
-/* parking */
-.parking .parking-container {
+@media (max-width: 768px) {
+.contents.sub .head {
+  padding: 3rem 0;
+}
+.contents.sub h1 {
+  font-size: 1rem;
+}
+.contents.sub .container {
+  padding: 0 1rem;
+}
+.contents.sub .body li {
+  margin-bottom: 1rem;
+}
+}
+@media (min-width: 768px) and (max-width: 992px) {
+.contents.sub .head {
+  padding-bottom: 3rem;
+}
+.contents.sub .container {
+  padding: 0 3rem;
+}
+.contents.sub .body li {
+  margin-bottom: 3rem;
+}
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+.contents.sub .head {
+  padding-bottom: 4rem;
+}
+.contents.sub .container {
+  width: 75%;
+  margin: 0 auto;
+}
+.contents.sub .body li {
+  margin-bottom: 3rem;
+}
+}
+@media (min-width: 1200px) {
+.contents.sub .head {
+  padding-bottom: 6rem;
+}
+.contents.sub h1 br {
+  display: none;
+}
+.contents.sub .container {
   width: 50%;
   margin: 0 auto;
-  color: #666;
 }
-.parking ul li {
+.contents.sub .body li {
   margin-bottom: 4rem;
-  background-color: #f1f1f1;
-  padding: 1.5rem 1rem;
-  position: relative;
 }
-.parking ul li .text {
-  margin-bottom: 1.5rem;
-  display: table;
-  width: 100%;
 }
-.parking ul li .text>div {
-  display: table-cell;
+/* directions */
+.directions  ul li .text {
+  padding-top: 1rem;
 }
-.parking ul li .text .num {
-  width: 50px;
-}
+/* parking */
 .parking ul li .text .num span {
   display: inline-block;
   background-color: #666;
@@ -1254,20 +1280,6 @@ footer .bottom-container {
 .parking ul li .text .name {
   font-size: 1rem;
 }
-.parking ul li .text .googlemap {
-  text-align: right;
-}
-.parking ul li .text .googlemap.comp-button {
-  margin: 0;
-}
-.parking ul li .photo .image {
-  float: left;
-  width: 49%;
-}
-.parking ul li .photo .fee {
-  float: right;
-  width: 49%;
-}
 .parking ul li .photo .fee h2 {
   font-size: 1rem;
   margin-top: 0;
@@ -1277,6 +1289,56 @@ footer .bottom-container {
 }
 .parking ul li .photo .fee p span {
   padding-right: 1rem;
+}
+@media (max-width: 768px) {
+.contents.sub.parking .body li .num {
+  top: .5rem;
+  left: .5rem;
+}
+.parking ul li .photo .image {
+  margin-bottom: 1rem;
+}
+.parking ul li .text .name {
+  margin-bottom: 1rem;
+  padding-left: 2.5rem;
+}
+.parking ul li .text .googlemap {
+  margin-bottom: 1rem;
+}
+}
+@media (min-width: 768px) {
+.contents.sub.parking .body li .num {
+  top: .75rem;
+  left: 1rem;
+}
+.parking ul li .text {
+  margin-bottom: 1.5rem;
+  display: table;
+  width: 100%;
+}
+.parking ul li .text>div {
+  display: table-cell;
+}
+.parking ul li .text .num {
+  width: 50px;
+}
+.parking ul li .text .name {
+  padding-left: 3rem;
+}
+.parking ul li .photo .image {
+  float: left;
+  width: 49%;
+}
+.parking ul li .photo .fee {
+  float: right;
+  width: 49%;
+}
+.parking ul li .text .googlemap {
+  text-align: right;
+}
+.parking ul li .text .googlemap.comp-button {
+  margin: 0;
+}
 }
 /* yumi */
 .yumi .main {
