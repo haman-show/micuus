@@ -1,8 +1,8 @@
 <section class="access" id="access">
-  <div class="content-head">
+  <div class="head">
     <h1>ACCESS</h1>
   </div>
-  <div class="top-container" id="address">
+  <div class="body" id="address">
     <div class="logo"><img src="<?php echo get_template_directory_uri(); ?>/images/common/logo.png" width="110" height="45" alt="STUDIO KUMU" /></div>
     <div class="holder clearfix">
       <div class="information">

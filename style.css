@@ -878,69 +878,108 @@ footer .footer-container .box .body li a:hover {
 }
 }
 /* access */
-.access {
-  padding-top: 100px;
-}
-.access .content-head {
-  margin-bottom: 45px;
-}
-.access .content-head {
+.access .head {
   color: #666;
 }
-.access .content-head h1 {
+.access .head h1 {
   letter-spacing: .5rem;
   text-indent: .5rem;
   font-size: 1rem;
   text-align: center;
 }
-.access .top-container {
+.access .body {
   background-color: #f5f2f2;
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
-.access .top-container .logo {
-  margin-bottom: 50px;
-}
-.access .top-container .holder .information {
-  float: left;
-  width: 40%;
   color: #666;
 }
-.access .top-container .holder .photo {
-  float: right;
-  width: 60%;
-}
-.access .top-container .holder .information table {
+.access .body .holder .information table {
   width: 100%;
 }
-.access .top-container .holder .information th,
-.access .top-container .holder .information td {
+.access .body .holder .information th,
+.access .body .holder .information td {
   letter-spacing: .25rem;
   font-size: .8rem;
   vertical-align: top;
   padding-bottom: .5rem;
   line-height: 1.5;
 }
-.access .top-container .holder .information th {
+.access .body .holder .information th {
   text-align: left;
   font-weight: normal;
 }
-.access .top-container .holder .information td {
+.access .body .holder .information td {
   font-weight: bold;
 }
-.access .top-container .holder .information a {
+.access .body .holder .information a {
   display: inline-block;
   border: solid 1px #666;
   padding: .25rem .5rem;
   margin-top: 1rem;
   transition: .3s ease-in-out;
 }
-@media (min-width: 576px) {
-.access .top-container .holder .information a:hover {
+@media (max-width: 768px) {
+.access {
+  padding-top: 3rem;
+}
+.access .head {
+  margin-bottom: 2rem;
+}
+.access .body {
+  padding: 2rem 1rem 1rem 1rem;
+}
+.access .body .logo {
+  margin-bottom: 2rem;
+}
+.access .body .holder .information {
+  margin-bottom: 3rem;
+}
+}
+@media (min-width: 768px) {
+.access {
+  padding-top: 100px;
+}
+.access .head {
+  margin-bottom: 45px;
+}
+.access .body {
+  padding: 3rem 0 3rem 3rem;
+}
+.access .body .logo {
+  margin-bottom: 50px;
+}
+.access .body .holder .information {
+  float: left;
+}
+.access .body .holder .photo {
+  float: right;
+}
+.access .body .holder .information a:hover {
   background-color: #666;
   color: white;
 }
 }
+@media (min-width: 768px) and (max-width: 992px) {
+.access .body .holder .information {
+  width: 60%;
+}
+.access .body .holder .photo {
+  width: 40%;
+}
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+.access .body .holder .information,
+.access .body .holder .photo {
+  width: 50%;
+}
+}
+@media (min-width: 1200px) {
+.access .body .holder .information {
+  width: 40%;
+}
+.access .body .holder .photo {
+  width: 60%;
+}
+}
+/* map */
 .google-map {
   position: relative;
   width: 100%;
