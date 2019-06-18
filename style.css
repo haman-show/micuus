@@ -399,12 +399,6 @@ footer .bottom-container {
   margin: 0 auto;
 }
 }
-@media (min-width: 768px) and (max-width: 992px) {
-}
-@media (min-width: 992px) and (max-width: 1200px) {
-}
-@media (min-width: 1200px) {
-}
 /* top-page banner */
 @media (max-width: 576px) {
 .top-page .banner {
@@ -432,6 +426,51 @@ footer .bottom-container {
 }
 }
 /* top-page concept */
+.top-page .concept .message .text>.holder {
+  text-align: center;
+  color: #666;
+}
+.top-page .concept .message .text h1 {
+  letter-spacing: .5rem;
+}
+.top-page .concept .message .text ul {
+  letter-spacing: .25rem;
+}
+.top-page .concept .message .text .comp-button {
+  position: absolute;
+  width: 100%;
+  margin-bottom: 0;
+}
+@media (max-width: 576px) {
+.top-page .concept {
+  position: relative;
+}
+.top-page .concept .message {
+  background-image: none !important;
+  background-color: rgba(255, 255, 255, .8) !important;
+  position: absolute;
+  width: 90%;
+  height: 50%;
+  bottom: 1rem;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+.top-page .concept .message .text {
+  padding: 1rem;
+}
+.top-page .concept .message .text h1 {
+  margin-bottom: 1rem;
+}
+.top-page .concept .message .text ul li {
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
+.top-page .concept .message .text .comp-button {
+  bottom: 1rem;
+}
+}
+@media (min-width: 576px) {
 .top-page .concept .message {
   background-repeat: no-repeat;
   background-size: cover;
@@ -446,21 +485,11 @@ footer .bottom-container {
   margin: auto;
   background: white;
 }
-.top-page .concept .message .text>.holder {
-  text-align: center;
-  color: #666;
 }
-.top-page .concept .message .text h1 {
-  letter-spacing: .5rem;
-}
-.top-page .concept .message .text ul {
-  letter-spacing: .25rem;
-}
-@media (max-width: 768px) {
+@media (min-width: 576px) and (max-width: 768px) {
 .top-page .concept {
   display: table;
   width: 100%;
-  position: relative;
 }
 .top-page .concept>div {
   display: table-cell;
@@ -473,12 +502,12 @@ footer .bottom-container {
   width: 70%;
 }
 .top-page .concept .message .text {
-  width: 94%;
-  height: 94%;
+  width: 95%;
+  height: 95%;
 }
 .top-page .concept .message .text h1 {
   font-size: 1rem;
-  padding-top: 1rem;
+  padding-top: 2rem;
   margin-bottom: 1rem;
 }
 .top-page .concept .message .text ul {
@@ -490,11 +519,7 @@ footer .bottom-container {
   margin-bottom: 1rem;
 }
 .top-page .concept .message .text .comp-button {
-  position: absolute;
-  bottom: -4rem;
-  width: 200px;
-  margin: 0 auto;
-  margin-bottom: 0;
+  bottom: 1rem;
 }
 }
 @media (min-width: 768px) {
@@ -507,8 +532,6 @@ footer .bottom-container {
 .top-page .concept .message {
   float: right;
 }
-.top-page .concept .message .text {
-}
 .top-page .concept .message .text>.holder {
   position: relative;
   height: 100%;
@@ -516,11 +539,6 @@ footer .bottom-container {
 .top-page .concept .message .text ul li {
   font-size: 1rem;
   line-height: 1.75;
-}
-.top-page .concept .message .text .comp-button {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
 }
 }
 @media (min-width: 768px) and (max-width: 992px) {
@@ -544,6 +562,9 @@ footer .bottom-container {
 .top-page .concept .message .text ul li {
   margin: 0 0 1rem 0;
 }
+.top-page .concept .message .text .comp-button {
+  bottom: 2rem;
+}
 }
 @media (min-width: 992px) and (max-width: 1200px) {
 .top-page .concept {
@@ -566,6 +587,9 @@ footer .bottom-container {
 .top-page .concept .message .text ul li {
   margin-bottom: 3rem;
 }
+.top-page .concept .message .text .comp-button {
+  bottom: 2rem;
+}
 }
 @media (min-width: 1200px) {
 .top-page .concept {
@@ -587,6 +611,9 @@ footer .bottom-container {
 }
 .top-page .concept .message .text ul li {
   margin-bottom: 3rem;
+}
+.top-page .concept .message .text .comp-button {
+  bottom: 3rem;
 }
 }
 /* artist */
@@ -623,18 +650,20 @@ footer .bottom-container {
   font-weight: normal;
 }
 .artist .head h2 {
-  font-size: 1rem;
+  font-size: .9rem;
   margin-top: 1rem;
   line-height: 1.5;
 }
-@media (max-width: 768px) {
+@media (max-width: 576px) {
 .artist {
-  padding: 4rem;
+  padding: 2rem 4rem;
 }
+}
+@media (max-width: 768px) {
 .top-page .artist h1 {
-  padding-top: 4rem;
   margin-bottom: 2rem;
   text-align: center;
+  padding-top: 2rem;
 }
 .artist ul li {
   margin-bottom: 2rem;
@@ -649,6 +678,11 @@ footer .bottom-container {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
+}
+}
+@media (min-width: 576px) and (max-width: 768px) {
+.artist {
+  padding: 2rem 10rem;
 }
 }
 @media (min-width: 768px) and (max-width: 1200px) {
