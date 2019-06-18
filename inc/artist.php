@@ -1,7 +1,7 @@
 <section class="artist">
   <div class="head ff-min">
     <h1>ATRIST</h1>
-    <h2>スタジオクムで活躍するアーティスト</h2>
+    <h2>スタジオクムで活躍する<br>アーティスト</h2>
   </div>
   <ul>
     <li>

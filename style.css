@@ -560,30 +560,11 @@ footer .footer-container .box .body li a:hover {
 /* artist */
 .top-page .artist {
   background-color: #f6f5f5;
-  padding: 340px 60px 140px 60px;
-  margin-top: -200px;
 }
 .top-page .artist h1 {
   color: #666;
   font-size: 1rem;
   letter-spacing: .5rem;
-  padding-top: 80px;
-  margin-bottom: 45px;
-}
-.artist {
-  padding: 200px 60px 140px 60px;
-}
-.artist ul {
-  display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-}
-.artist ul li {
-  width: 333px;
-}
-.artist ul li .photo {
-  margin-bottom: 35px;
 }
 .artist ul li .text {
   text-align: center;
@@ -596,6 +577,83 @@ footer .footer-container .box .body li a:hover {
 .artist ul li .text .name {
   font-size: 1rem;
   letter-spacing: .5rem;
+}
+.yumi .artist {
+  padding: 0 60px 140px 60px;
+}
+.artist .head {
+  text-align: center;
+  letter-spacing: .5rem;
+  margin-bottom: 3rem;
+}
+.artist .head h1,
+.artist .head h2 {
+  font-weight: normal;
+}
+.artist .head h2 {
+  font-size: 1rem;
+  margin-top: 1rem;
+  line-height: 1.5;
+}
+@media (max-width: 768px) {
+.artist {
+  padding: 4rem;
+}
+.top-page .artist h1 {
+  padding-top: 4rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+.artist ul li {
+  margin-bottom: 2rem;
+}
+.artist ul li .photo {
+  margin-bottom: 1rem;
+}
+}
+@media (min-width: 768px) {
+.artist ul {
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+}
+@media (min-width: 768px) and (max-width: 1200px) {
+.artist {
+  padding: 0 2rem 4rem 2rem;
+}
+.top-page .artist h1 {
+  padding-top: 4rem;
+  margin-bottom: 2rem;
+}
+.artist ul li {
+  width: 30%;
+}
+.artist ul li .photo {
+  margin-bottom: 2rem;
+}
+}
+@media (min-width: 992px) {
+.artist {
+  padding: 200px 60px 140px 60px;
+}
+.top-page .artist {
+  padding-top: 340px;
+  margin-top: -200px;
+}
+}
+@media (min-width: 1200px) {
+.top-page .artist h1 {
+  padding-top: 80px;
+  margin-bottom: 45px;
+}
+.artist ul li {
+  width: 333px;
+}
+.artist ul li .photo {
+  margin-bottom: 35px;
+}
 }
 /* instagram */
 .top-page .instagram {
@@ -1085,26 +1143,7 @@ footer .footer-container .box .body li a:hover {
   display: inline-block;
   padding: 0 .5rem;
 }
-.yumi .artist {
-  padding: 0 60px 140px 60px;
-}
-.asumi .artist .head,
-.yumi .artist .head {
-  text-align: center;
-  letter-spacing: .5rem;
-  margin-bottom: 3rem;
-}
-.asumi .artist .head h1,
-.asumi .artist .head h2,
-.yumi .artist .head h1,
-.yumi .artist .head h2 {
-  font-weight: normal;
-}
-.asumi .artist .head h2,
-.yumi .artist .head h2 {
-  font-size: 1rem;
-  margin-top: 1rem;
-}
+
 /* asumi */
 .asumi {
   position: relative;
