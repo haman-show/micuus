@@ -14,76 +14,34 @@
     </ul>
   </nav>
   <div class="social">
-    <a href="https://www.instagram.com/studiokumu/?hl=ja" class="instagram" target="_blank"><i class="fab fa-instagram fa-lg"></i></a>
-    <a href="https://www.youtube.com/channel/UCmtI94f4rzkQJDIU-MmUYYQ?view_as=subscriber" class="youtube" target="_blank"><i class="fab fa-youtube fa-lg"></i></a>
+    <a href="https://www.instagram.com/studiokumu/?hl=ja" target="_blank"><i class="fab fa-instagram fa-lg"></i></a>
+    <a href="https://www.youtube.com/channel/UCmtI94f4rzkQJDIU-MmUYYQ?view_as=subscriber" target="_blank"><i class="fab fa-youtube fa-lg"></i></a>
   </div>
 </section>
 </header>
 <div class="content top-page">
-<section class="banner">
-  <a href="https://www.youtube.com/channel/UCmtI94f4rzkQJDIU-MmUYYQ?view_as=subscriber" target="_blank" class="scale-effect"><img src="<?php echo get_template_directory_uri(); ?>/images/top/banner-youtube.jpg" alt="新しい私に出会う Mr kumu 変身チャンネルスタート! YouTube" class="responsive-img"></a>
-</section>
 <section class="concept clearfix" id="service">
   <div class="photo">
-    <img src="<?php echo get_template_directory_uri(); ?>/images/top/concept-photo.png" class="responsive-img">
+    <img src="<?php echo get_template_directory_uri(); ?>/images/top/photo_concept.jpg" class="responsive-img">
   </div>
-  <div class="message" style="background-image: url(<?php echo get_template_directory_uri(); ?>/images/top/concept-background.png);">
-    <div class="text">
-      <div class="holder">
-        <h1 class="ff-min read-text">CONCEPT</h1>
-        <ul class="responsive-read">
-	  <li>
-            <span>一人一人の中に無限に眠る可能性を</span>
-            <span>写真と言う見える形にしてデザインし</span>
-            <span>新しい未来を切り開く世界を提案する。</span>
-          </li>
-          <li>
-            <span>スタジオクムはヘアメイクから撮影まで</span>
-            <span>一人のアーティストが創り上げ</span>
-          </li>
-          <li>
-            <span>表現できる世界を</span>
-            <span>皆様にお届けしています。</span>
-          </li>
-        </ul>
-        <div class="comp-button">
-          <a href="<?php echo home_url('/service'); ?>">SERVICE</a>
-        </div>
+  <div class="text">
+    <div class="holder">
+      <h1 class="read-text">
+	<span>CONCEPT</span>
+      </h1>
+      <ul>
+        <li> 一人一人の中に無限に眠る可能性を写真と言う見える形にしてデザインし新しい未来を切り開く世界を提案する。</li>
+        <li>スタジオクムはヘアメイクから撮影まで一人のアーティストが創り上げ表現できる世界を皆様にお届けしています。</li>
+      </ul>
+      <div class="comp-button">
+        <a href="<?php echo home_url('/service'); ?>">SERVICE</a>
       </div>
     </div>
   </div>
 </section>
-<section class="artist">
-  <h1 class="read-text" id="artist">ARTIST</h1>
-  <ul>
-    <li>
-      <a href="<?php echo home_url('/kumu'); ?>" class="gray-effect">
-        <div class="photo"><img src="<?php echo get_template_directory_uri(); ?>/images/top/photo-kumu.png" alt="HAIR-MAKE & PHOTO Mr kumu" class="responsive-img"></div>
-        <div class="text">
-          <div class="service">HAIR-MAKE & PHOTO</div>
-          <div class="name read-text"> Mrkumu</div>
-        </div>
-      </a>
-    </li>
-    <li>
-      <a href="<?php echo home_url('/asumi'); ?>" class="gray-effect">
-        <div class="photo"><img src="<?php echo get_template_directory_uri(); ?>/images/top/photo-asumi.png" alt="HAIR-MAKE & PHOTO 遠藤あすみ" class="responsive-img"></div>
-        <div class="text">
-          <div class="service">HAIR-MAKE & PHOTO</div>
-          <div class="name read-text">遠藤あすみ</div>
-        </div>
-      </a>
-    </li>
-    <li>
-      <a href="<?php echo home_url('/yumi'); ?>" class="gray-effect">
-        <div class="photo"><img src="<?php echo get_template_directory_uri(); ?>/images/top/photo-yumi.png" alt="IMAGE-CONSULTANT 営野友美" class="responsive-img"></div>
-        <div class="text">
-          <div class="service">IMAGE-CONSULTANT</div>
-          <div class="name read-text">営野友美</div>
-        </div>
-      </a>
-    </li>
-  </ul>
+<?php get_template_part('inc/artist'); ?>
+<section class="banner">
+  <a href="https://www.youtube.com/channel/UCmtI94f4rzkQJDIU-MmUYYQ?view_as=subscriber" target="_blank" class="scale-effect"><img src="<?php echo get_template_directory_uri(); ?>/images/top/banner-youtube.jpg" alt="新しい私に出会う Mr kumu 変身チャンネルスタート! YouTube" class="responsive-img"></a>
 </section>
 <section class="instagram">
   <div class="head clearfix">
@@ -134,8 +92,8 @@
   <div class="bottom-container clearfix">
     <h1>Copyright STUDIOKUM All Right Reserved</h1>
     <div class="social">
-      <a href="https://www.instagram.com/studiokumu/?hl=ja" class="instagram" target="_blank"><i class="fab fa-instagram fa-lg"></i></a>
-      <a href="https://www.youtube.com/channel/UCmtI94f4rzkQJDIU-MmUYYQ?view_as=subscriber" class="youtube" target="_blank"><i class="fab fa-youtube fa-lg"></i></a>
+      <a href="https://www.instagram.com/studiokumu/?hl=ja" target="_blank"><i class="fab fa-instagram fa-lg"></i></a>
+      <a href="https://www.youtube.com/channel/UCmtI94f4rzkQJDIU-MmUYYQ?view_as=subscriber" target="_blank"><i class="fab fa-youtube fa-lg"></i></a>
     </div>
   </div>
 </footer>
