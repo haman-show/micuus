@@ -1268,20 +1268,11 @@ footer .bottom-container {
   padding-right: 1rem;
 }
 /* yumi */
-.yumi {
-}
 .yumi .main {
   background-color: #c6d1de;
-  padding-top: 50px;
-}
-.yumi .main .message {
-  width: 80%;
-  margin: 0 auto;
-  padding: 2rem 0;
 }
 .yumi .main .message .head {
   letter-spacing: .5rem;
-  margin-bottom: 2rem;
 }
 .yumi .main .message .head h2 {
   margin-bottom: .5rem;
@@ -1292,29 +1283,71 @@ footer .bottom-container {
 .yumi .main .message .head h3 {
   line-height: 1.75;
 }
-.yumi .main .message .body {
-}
 .yumi .main .message .body li {
-  line-height: 1.75;
-  margin-bottom: 2.5rem;
   letter-spacing: .5rem;
-  font-size: 1rem;
 }
 .yumi .social {
-  padding: 160px 0;
   text-align: center;
   color: #444;
 }
 .yumi .social h1 {
   letter-spacing: .5rem;
   font-size: 1rem;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
 }
 .yumi .social span {
   display: inline-block;
   padding: 0 .5rem;
 }
-
+@media (max-width: 768px) {
+.yumi .main {
+  padding-top: .5rem;
+}
+.yumi .main .message {
+  padding: 2rem;
+}
+.yumi .main .message .head {
+  margin-bottom: 2rem;
+}
+.yumi .main .message .head h1 {
+  font-size: 1.5rem;
+}
+.yumi .main .message .head h2 {
+  font-size: 1rem;
+}
+.yumi .main .message .head h3 {
+  font-size: .9rem;
+}
+.yumi .main .message .body li {
+  line-height: 1.5;
+  margin-bottom: 2rem;
+  font-size: .9rem;
+}
+.yumi .social {
+  padding: 6rem 0;
+}
+}
+@media (min-width: 768px) {
+.yumi .main {
+  padding-top: 50px;
+}
+.yumi .main .message {
+  width: 80%;
+  margin: 0 auto;
+  padding: 4rem 0;
+}
+.yumi .main .message .head {
+  margin-bottom: 4rem;
+}
+.yumi .main .message .body li {
+  line-height: 1.75;
+  margin-bottom: 2.5rem;
+  font-size: 1rem;
+}
+.yumi .social {
+  padding: 160px 0;
+}
+}
 /* asumi */
 .asumi {
   position: relative;
