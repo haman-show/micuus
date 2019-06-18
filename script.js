@@ -1,7 +1,7 @@
 'use strict';
 
 $(function(){
-  $('.global-header nav .menu, .global-header nav .close').on('click', function() {
+  $('.global-header nav .menu, .global-header nav .close, .global-header nav a').on('click', function() {
     $('.global-header nav ul').stop().slideToggle();
   });
   $('a[href^="#"]').click(function() {

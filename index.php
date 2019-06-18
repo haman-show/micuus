@@ -96,39 +96,6 @@
 </section>
 <?php get_template_part('inc/studiokumu-contact'); ?>
 <?php get_template_part('inc/access'); ?>
-<script>
-$(function(){
-  $.ajax({
-    type: "POST",
-    url: "<?php echo get_site_url(); ?>/wp-admin/admin-ajax.php",
-    data: {action : "getInstagramItems"},
-    dataType: "json",
-    success: function(response){
-      if(response.meta.code === 200) {
-        var data = response.data;
-	console.log(data);
-	var insert = '<ul>';
-	for (var i = 0; i < data.length; i++) {
-	  var dataObject = {
-	    href: data[i]['link'],
-	    src: data[i]['images']['thumbnail']['url']
-          };
-          insert += '<li><a href="' + dataObject.href + '" target="_blank"><img src="' + dataObject.src + '" width="200" height="200"></a></li>';
-	}
-        insert += '</ul>';
-	$('.instagram .loader').remove();
-	$('.instagram .photo').append(insert);
-      };
-    },
-    error: function(){
-      console.log("リクエスト失敗");
-    },
-    complete: function(){
-      console.log("Ajax処理終了");
-    }
-  });
-});
-</script>
 <footer>
   <div class="footer-container">
     <div class="box">
@@ -171,5 +138,38 @@ $(function(){
   </div>
 </footer>
 <script src="<?php echo get_template_directory_uri(); ?>/script.js"></script>
+<script>
+$(function(){
+  $.ajax({
+    type: "POST",
+    url: "<?php echo get_site_url(); ?>/wp-admin/admin-ajax.php",
+    data: {action : "getInstagramItems"},
+    dataType: "json",
+    success: function(response){
+      if(response.meta.code === 200) {
+        var data = response.data;
+	console.log(data);
+	var insert = '<ul>';
+	for (var i = 0; i < data.length; i++) {
+	  var dataObject = {
+	    href: data[i]['link'],
+	    src: data[i]['images']['thumbnail']['url']
+          };
+          insert += '<li><a href="' + dataObject.href + '" target="_blank"><img src="' + dataObject.src + '" width="200" height="200"></a></li>';
+	}
+        insert += '</ul>';
+	$('.instagram .loader').remove();
+	$('.instagram .photo').append(insert);
+      };
+    },
+    error: function(){
+      console.log("リクエスト失敗");
+    },
+    complete: function(){
+      console.log("Ajax処理終了");
+    }
+  });
+});
+</script>
 </body>
 </html>
