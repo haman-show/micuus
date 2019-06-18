@@ -7,7 +7,7 @@ Template Name: 道順 ページのテンプレート
 <?php get_template_part('inc/globalheader'); ?>
 <div class="contents directions">
 <section class="head">
-  <h1>地図だけではどうも自信がないお客様はこちらから</h1>
+  <h1 class="read-text">地図だけではどうも自信がないお客様はこちらから</h1>
 </section>
 <section class="body">
   <div class="directions-container">

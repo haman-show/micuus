@@ -7,7 +7,7 @@ Template Name: 駐車場 ページのテンプレート
 <?php get_template_part('inc/globalheader'); ?>
 <div class="contents parking">
 <section class="head">
-  <h1>お車でお越しの方はこちら</h1>
+  <h1 class="read-text">お車でお越しの方はこちら</h1>
 </section>
 <section class="body">
   <div class="parking-container">

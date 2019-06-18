@@ -9,12 +9,12 @@ Template Name: ユミ アーティストページのテンプレート
 <section class="main">
   <div class="photo"><img src="<?php echo get_template_directory_uri(); ?>/images/yumi/photo.jpg" class="responsive-img"></div>
   <div class="message">
-    <div class="head">
+    <div class="head read-text">
       <h2 class="ff-min">Hello new me.</h2>
       <h1 class="ff-min">Comming soon!!</h1>
       <h3>一人一人に合わせた骨格とパーソナルカラーを知って<br>今日よりも明日、もっとご機嫌な自分に！</h3>
     </div>
-    <ul class="body responsive-read">
+    <ul class="body read-text responsive-read">
       <li>
 	<span>初めまして！</span>
         <span>イメージコンサルタントの営野友美です。</span>
@@ -43,7 +43,7 @@ Template Name: ユミ アーティストページのテンプレート
   </div>
 </section>
 <section class="social">
-  <h1>是非チェックしてくださいね！</h1>
+  <h1 class="read-text">是非チェックしてくださいね！</h1>
   <div class="logo">
     <span><a href="https://www.facebook.com/profile.php?id=100030026293412" target="_blank"><i class="fab fa-facebook-f fa-2x"></a></i></span>
   </div>

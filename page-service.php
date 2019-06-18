@@ -14,7 +14,7 @@ Template Name: サービスのテンプレート
     <div class="photo"><img src="<?php echo get_template_directory_uri(); ?>/images/service/photo_upper.jpg" class="responsive-img" /></div>
   </div>
 </section>
-<section class="plan standard ff-min" id="standard">
+<section class="plan read-text standard ff-min" id="standard">
   <div class="container">
     <h1 class="plan_title">
       <div>STANDARD</div>
@@ -41,7 +41,7 @@ Template Name: サービスのテンプレート
     </div>
   </div>
 </section>
-<section class="plan premium ff-min" id="premium">
+<section class="plan read-text premium ff-min" id="premium">
   <div class="container">
     <h1 class="plan_title">
       <div>PREMIUM</div>

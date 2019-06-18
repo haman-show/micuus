@@ -3,7 +3,7 @@
   <h1 class="logo"><a href="<?php echo home_url('/'); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/common/logo.png" alt="STUDIO KUMU" class="responsive-img"></a></h1>
   <nav>
     <div class="menu"><i class="fas fa-bars fa-2x"></i></div>
-    <ul>
+    <ul class="read-text">
       <li class="close">&times;</li>
       <li><a href="<?php echo home_url('/'); ?>">TOP</a></li>
       <li><a href="<?php echo home_url('/service'); ?>">SERVICE</a></li>

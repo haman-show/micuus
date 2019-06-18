@@ -4,7 +4,7 @@
   <h1 class="logo"><a href="<?php echo home_url('/'); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/common/logo.png" alt="STUDIO KUMU" class="responsive-img"></a></h1>
   <nav>
     <div class="menu"><i class="fas fa-bars fa-2x"></i></div>
-    <ul>
+    <ul class="read-text">
       <li class="close">&times;</li>
       <li><a href="<?php echo home_url('/'); ?>">TOP</a></li>
       <li><a href="<?php echo home_url('/service'); ?>">SERVICE</a></li>
@@ -30,7 +30,7 @@
   <div class="message" style="background-image: url(<?php echo get_template_directory_uri(); ?>/images/top/concept-background.png);">
     <div class="text">
       <div class="holder">
-        <h1 class="ff-min">CONCEPT</h1>
+        <h1 class="ff-min read-text">CONCEPT</h1>
         <ul class="responsive-read">
 	  <li>
             <span>一人一人の中に無限に眠る可能性を</span>
@@ -54,7 +54,7 @@
   </div>
 </section>
 <section class="artist">
-  <h1 id="artist">ARTIST</h1>
+  <h1 class="read-text" id="artist">ARTIST</h1>
   <ul>
     <li>
       <a href="<?php echo home_url('/kumu'); ?>" class="gray-effect">

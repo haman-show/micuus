@@ -1,5 +1,5 @@
 <section class="access" id="access">
-  <div class="head">
+  <div class="head read-text">
     <h1>ACCESS</h1>
   </div>
   <div class="body" id="address">
@@ -30,8 +30,8 @@
           </tr>
         </table>
         <ul>
-          <li><a href="<?php echo home_url('/directions'); ?>">地図だけではどうも自信がないお客様はこちらから</a></li>
-          <li><a href="<?php echo home_url('/parking'); ?>">お車でお越しの方はこちら</a></li>
+          <li class="read-text"><a href="<?php echo home_url('/directions'); ?>">地図だけではどうも自信がない<br>お客様はこちらから</a></li>
+          <li class="read-text"><a href="<?php echo home_url('/parking'); ?>">お車でお越しの方はこちら</a></li>
         </ul>
       </div>
       <div class="photo"><img src="<?php echo get_template_directory_uri(); ?>/images/common/studio.jpg" alt="STUDIO KUMU" class="responsive-img" /></div>

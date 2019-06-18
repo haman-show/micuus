@@ -10,7 +10,7 @@ Template Name: クム アーティストページのテンプレート
   <div class="container">
     <div class="photo"><img src="<?php echo get_template_directory_uri(); ?>/images/kumu/photo_top.jpg" class="responsive-img"></div>
     <div class="copy"><img src="<?php echo get_template_directory_uri(); ?>/images/kumu/text_copy.png" class="responsive-img"></div>
-    <ul class="read responsive-read">
+    <ul class="read read-text responsive-read">
       <li>
         <span>今となっては本当に長い事ヘアーメイクの仕事をしてまいりました、</span>
         <span>ざっと30年でしょうか！</span>

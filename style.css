@@ -55,6 +55,36 @@ img {
   width: 100%;
   height: auto;
 }
+/* letter-spacing: .5rem; */
+.read-text {
+  letter-spacing: .5rem;
+}
+.contact .contact-form .form-line>.label .head,
+.contact .content-head h1,
+.asumi.studioportrait .concept h1,
+.asumi.studioportrait .concept h2,
+.asumi.studioportrait .button,
+.asumi.studioportrait .waiting h1,
+.asumi.studioportrait .detail,
+.asumi.studioportrait .worry .solution ul li,
+.asumi.studioportrait .worry .solution h2,
+.asumi.studioportrait .worry .problem li,
+.asumi.studioportrait .concept ul li,
+.asumi.studioportrait .news .sub a,
+.asumi.studioportrait .news .main,
+.asumi.studioportrait .news .icon span,
+.asumi .consept h1,
+.asumi .consept h2,
+.asumi .consept ul li,
+.asumi .servicemenu.studio h2,
+.asumi .servicemenu.studio .read,
+.asumi .servicemenu.location h2,
+.asumi .servicemenu.location .read,
+.asumi .servicemenu.salon .read,
+.asumi .note .head .text,
+.asumi .note .read {
+  letter-spacing: .5rem;
+}
 /* responsive-wrapping */
 @media (max-width: 768px) {
 .responsive-wrapping span {
@@ -207,7 +237,6 @@ img {
 }
 .global-header nav ul li a {
   color: #666;
-  letter-spacing: .5rem;
   text-indent: .5rem;
 }
 @media (max-width: 768px) {
@@ -430,9 +459,6 @@ footer .bottom-container {
   text-align: center;
   color: #666;
 }
-.top-page .concept .message .text h1 {
-  letter-spacing: .5rem;
-}
 .top-page .concept .message .text ul {
   letter-spacing: .25rem;
 }
@@ -623,7 +649,6 @@ footer .bottom-container {
 .top-page .artist h1 {
   color: #666;
   font-size: 1rem;
-  letter-spacing: .5rem;
 }
 .artist ul li .text {
   text-align: center;
@@ -635,14 +660,12 @@ footer .bottom-container {
 }
 .artist ul li .text .name {
   font-size: 1rem;
-  letter-spacing: .5rem;
 }
 .yumi .artist {
   padding: 0 60px 140px 60px;
 }
 .artist .head {
   text-align: center;
-  letter-spacing: .5rem;
   margin-bottom: 3rem;
 }
 .artist .head h1,
@@ -818,7 +841,6 @@ footer .bottom-container {
   color: #666;
 }
 .contact .content-head h1 {
-  letter-spacing: .5rem;
   text-indent: .5rem;
   font-size: 1rem;
   text-align: center;
@@ -872,7 +894,6 @@ footer .bottom-container {
 .contact .contact-form .form-line>.label .head {
   font-weight: bold;
   font-size: 1rem;
-  letter-spacing: .5rem;
 }
 .contact .contact-form .form-line>.label .caution {
   color: red;
@@ -979,7 +1000,6 @@ footer .bottom-container {
   color: #666;
 }
 .access .head h1 {
-  letter-spacing: .5rem;
   text-indent: .5rem;
   font-size: 1rem;
   text-align: center;
@@ -1009,11 +1029,12 @@ footer .bottom-container {
 .access .body .holder .information a {
   display: inline-block;
   border: solid 1px #666;
-  padding: .25rem .5rem;
+  padding: .5rem;
   margin-top: 1rem;
   transition: .3s ease-in-out;
+  line-height: 1.5;
 }
-@media (max-width: 768px) {
+@media (max-width: 992px) {
 .access {
   padding-top: 3rem;
 }
@@ -1030,7 +1051,7 @@ footer .bottom-container {
   margin-bottom: 3rem;
 }
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
 .access {
   padding-top: 100px;
 }
@@ -1052,14 +1073,6 @@ footer .bottom-container {
 .access .body .holder .information a:hover {
   background-color: #666;
   color: white;
-}
-}
-@media (min-width: 768px) and (max-width: 992px) {
-.access .body .holder .information {
-  width: 60%;
-}
-.access .body .holder .photo {
-  width: 40%;
 }
 }
 @media (min-width: 992px) and (max-width: 1200px) {
@@ -1115,7 +1128,6 @@ footer .bottom-container {
 .service .plan {
   background-color: #f6f5f5;
   padding: 3rem 0;
-  letter-spacing: .5rem;
   line-height: 1.5;
   margin-bottom: 80px;
 }
@@ -1176,7 +1188,6 @@ footer .bottom-container {
 .directions h1,
 .parking h1 {
   text-align: center;
-  letter-spacing: .5rem;
   font-weight: normal;
   font-size: 1.5rem;
   color: #666;
@@ -1271,9 +1282,6 @@ footer .bottom-container {
 .yumi .main {
   background-color: #c6d1de;
 }
-.yumi .main .message .head {
-  letter-spacing: .5rem;
-}
 .yumi .main .message .head h2 {
   margin-bottom: .5rem;
 }
@@ -1283,15 +1291,11 @@ footer .bottom-container {
 .yumi .main .message .head h3 {
   line-height: 1.75;
 }
-.yumi .main .message .body li {
-  letter-spacing: .5rem;
-}
 .yumi .social {
   text-align: center;
   color: #444;
 }
 .yumi .social h1 {
-  letter-spacing: .5rem;
   font-size: 1rem;
   margin-bottom: 1.5rem;
 }
@@ -1416,7 +1420,6 @@ footer .bottom-container {
 .asumi .consept h2 {
   margin: 0;
   text-align: center;
-  letter-spacing: .5rem;
 }
 .asumi .consept h2 {
   font-size: 2.5rem;
@@ -1432,7 +1435,6 @@ footer .bottom-container {
   margin: 0 auto;
 }
 .asumi .consept ul li {
-  letter-spacing: .5rem;
   font-size: 1rem;
   margin-bottom: 2.5rem;
   line-height: 2;
@@ -1549,7 +1551,6 @@ footer .bottom-container {
 .asumi .servicemenu.studio .read {
   margin: 0 auto;
   width: 700px;
-  letter-spacing: .5rem;
   color: #333;
 }
 .asumi .servicemenu.studio h2 {
@@ -1604,7 +1605,6 @@ footer .bottom-container {
 .asumi .servicemenu.location .read {
   margin: 0 auto;
   width: 600px;
-  letter-spacing: .5rem;
   color: #333;
 }
 .asumi .servicemenu.location h2 {
@@ -1645,7 +1645,6 @@ footer .bottom-container {
   font-weight: bold;
 }
 .asumi .servicemenu.salon .read {
-  letter-spacing: .5rem;
   font-size: 1rem;
   line-height: 2;
   width: 800px;
@@ -1670,14 +1669,12 @@ footer .bottom-container {
 .asumi .note .head .text {
   font-size: 2rem;
   font-weight: bold;
-  letter-spacing: .5rem;
   padding-left: .5rem;
 }
 .asumi .note .read {
   text-align: center;
   font-size: 1rem;
   font-weight: bold;
-  letter-spacing: .5rem;
   line-height: 1.5;
   margin-bottom: 2rem;
 }
@@ -1739,7 +1736,6 @@ footer .bottom-container {
   text-align: center;
   border-radius: 50%;
   font-weight: bold;
-  letter-spacing: .5rem;
   text-indent: .5rem;
   font-size: 1.25rem;
 }
@@ -1752,7 +1748,6 @@ footer .bottom-container {
   text-align: center;
   padding: 3rem 0 2rem 0;
   font-weight: bold;
-  letter-spacing: .5rem;
   text-indent: .5rem;
   margin-bottom: 1rem;
 }
@@ -1767,15 +1762,10 @@ footer .bottom-container {
   font-size: 1rem;
   font-weight: bold;
   text-decoration: underline;
-  letter-spacing: .5rem;
 }
 .asumi.studioportrait .concept .holder {
   padding: 6rem 9rem;
   background-color: #f3f3f3;
-}
-.asumi.studioportrait .concept h1,
-.asumi.studioportrait .concept h2 {
-  letter-spacing: .5rem;
 }
 .asumi.studioportrait .concept h1 {
   margin-bottom: .5rem;
@@ -1785,7 +1775,6 @@ footer .bottom-container {
   margin-bottom: 4rem;
 }
 .asumi.studioportrait .concept ul li {
-  letter-spacing: .5rem;
   margin-bottom: 3rem;
   font-size: 1rem;
   line-height: 1.75;
@@ -1824,7 +1813,6 @@ footer .bottom-container {
 .asumi.studioportrait .worry .problem li {
   padding: 3rem 6rem 0 6rem;
   font-size: 1.25rem;
-  letter-spacing: .5rem;
 }
 .asumi.studioportrait .worry .problem li i {
   margin-right: 1rem;
@@ -1834,10 +1822,8 @@ footer .bottom-container {
   text-align: center;
   font-size: 1.5rem;
   margin-bottom: 3rem;
-  letter-spacing: .5rem;
 }
 .asumi.studioportrait .worry .solution ul li {
-  letter-spacing: .5rem;
   margin-bottom: 3rem;
   font-size: 1rem;
   line-height: 1.75;
@@ -1846,7 +1832,6 @@ footer .bottom-container {
 .asumi.studioportrait .detail {
   padding: 3rem 3rem 4rem 3rem;
   background-color: #f8edec;
-  letter-spacing: .5rem;
   font-size: 1rem;
 }
 .asumi.studioportrait .detail h1 {
@@ -1891,14 +1876,12 @@ footer .bottom-container {
 .asumi.studioportrait .waiting h1 {
   font-size: 1rem;
   margin-bottom: 3rem;
-  letter-spacing: .5rem;
 }
 .asumi.studioportrait .button {
   border: solid 3px #333;
   padding: .5rem 1.5rem;
   font-size: 1rem;
   font-weight: bold;
-  letter-spacing: .5rem;
   transition: background-color .25s linear, color .25s linear;
 }
 @media (min-width: 576px) {
@@ -1910,9 +1893,6 @@ footer .bottom-container {
 /* kumu */
 .kumu .concept {
   background-color: #eee;
-}
-.kumu .concept .read li {
-  letter-spacing: .5rem;
 }
 .kumu .concept .read li:last-child {
   margin-bottom: 0;
