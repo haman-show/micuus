@@ -2,7 +2,10 @@
   <div class="content-head">
     <h1>CONTACT</h1>
     <hr>
-    <h2>お問い合わせはお電話、又はメールフォームからお願い申し上げます。</h2>
+    <h2 class="responsive-wrapping">
+      <span>お問い合わせはお電話、</span>
+      <span>又はメールフォームからお願い申し上げます。</span>
+    </h2>
   </div>
   <div class="phone">
     <div class="holder">

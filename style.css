@@ -55,6 +55,13 @@ img {
   width: 100%;
   height: auto;
 }
+/* responsive-wrapping */
+@media (max-width: 768px) {
+.responsive-wrapping span {
+  display: block;
+  line-height: 1.5;
+}
+}
 /* responsive-read */
 @media (max-width: 768px) {
 .responsive-read {
@@ -700,7 +707,9 @@ footer .footer-container .box .body li a:hover {
 /* contact */
 .contact {
   color: #666;
-  margin-top: 100px;
+}
+.top-page .contact {
+  padding-top: 3rem;
 }
 .asumi .contact {
   margin-top: 0;
@@ -721,14 +730,13 @@ footer .footer-container .box .body li a:hover {
   width: 140px;
   border: 0;
   border-top: 1px solid #666;
+  margin-bottom: .75rem;
 }
 .contact .content-head h2 {
   text-align: center;
   font-size: .8rem;
   font-weight: normal;
   letter-spacing: .25rem;
-}
-.contact .phone {
 }
 .contact .phone .holder {
   display: table;
@@ -761,21 +769,8 @@ footer .footer-container .box .body li a:hover {
   margin-bottom: 2rem;
   line-height: 1.75;
 }
-.contact .contact-form .form-line {
-  display: table;
-  width: 900px;
-  margin: 0 auto 2rem auto;
-}
-.contact .contact-form .form-line>div {
-  display: table-cell;
-  vertical-align: middle;
-}
 .contact .contact-form .form-line>.information {
   vertical-align: top;
-}
-.contact .contact-form .form-line>.label {
-  width: 25%;
-  text-align: right;
 }
 .contact .contact-form .form-line>.label .head {
   font-weight: bold;
@@ -787,8 +782,6 @@ footer .footer-container .box .body li a:hover {
   font-size: .7rem;
 }
 .contact .contact-form .form-line>.input {
-  text-align: left;
-  padding-left: 2rem;
   position: relative;
 }
 .contact .contact-form .form-line>.input input,
@@ -813,10 +806,8 @@ footer .footer-container .box .body li a:hover {
 }
 .contact .contact-form .form-line span.wpcf7-not-valid-tip {
   position: absolute;
-  bottom: -22px;
-  left: 34px;
   letter-spacing: .25rem;
-  font-size: .9rem;
+  font-size: .8rem;
   color: red;
 }
 .contact .contact-form .form-line div.wpcf7-response-output,
@@ -832,7 +823,41 @@ footer .footer-container .box .body li a:hover {
 .contact .contact-form .form-line textarea.wpcf7-not-valid {
   background-color: #FFDBC9;
 }
-@media (min-width: 576px) {
+@media (max-width: 768px) {
+.contact .contact-form .form-line {
+  padding: 0 1rem;
+  margin-bottom: 1rem;
+}
+.contact .contact-form .form-line>.label {
+  margin-bottom: .5rem;
+}
+.contact .contact-form .form-line span.wpcf7-not-valid-tip {
+  top: -1.25rem;
+  right: 0;
+}
+}
+@media (min-width: 768px) {
+.contact .contact-form .form-line {
+  display: table;
+  width: 900px;
+  margin: 0 auto 2rem auto;
+}
+.contact .contact-form .form-line>div {
+  display: table-cell;
+  vertical-align: middle;
+}
+.contact .contact-form .form-line>.label {
+  width: 30%;
+  text-align: right;
+}
+.contact .contact-form .form-line>.input {
+  text-align: left;
+  padding-left: 2rem;
+}
+.contact .contact-form .form-line span.wpcf7-not-valid-tip {
+  bottom: -22px;
+  left: 34px;
+}
 .contact .contact-form .form-line input[type="submit"] {
   cursor: pointer;
   transition: background-color .25s linear, color .25s linear;
@@ -840,6 +865,16 @@ footer .footer-container .box .body li a:hover {
 .contact .contact-form .form-line input[type="submit"]:hover {
   background-color: #333;
   color: white;
+}
+}
+@media (min-width: 768px) and (max-width: 992px) {
+.contact .contact-form .form-line {
+  width: 750px;
+}
+}
+@media (min-width: 992px) {
+.contact .contact-form .form-line {
+  width: 940px;
 }
 }
 /* access */
