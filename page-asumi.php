@@ -72,7 +72,7 @@ Template Name: アスミ アーティストページのテンプレート
       <span>SERVICE</span>
     </div>
     <h1>STUDIO<br>PORTRAIT</h1>
-    <h2 class="read-text">完全オーダーメイドで創り上げられる世界</h2>
+    <h2 class="read-text">完全オーダーメイドで<br>創り上げられる世界</h2>
     <ul class="read reaponsive-read read-text">
       <li>
         <span>白い背景とライディング技術で創り出すその世界観は</span>

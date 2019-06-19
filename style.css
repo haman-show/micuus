@@ -60,19 +60,7 @@ img {
   letter-spacing: .5rem;
 }
 .contact .contact-form .form-line>.label .head,
-.contact .content-head h1,
-.asumi.studioportrait .concept h1,
-.asumi.studioportrait .concept h2,
-.asumi.studioportrait .button,
-.asumi.studioportrait .waiting h1,
-.asumi.studioportrait .detail,
-.asumi.studioportrait .worry .solution ul li,
-.asumi.studioportrait .worry .solution h2,
-.asumi.studioportrait .worry .problem li,
-.asumi.studioportrait .concept ul li,
-.asumi.studioportrait .news .sub a,
-.asumi.studioportrait .news .main,
-.asumi.studioportrait .news .icon span {
+.contact .content-head h1 {
   letter-spacing: .5rem;
 }
 /* responsive-wrapping */
@@ -1454,13 +1442,13 @@ footer .bottom-container {
 }
 .asumi .logo {
   position: absolute;
-  width: 200px;
   z-index: 99;
 }
 @media (max-width: 768px) {
 .asumi .logo {
   top: 1rem;
   left: 1rem;
+  width: 140px;
 }
 .asumi .asumi-container {
   padding: 0 1rem;
@@ -1470,6 +1458,7 @@ footer .bottom-container {
 .asumi .logo {
   top: 3rem;
   left: 3rem;
+  width: 200px;
 }
 .asumi .asumi-container {
   padding: 0 3rem;
@@ -1571,7 +1560,7 @@ footer .bottom-container {
   margin-bottom: .5rem;
   font-size: .9rem;
   font-weight: bold;
-  letter-spacing: .1rem;
+  letter-spacing: .2rem;
 }
 @media (max-width: 992px) {
 .asumi-navigation {
@@ -1592,6 +1581,10 @@ footer .bottom-container {
 }
 .asumi-navigation nav ul li .parent {
   display: block;
+}
+.asumi-navigation nav ul li .child-elements {
+  padding-top: .5rem;
+  height: 120px;
 }
 .asumi-navigation nav ul li .child-elements a {
   padding-top: 1rem;
@@ -1671,24 +1664,7 @@ footer .bottom-container {
   color: #666;
 }
 .asumi .servicemenu.studio h1 {
-  color: #333;
   line-height: 1.2;
-}
-.asumi .servicemenu.studio h2,
-.asumi .servicemenu.studio .read {
-  color: #333;
-}
-.asumi.studioportrait .servicemenu.studio {
-  margin-bottom: 6rem;
-}
-.asumi.studioportrait .servicemenu.studio h1 {
-  margin-bottom: 1.5rem;
-}
-.asumi.studioportrait .servicemenu.studio h2 {
-  width: auto;
-  font-weight: normal;
-  font-size: 2rem;
-  letter-spacing: .6rem;
 }
 .asumi .servicemenu.studio .read {
   padding-bottom: 1rem;
@@ -1724,16 +1700,14 @@ footer .bottom-container {
 .asumi .servicemenu.studio h1 {
   font-size: 5rem;
   letter-spacing: 2.5rem;
-  margin-bottom: 3rem;
-}
-.asumi .servicemenu.studio h2,
-.asumi .servicemenu.studio .read {
-  margin: 0 auto;
-  width: 700px;
+  margin-bottom: 2rem;
 }
 .asumi .servicemenu.studio h2 {
   font-size: 1.5rem;
   margin-bottom: 3rem;
+}
+.asumi .servicemenu.studio h2 br {
+  display: none;
 }
 .asumi .servicemenu.studio .read li {
   margin-bottom: 1.75rem;
@@ -1968,57 +1942,174 @@ footer .bottom-container {
   padding-right: 0;
 }
 }
-/* studioportrait */
-.asumi.studioportrait .news {
-  margin-bottom: 6rem;
+/* studioportrait news */
+.asumi.studioportrait .button {
+  border: solid 3px #333;
+  padding: .5rem 1.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: background-color .25s linear, color .25s linear;
 }
 .asumi.studioportrait .news .asumi-container {
   position: relative;
 }
+.asumi.studioportrait .servicemenu.studio h2 {
+  font-weight: normal;
+}
 .asumi.studioportrait .news .icon {
   position: absolute;
-  left: 3rem;
-  top: -6rem;
 }
 .asumi.studioportrait .news .icon span {
   background-color: #fff799;
   display: inline-block;
-  width: 140px;
-  height: 140px;
-  line-height: 145px;
   text-align: center;
   border-radius: 50%;
   font-weight: bold;
-  text-indent: .5rem;
+}
+.asumi.studioportrait .news .holder {
+}
+.asumi.studioportrait .news .main {
+  background-color: #f2e8dc;
+  text-align: center;
+  font-weight: bold;
+}
+.asumi.studioportrait .news .sub a {
+  font-weight: bold;
+  text-decoration: underline;
+}
+@media (max-width: 576px) {
+.asumi.studioportrait .servicemenu.studio h2 {
+  font-size: 1.5rem;
+}
+}
+@media (min-width: 576px) and (max-width: 768px) {
+.asumi.studioportrait .servicemenu.studio h2 {
+  font-size: 1.75rem;
+}
+}
+@media (min-width: 768px) and (max-width: 992px) {
+.asumi.studioportrait .servicemenu.studio h2 {
+  font-size: 2rem;
+}
+}
+@media (min-width: 768px) {
+.asumi.studioportrait .servicemenu.studio h2 br {
+  display: none;
+}
+}
+@media (max-width: 992px) {
+.asumi.studioportrait .news {
+  padding-top: 2rem;
+  margin-bottom: 2rem;
+}
+.asumi.studioportrait .news .icon {
+  left: 1rem;
+  top: -2rem;
+}
+.asumi.studioportrait .news .icon span {
+  width: 70px;
+  height: 70px;
+  line-height: 72px;
+  font-size: .8rem;
+  letter-spacing: .1rem;
+}
+.asumi.studioportrait .news .holder {
+  padding: 0 1rem;
+}
+.asumi.studioportrait .news .main {
+  margin-bottom: 1rem;
+  padding-bottom: 1.5rem;
+}
+.asumi.studioportrait .news .main .text {
+  padding: 3rem 1rem 2rem 1rem;
+  line-height: 1.5;
+  font-size: 1rem;
+  text-align: center;
+}
+.asumi.studioportrait .news .sub {
+  text-align: center;
+}
+.asumi.studioportrait .news .sub a {
+  font-size: .9rem;
+  line-height: 1.5;
+}
+}
+@media (min-width: 992px) {
+.asumi.studioportrait .servicemenu.studio {
+  margin-bottom: 6rem;
+}
+.asumi.studioportrait .servicemenu.studio h1 {
+  margin-bottom: 1.5rem;
+}
+.asumi.studioportrait .servicemenu.studio h2 {
+  font-size: 2rem;
+  letter-spacing: .6rem;
+}
+.asumi.studioportrait .news {
+  margin-bottom: 6rem;
+}
+.asumi.studioportrait .news .icon {
+  left: 3rem;
+  top: -6rem;
+}
+.asumi.studioportrait .news .icon span {
+  width: 140px;
+  height: 140px;
+  line-height: 145px;
   font-size: 1.25rem;
+  text-indent: .5rem;
 }
 .asumi.studioportrait .news .holder {
   width: 90%;
   margin: 0 auto;
 }
 .asumi.studioportrait .news .main {
-  background-color: #f2e8dc;
-  text-align: center;
-  padding: 3rem 0 2rem 0;
-  font-weight: bold;
+  padding: 3rem 1rem 2rem 1rem;
   text-indent: .5rem;
   margin-bottom: 1rem;
 }
 .asumi.studioportrait .news .main .text {
   font-size: 1.75rem;
   margin-bottom: 3rem;
+  line-height: 1.5;
 }
 .asumi.studioportrait .news .sub {
   text-align: right;
 }
 .asumi.studioportrait .news .sub a {
   font-size: 1rem;
-  font-weight: bold;
-  text-decoration: underline;
 }
+.asumi.studioportrait .news .sub a br {
+  display: none;
+}
+}
+/* studioportrait concept */
+.asumi.studioportrait .concept .holder {
+  background-color: #f3f3f3;
+}
+@media (max-width: 992px) {
+.asumi.studioportrait .concept .holder {
+  padding: 1rem;
+}
+.asumi.studioportrait .concept h1 {
+  margin-bottom: .5rem;
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+.asumi.studioportrait .concept h2 {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+.asumi.studioportrait .concept ul li {
+  margin-bottom: 1rem;
+  line-height: 1.5;
+  font-size: .9rem;
+}
+}
+@media (min-width: 992px) {
 .asumi.studioportrait .concept .holder {
   padding: 6rem 9rem;
-  background-color: #f3f3f3;
 }
 .asumi.studioportrait .concept h1 {
   margin-bottom: .5rem;
@@ -2027,17 +2118,19 @@ footer .bottom-container {
 .asumi.studioportrait .concept h2 {
   margin-bottom: 4rem;
 }
+.asumi.studioportrait .concept h1 br,
+.asumi.studioportrait .concept h2 br {
+  display: none;
+}
 .asumi.studioportrait .concept ul li {
   margin-bottom: 3rem;
-  font-size: 1rem;
   line-height: 1.75;
+  font-size: 1rem;
   font-weight: bold;
 }
-.asumi.studioportrait .worry .holder {
-  padding: 6rem 9rem;
 }
+/* studioportrait worry */
 .asumi.studioportrait .worry .head {
-  margin-bottom: 3rem;
   display: flex;
   -webkit-box-pack: center;
      -ms-flex-pack: center;
@@ -2046,20 +2139,79 @@ footer .bottom-container {
      -ms-flex-align: center;
         align-items: center;
 }
+.asumi.studioportrait .worry .head .top {
+  font-weight: bold;
+}
+.asumi.studioportrait .worry .problem {
+  border: solid 3px #333;
+}
+.asumi.studioportrait .worry .problem li i {
+  color: tomato;
+}
+.asumi.studioportrait .worry .solution h2 {
+  text-align: center;
+}
+@media (max-width: 992px) {
+.asumi.studioportrait .worry .holder {
+  padding: 0 1rem;
+  margin: 2rem 0;
+}
+.asumi.studioportrait .worry .head {
+  margin-bottom: 1rem;
+}
+.asumi.studioportrait .worry .head span {
+  letter-spacing: .5rem;
+  font-size: 1rem;
+}
+.asumi.studioportrait .worry .head .top {
+  font-size: 1rem;
+}
+.asumi.studioportrait .worry .head .icon {
+  width: 50px;
+}
+.asumi.studioportrait .worry .problem {
+  padding-bottom: 1rem;
+  margin-bottom: 2rem;
+}
+.asumi.studioportrait .worry .problem li {
+  padding: 1rem 1rem 0 3rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  font-size: .9rem;
+  text-indent: -14px;
+}
+.asumi.studioportrait .worry .problem li i {
+  margin-right: .5rem;
+}
+.asumi.studioportrait .worry .solution h2 {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+.asumi.studioportrait .worry .solution ul li {
+  margin-bottom: 1rem;
+  line-height: 1.5;
+  font-size: .9rem;
+}
+}
+@media (min-width: 992px) {
+.asumi.studioportrait .worry .holder {
+  padding: 6rem 9rem;
+}
+.asumi.studioportrait .worry .head {
+  margin-bottom: 3rem;
+}
 .asumi.studioportrait .worry .head span {
   font-size: 2.5rem;
   letter-spacing: 1rem;
 }
 .asumi.studioportrait .worry .head .top {
   padding: 0 1rem;
-  font-weight: bold;
   font-size: 3rem;
 }
 .asumi.studioportrait .worry .head .icon {
   width: 75px;
 }
 .asumi.studioportrait .worry .problem {
-  border: solid 3px #333;
   padding-bottom: 3rem;
   margin-bottom: 6rem;
 }
@@ -2069,22 +2221,76 @@ footer .bottom-container {
 }
 .asumi.studioportrait .worry .problem li i {
   margin-right: 1rem;
-  color: tomato;
 }
 .asumi.studioportrait .worry .solution h2 {
-  text-align: center;
   font-size: 1.5rem;
   margin-bottom: 3rem;
 }
 .asumi.studioportrait .worry .solution ul li {
   margin-bottom: 3rem;
-  font-size: 1rem;
   line-height: 1.75;
   font-weight: bold;
+  font-size: 1rem;
 }
+}
+/* studioportrait detail and waiting */
+.asumi.studioportrait .detail {
+  background-color: #f8edec;
+}
+.asumi.studioportrait .detail .fee {
+  font-weight: bold;
+}
+.asumi.studioportrait .detail .fee span {
+  padding-left: 1rem;
+}
+.asumi.studioportrait .waiting {
+  text-align: center;
+}
+.asumi.studioportrait .waiting h1 {
+  font-size: 1rem;
+}
+@media (max-width: 992px) {
+.asumi.studioportrait .detail {
+  padding: 2rem 1rem 4rem 1rem;
+}
+.asumi.studioportrait .detail a.button,
+.asumi.studioportrait .waiting a.button {
+  margin: 0 auto;
+  width: 240px;
+  display: block;
+  text-align: center;
+}
+.asumi.studioportrait .detail h1 {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.asumi.studioportrait .detail .fee,
+.asumi.studioportrait .detail .service {
+  margin-bottom: 2rem;
+}
+.asumi.studioportrait .detail .read {
+  margin-bottom: 3rem;
+}
+.asumi.studioportrait .detail .service li,
+.asumi.studioportrait .detail .caution li,
+.asumi.studioportrait .detail .read li {
+  margin-bottom: 1rem;
+  line-height: 1.5;
+  font-size: .9rem;
+}
+.asumi.studioportrait .waiting {
+  padding: 2rem 1rem;
+}
+.asumi.studioportrait .waiting h1 {
+  margin-bottom: 2rem;
+  line-height: 1.5;
+}
+}
+@media (min-width: 992px) {
 .asumi.studioportrait .detail {
   padding: 3rem 3rem 4rem 3rem;
-  background-color: #f8edec;
   font-size: 1rem;
 }
 .asumi.studioportrait .detail h1 {
@@ -2093,12 +2299,11 @@ footer .bottom-container {
   font-size: 1.5rem;
   margin-bottom: 3rem;
 }
+.asumi.studioportrait .detail h1 br {
+  display: none;
+}
 .asumi.studioportrait .detail .fee {
   margin-bottom: 3rem;
-  font-weight: bold;
-}
-.asumi.studioportrait .detail .fee span {
-  padding-left: 1rem;
 }
 .asumi.studioportrait .detail .service {
   list-style-type: disc;
@@ -2123,19 +2328,11 @@ footer .bottom-container {
   margin-bottom: 3rem;
 }
 .asumi.studioportrait .waiting {
-  text-align: center;
   padding: 8rem 0;
 }
 .asumi.studioportrait .waiting h1 {
-  font-size: 1rem;
   margin-bottom: 3rem;
 }
-.asumi.studioportrait .button {
-  border: solid 3px #333;
-  padding: .5rem 1.5rem;
-  font-size: 1rem;
-  font-weight: bold;
-  transition: background-color .25s linear, color .25s linear;
 }
 @media (min-width: 576px) {
 .asumi.studioportrait .button:hover {

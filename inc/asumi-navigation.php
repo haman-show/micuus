@@ -1,7 +1,7 @@
 <section class="asumi-navigation">
   <div class="head clearfix">
     <div class="sign">
-      <img src="<?php echo get_template_directory_uri(); ?>/images/asumi/text_sign_2.png" width="550" height="80">
+      <img src="<?php echo get_template_directory_uri(); ?>/images/asumi/text_sign_2.png" class="responsive-img">
     </div>
     <div class="sub">The future depends on<br>what you do today.</div>
   </div>
