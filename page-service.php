@@ -40,6 +40,7 @@ Template Name: サービスのテンプレート
             <li>撮影枚数 約150枚</li>
           </ul>
 	  <div class="sub">オススメレタッチ4枚付き<br>データはその日にCD-Rに焼いてお渡し</div>
+          <div class="sub">担当アーティスト Mr kumu</div>
           <div class="comp-button">
             <a href="<?php echo home_url('/reserve-standard'); ?>">予約する</a>
           </div>
@@ -77,19 +78,35 @@ Template Name: サービスのテンプレート
         <li>撮影枚数 約250枚</li>
       </ul>
       <div class="sub">オススメレタッチ4枚付き<br>データはその日にCD-Rに焼いてお渡し</div>
+      <div class="sub">担当アーティスト Mr kumu</div>
       <div class="comp-button">
         <a href="<?php echo home_url('/reserve-premium'); ?>">予約する</a>
       </div>
     </div>
 </section>
-<section class="bottom ff-min">
-  <ul class="read">
-    <li>スタジオクムはヘアメイクから撮影まで<br>一人のアーティストが創り上げ</li>
-    <li>表現できる世界を<br>皆様にお届けしています。</li>
-    <li>皆様にお会い出来るのを楽しみにお待ちしております！</li>
+<?php get_template_part('inc/covers'); ?>
+<section class="bottom">
+  <ul class="read responsive-read read-text">
+    <li>
+      <span>スタジオクムはヘアメイクから撮影まで<br>一人のアーティストが創り上げ</span>
+      <span>表現できる世界を皆様にお届けしています。</span>
+    </li>
+    <li>
+      <span>皆様にお会い出来るのを<br>楽しみにお待ちしております！</span>
+    </li>
   </ul>
-  <div class="photo"><img src="<?php echo get_template_directory_uri(); ?>/images/service/photo_bottom.jpg" class="responsive-img" /></div>
+  <div class="photo">
+    <a href="<?php echo home_url('/kumu'); ?>">
+      <img src="<?php echo get_template_directory_uri(); ?>/images/service/photo_bottom.jpg" class="responsive-img" />
+    </a>
+  </div>
 </section>
+<section class="qanda">
+  <div class="comp-button">
+    <a href="<?php echo home_url('/qa'); ?>">よくあるご質問はこちら</a>
+  </div>
+</section>
+<?php get_template_part('inc/studiokumu-contact'); ?>
 </div>
 <?php get_footer(); ?>
 

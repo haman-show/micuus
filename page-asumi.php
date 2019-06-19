@@ -129,25 +129,7 @@ Template Name: アスミ アーティストページのテンプレート
     <a href="https://note.mu/asumi_studiokumu" target="_blank">CHECK</a>
   </div>
 </section>
-<section class="works">
-  <ul class="cover-list clearfix">
-    <li>
-      <img src="<?php echo get_template_directory_uri(); ?>/images/asumi/cover_1.jpg" class="responsive-img">
-    </li>
-    <li>
-      <img src="<?php echo get_template_directory_uri(); ?>/images/asumi/cover_2.jpg" class="responsive-img">
-    </li>
-    <li>
-      <img src="<?php echo get_template_directory_uri(); ?>/images/asumi/cover_3.jpg" class="responsive-img">
-    </li>
-    <li>
-      <img src="<?php echo get_template_directory_uri(); ?>/images/asumi/cover_4.jpg" class="responsive-img">
-    </li>
-    <li>
-      <img src="<?php echo get_template_directory_uri(); ?>/images/asumi/cover_5.jpg" class="responsive-img">
-    </li>
-  </ul>
-</section>
+<?php get_template_part('inc/covers'); ?>
 <section class="banner">
   <a href="https://www.youtube.com/channel/UCmtI94f4rzkQJDIU-MmUYYQ?view_as=subscriber" target="_blank" class="scale-effect"><img src="<?php echo get_template_directory_uri(); ?>/images/top/banner-youtube.jpg" alt="新しい私に出会う Mr kumu 変身チャンネルスタート! YouTube" class="responsive-img"></a>
 </section>
