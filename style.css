@@ -72,17 +72,7 @@ img {
 .asumi.studioportrait .concept ul li,
 .asumi.studioportrait .news .sub a,
 .asumi.studioportrait .news .main,
-.asumi.studioportrait .news .icon span,
-.asumi .consept h1,
-.asumi .consept h2,
-.asumi .consept ul li,
-.asumi .servicemenu.studio h2,
-.asumi .servicemenu.studio .read,
-.asumi .servicemenu.location h2,
-.asumi .servicemenu.location .read,
-.asumi .servicemenu.salon .read,
-.asumi .note .head .text,
-.asumi .note .read {
+.asumi.studioportrait .news .icon span {
   letter-spacing: .5rem;
 }
 /* responsive-wrapping */
@@ -1417,20 +1407,7 @@ footer .bottom-container {
   padding: 160px 0;
 }
 }
-/* asumi */
-.asumi {
-  position: relative;
-}
-.asumi .asumi-container {
-  padding: 0 3rem;
-}
-.asumi .logo {
-  position: absolute;
-  top: 3rem;
-  left: 3rem;
-  width: 200px;
-  z-index: 99;
-}
+/* slider */
 .asumi .slider {
 	position: relative;
 	text-align: center;
@@ -1471,15 +1448,40 @@ footer .bottom-container {
 	bottom: 20px!important;
 	z-index: 100;
 }
+/* asumi */
+.asumi {
+  position: relative;
+}
+.asumi .logo {
+  position: absolute;
+  width: 200px;
+  z-index: 99;
+}
+@media (max-width: 768px) {
+.asumi .logo {
+  top: 1rem;
+  left: 1rem;
+}
+.asumi .asumi-container {
+  padding: 0 1rem;
+}
+}
+@media (min-width: 768px) {
+.asumi .logo {
+  top: 3rem;
+  left: 3rem;
+}
+.asumi .asumi-container {
+  padding: 0 3rem;
+}
+}
+/* asumi concept */
 .asumi .consept {
   position: relative;
   background-color: #eee;
-  padding: 9rem 0 6rem 0;
 }
 .asumi .consept .sign {
   position: absolute;
-  top: 9px;
-  left: 15px;
 }
 .asumi .consept h1,
 .asumi .consept h2 {
@@ -1487,13 +1489,55 @@ footer .bottom-container {
   text-align: center;
 }
 .asumi .consept h2 {
-  font-size: 2.5rem;
   font-weight: normal;
   margin-bottom: 1rem;
+}
+.asumi .consept ul li {
+  line-height: 2;
+  font-weight: bold;
+}
+@media (max-width: 992px) {
+.asumi .consept .sign {
+  top: 1rem;
+  left: 1rem;
+}
+.asumi .consept h2 {
+  padding-top: 6rem;
+  line-height: 1.5;
+}
+.asumi .consept h1 {
+  margin-bottom: 3rem;
+  line-height: 1.5;
+}
+.asumi .consept ul {
+  padding: 0 1rem;
+  padding-bottom: 2rem;
+}
+.asumi .consept ul li {
+  margin-bottom: 1rem;
+  font-size: .9rem;
+}
+}
+@media (min-width: 992px) {
+.asumi .consept {
+  padding: 9rem 0 6rem 0;
+}
+.asumi .consept .sign {
+  top: 9px;
+  left: 15px;
+  width: 985px;
+}
+.asumi .consept h1 br,
+.asumi .consept h2 br {
+  display: none;
 }
 .asumi .consept h1 {
   font-size: 2.25rem;
   margin-bottom: 5rem;
+}
+.asumi .consept h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
 }
 .asumi .consept ul {
   width: 800px;
@@ -1502,15 +1546,60 @@ footer .bottom-container {
 .asumi .consept ul li {
   font-size: 1rem;
   margin-bottom: 2.5rem;
-  line-height: 2;
-  font-weight: bold;
+}
 }
 /* asumi-navigation */
-.asumi-navigation {
-  padding: 45px 0 120px 0;
-}
 .asumi-navigation .head {
   margin-bottom: 2rem;
+}
+.asumi-navigation .head .sub {
+  font-size: 1rem;
+  font-weight: bold;
+  line-height: 1.75;
+  letter-spacing: .25rem;
+}
+.asumi-navigation nav ul li .parent {
+  font-size: 1rem;
+  font-weight: bold;
+  letter-spacing: .25rem;
+}
+.asumi-navigation nav ul li .child-elements {
+  display: none;
+}
+.asumi-navigation nav ul li .child-elements a {
+  display: block;
+  margin-bottom: .5rem;
+  font-size: .9rem;
+  font-weight: bold;
+  letter-spacing: .1rem;
+}
+@media (max-width: 992px) {
+.asumi-navigation {
+  padding: 3rem 0;
+}
+.asumi-navigation .head .sign {
+  padding: 0 1rem;
+  margin-bottom: 1rem;
+}
+.asumi-navigation .head .sub {
+  text-align: center;
+}
+.asumi-navigation nav ul {
+  text-align: center;
+}
+.asumi-navigation nav ul li {
+  margin-bottom: 2rem;
+}
+.asumi-navigation nav ul li .parent {
+  display: block;
+}
+.asumi-navigation nav ul li .child-elements a {
+  padding-top: 1rem;
+}
+}
+@media (min-width: 992px) {
+.asumi-navigation {
+  padding: 45px 0 120px 0;
 }
 .asumi-navigation .head .sign {
   float: left;
@@ -1519,10 +1608,6 @@ footer .bottom-container {
 }
 .asumi-navigation .head .sub {
   float: right;
-  font-weight: bold;
-  line-height: 1.75;
-  font-size: 1rem;
-  letter-spacing: .25rem;
   margin: 1rem 3rem 0 0;
 }
 .asumi-navigation nav ul {
@@ -1536,13 +1621,9 @@ footer .bottom-container {
 }
 .asumi-navigation nav ul li .parent {
   position: relative;
-  font-size: 1rem;
-  font-weight: bold;
-  letter-spacing: .25rem;
   padding: 0 1.5rem;
 }
 .asumi-navigation nav ul li .child-elements {
-  display: none;
   position: absolute;
   top: 20px;
   left: 20px;
@@ -1550,20 +1631,12 @@ footer .bottom-container {
   border-left: solid 2px #666;
   padding: 20px 0 0 10px;
 }
-.asumi-navigation nav ul li .child-elements a {
-  display: block;
-  margin-bottom: .5rem;
-  font-size: .9rem;
-  font-weight: bold;
-  letter-spacing: .1rem;
-}
 .asumi-navigation nav ul li .child-elements a:last-child {
   margin-bottom: 0;
 }
 .asumi-navigation nav ul li .child-elements a:hover {
   text-decoration: underline;
 }
-@media (min-width: 576px) {
 .asumi-navigation nav ul li .parent {
   cursor: pointer;
 }
@@ -1584,6 +1657,7 @@ footer .bottom-container {
   width: 80%;
 }
 }
+/* asumi servicemenu */
 .asumi .head-box {
   margin-bottom: 1rem;
 }
@@ -1596,31 +1670,19 @@ footer .bottom-container {
   font-weight: bold;
   color: #666;
 }
-.asumi .servicemenu.studio {
-  padding-bottom: 3rem;
+.asumi .servicemenu.studio h1 {
+  color: #333;
+  line-height: 1.2;
+}
+.asumi .servicemenu.studio h2,
+.asumi .servicemenu.studio .read {
+  color: #333;
 }
 .asumi.studioportrait .servicemenu.studio {
   margin-bottom: 6rem;
 }
-.asumi .servicemenu.studio h1 {
-  font-size: 5rem;
-  line-height: 1.2;
-  letter-spacing: 2.5rem;
-  color: #333;
-  margin-bottom: 3rem;
-}
 .asumi.studioportrait .servicemenu.studio h1 {
   margin-bottom: 1.5rem;
-}
-.asumi .servicemenu.studio h2,
-.asumi .servicemenu.studio .read {
-  margin: 0 auto;
-  width: 700px;
-  color: #333;
-}
-.asumi .servicemenu.studio h2 {
-  font-size: 1.5rem;
-  margin-bottom: 3rem;
 }
 .asumi.studioportrait .servicemenu.studio h2 {
   width: auto;
@@ -1632,15 +1694,93 @@ footer .bottom-container {
   padding-bottom: 1rem;
 }
 .asumi .servicemenu.studio .read li {
-  margin-bottom: 1.75rem;
   line-height: 1.5;
-  font-size: 1rem;
   font-weight: bold;
+}
+@media (max-width: 768px) {
+.asumi .servicemenu.studio {
+}
+.asumi .servicemenu.studio h1 {
+  font-size: 2rem;
+  letter-spacing: 1.25rem;
+  margin-bottom: .5rem;
+}
+.asumi .servicemenu.studio h2 {
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+.asumi .servicemenu.studio .read li {
+  font-size: .9rem;
+  margin-bottom: 1rem;
+}
+.asumi .servicemenu.studio .photo {
+  margin-bottom: 2rem;
+}
+}
+@media (min-width: 768px) {
+.asumi .servicemenu.studio {
+  padding-bottom: 3rem;
+}
+.asumi .servicemenu.studio h1 {
+  font-size: 5rem;
+  letter-spacing: 2.5rem;
+  margin-bottom: 3rem;
+}
+.asumi .servicemenu.studio h2,
+.asumi .servicemenu.studio .read {
+  margin: 0 auto;
+  width: 700px;
+}
+.asumi .servicemenu.studio h2 {
+  font-size: 1.5rem;
+  margin-bottom: 3rem;
+}
+.asumi .servicemenu.studio .read li {
+  margin-bottom: 1.75rem;
+  font-size: 1rem;
 }
 .asumi .servicemenu.studio .photo {
   width: 90%;
   margin: 0 auto 3rem auto;
 }
+}
+/* asumi location */
+.asumi .servicemenu.location h2 {
+  text-align: center;
+  font-weight: normal;
+}
+.asumi .servicemenu.location .read li {
+  line-height: 1.5;
+  font-weight: bold;
+}
+@media (max-width: 768px) {
+.asumi .servicemenu.location .title {
+  padding: 0 1rem;
+  margin-bottom: 1rem;
+}
+.asumi .servicemenu.location .title .image {
+  margin-bottom: 1rem;
+}
+.asumi .servicemenu.location .title .catch {
+  font-size: 1.25rem;
+  text-align: center;
+  letter-spacing: .25rem;
+}
+.asumi .servicemenu.location .photo {
+  margin-bottom: 1rem;
+}
+.asumi .servicemenu.location h2 {
+  margin-bottom: 1rem;
+}
+.asumi .servicemenu.location .read {
+  padding: 0 1rem;
+}
+.asumi .servicemenu.location .read li {
+  margin-bottom: 1rem;
+  font-size: .9rem;
+}
+}
+@media (min-width: 768px) {
 .asumi .servicemenu.location {
   padding-bottom: 8rem;
 }
@@ -1670,23 +1810,38 @@ footer .bottom-container {
 .asumi .servicemenu.location .read {
   margin: 0 auto;
   width: 600px;
-  color: #333;
 }
 .asumi .servicemenu.location h2 {
   font-size: 1.75rem;
   margin-bottom: 3rem;
-  text-align: center;
-  font-weight: normal;
 }
 .asumi .servicemenu.location .read {
   padding-bottom: 3rem;
 }
 .asumi .servicemenu.location .read li {
   margin-bottom: 1.75rem;
-  line-height: 1.5;
   font-size: 1rem;
+}
+}
+/* asumi salon */
+.asumi .servicemenu.salon .photo .text {
+  letter-spacing: .25rem;
   font-weight: bold;
 }
+@media (max-width: 768px) {
+.asumi .servicemenu.salon .photo .text {
+  font-size: .6rem;
+  padding: 1rem;
+  line-height: 1.5;
+}
+.asumi .servicemenu.salon .read {
+  font-size: .9rem;
+  line-height: 1.5;
+  padding: 0 1rem;
+  margin-bottom: 1rem;
+}
+}
+@media (min-width: 768px) {
 .asumi .servicemenu.salon {
   padding-bottom: 6rem;
 }
@@ -1706,8 +1861,6 @@ footer .bottom-container {
   writing-mode: vertical-rl;
   -webkit-text-orientation: sideways;
   text-orientation: sideways;
-  letter-spacing: .25rem;
-  font-weight: bold;
 }
 .asumi .servicemenu.salon .read {
   font-size: 1rem;
@@ -1716,6 +1869,40 @@ footer .bottom-container {
   margin: 0 auto;
   padding-bottom: 3rem;
 }
+}
+/* asumi note */
+.asumi .note .head {
+  text-align: center;
+}
+.asumi .note .head .text {
+  font-weight: bold;
+  padding-left: .5rem;
+}
+.asumi .note .head .line.left {
+  padding-right: .5rem;
+}
+@media (max-width: 768px) {
+.asumi .note .photo {
+  padding: 0 5rem;
+  margin-bottom: 1rem;
+}
+.asumi .note .head {
+  margin-bottom: 1rem;
+}
+.asumi .note .head .logo-note img {
+  width: 120px;
+  height: auto;
+}
+.asumi .note .read {
+  padding: 0 1rem;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+.asumi .note .read br {
+  display: none;
+}
+}
+@media (min-width: 768px) {
 .asumi .note {
   padding: 6rem 0 8rem 0;
 }
@@ -1728,13 +1915,8 @@ footer .bottom-container {
   text-align: center;
   margin-bottom: 2rem;
 }
-.asumi .note .head .line.left {
-  padding-right: .5rem;
-}
 .asumi .note .head .text {
   font-size: 2rem;
-  font-weight: bold;
-  padding-left: .5rem;
 }
 .asumi .note .read {
   text-align: center;
@@ -1742,6 +1924,7 @@ footer .bottom-container {
   font-weight: bold;
   line-height: 1.5;
   margin-bottom: 2rem;
+}
 }
 /* covers */
 .covers .cover-list {

@@ -19,26 +19,32 @@ Template Name: アスミ アーティストページのテンプレート
 </section>
 <section class="consept" id="concept">
   <div class="sign">
-    <img src="<?php echo get_template_directory_uri(); ?>/images/asumi/text_sign_1.png" width="985" height="230">
+    <img src="<?php echo get_template_directory_uri(); ?>/images/asumi/text_sign_1.png" class="responsive-img">
   </div>
-  <h2 class="ff-min">可能性を可視化して未来を先撮りする</h2>
-  <h1>ASUI ENDO PHOTOGRAPHY</h1>
-  <ul>
+  <h2 class="ff-min read-text">可能性を可視化して<br>未来を先撮りする</h2>
+  <h1 class="read-text">ASUI ENDO <br>PHOTOGRAPHY</h1>
+  <ul class="responsive-read read-text">
     <li>私を創っているのは、私だけじゃない。</li>
-    <li>髪や骨格や、纏ったお洋服だけでもない。<br>
-    今までに出会った人や、悩んだ事、決めた事そうした全ての選択が<br>
-    今の私を創ってる</li>
-    <li>今まで歩んできた貴方の道を視て、貴方を創っている全ての素材の声を<br>
-    写真として可視化します。</li>
-    <li>自分の可能性は自分で決めたらいけない。<br>
-    気付いている魅力も、まだ気付いてない魅力も、
-    もっと引き出そう！</li>
+    <li>
+      <span>髪や骨格や、纏ったお洋服だけでもない。</span>
+      <span>今までに出会った人や、悩んだ事、決めた事そうした全ての選択が</span>
+      <span>今の私を創ってる</span>
+    </li>
+    <li>
+      <span>今まで歩んできた貴方の道を視て、貴方を創っている全ての素材の声を</span>
+      <span>写真として可視化します。</span>
+    </li>
+    <li>
+      <span>自分の可能性は自分で決めたらいけない。</span>
+      <span>気付いている魅力も、まだ気付いてない魅力も、</span>
+      <span>もっと引き出そう！</span>
+    </li>
   </ul>
 </section>
 <section class="asumi-navigation">
   <div class="head clearfix">
     <div class="sign">
-      <img src="<?php echo get_template_directory_uri(); ?>/images/asumi/text_sign_2.png" width="550" height="80">
+      <img src="<?php echo get_template_directory_uri(); ?>/images/asumi/text_sign_2.png" class="responsive-img">
     </div>
     <div class="sub">The future depends on<br>what you do today.</div>
   </div>
@@ -66,15 +72,21 @@ Template Name: アスミ アーティストページのテンプレート
       <span>SERVICE</span>
     </div>
     <h1>STUDIO<br>PORTRAIT</h1>
-    <h2>完全オーダーメイドで創り上げられる世界</h2>
-    <ul class="read">
-      <li>白い背景とライディング技術で創り出すその世界観は<br>
-      一人一人に合わせた完全オーダーメイドで創り上げられる。</li>
-      <li>ヘアメイク、フォログラファー、レタッチャー<br>
-      全てを一人でデザインしていくからこそ<br>
-      作られるその世界のバランスは</li>
-      <li>余計なものを削ぎ落とし、一直線に写真を見た人の元へ<br>
-      駆けていく。</li>
+    <h2 class="read-text">完全オーダーメイドで創り上げられる世界</h2>
+    <ul class="read reaponsive-read read-text">
+      <li>
+        <span>白い背景とライディング技術で創り出すその世界観は</span>
+	<span>一人一人に合わせた完全オーダーメイドで創り上げられる。</span>
+      </li>
+      <li>
+        <span>ヘアメイク、フォログラファー、レタッチャー</span>
+        <span>全てを一人でデザインしていくからこそ</span>
+	<span>作られるその世界のバランスは</span>
+      </li>
+      <li>
+        <span>余計なものを削ぎ落とし、一直線に写真を見た人の元へ</span>
+	<span>駆けていく。</span>
+      </li>
     </ul>
     <div class="photo">
       <img src="<?php echo get_template_directory_uri(); ?>/images/asumi/studio_portlait.jpg" class="responsive-img">
@@ -96,11 +108,15 @@ Template Name: アスミ アーティストページのテンプレート
   <div class="photo">
     <img src="<?php echo get_template_directory_uri(); ?>/images/asumi/location_photo.jpg" class="responsive-img">
   </div>
-  <h2 class="ff-min">世界観の中に感じる物語り</h2>
-  <ul class="read ff-min">
-    <li>野外やハウススタジオ等を使用して創る<br>
-    ロケーションフォトプラン</li>
-    <li>より色濃く、より鮮やかに貴方の世界を可視化します</li>
+  <h2 class="ff-min read-text">世界観の中に感じる物語り</h2>
+  <ul class="read ff-min read-text responsive-read">
+    <li>
+      <span>野外やハウススタジオ等を使用して創る</span>
+      <span>ロケーションフォトプラン</span>
+    </li>
+    <li>
+      <span>より色濃く、より鮮やかに貴方の世界を可視化します</span>
+    </li>
   </ul>
   <div class="comp-button">
     <a href="https://reserva.be/studiomicuus/contact" target="_blank">お問い合わせ</a>
@@ -108,10 +124,10 @@ Template Name: アスミ アーティストページのテンプレート
 </section>
 <section class="servicemenu salon" id="salon-photo">
   <div class="photo clearfix">
-    <div class="text">STUDIO KUMU - ASUMI ENDO - Creative photo MAGIC.</div>
     <div class="image"><img src="<?php echo get_template_directory_uri(); ?>/images/asumi/salon_photo.jpg" class="responsive-img"></div>
+    <div class="text">STUDIO KUMU - ASUMI ENDO - Creative photo MAGIC.</div>
   </div>
-  <div class="read">サロンイメージ撮影や各種店舗商用撮影なども承っております<br>撮影詳細はお問い合わせください。</div>
+  <div class="read read-text">サロンイメージ撮影や各種店舗商用撮影なども承っております<br>撮影詳細はお問い合わせください。</div>
   <div class="comp-button">
     <a href="https://reserva.be/studiomicuus/contact" target="_blank">お問い合わせ</a>
   </div>
@@ -120,11 +136,11 @@ Template Name: アスミ アーティストページのテンプレート
   <div class="photo"><img src="<?php echo get_template_directory_uri(); ?>/images/top/photo-asumi.png" alt="HAIR-MAKE & PHOTO 遠藤あすみ" class="responsive-img"></div>
   <div class="head">
     <span class="line left"><img src="<?php echo get_template_directory_uri(); ?>/images/asumi/line_left.png" width="20" height="31"></span>
-    <span><img src="<?php echo get_template_directory_uri(); ?>/images/asumi/logo_note.gif" width="158" height="40"></span>
-    <span class="text">始めました</span>
+    <span class="logo-note"><img src="<?php echo get_template_directory_uri(); ?>/images/asumi/logo_note.gif" width="158" height="40"></span>
+    <span class="text read-text">始めました</span>
     <span class="line right"><img src="<?php echo get_template_directory_uri(); ?>/images/asumi/line_right.png" width="20" height="31"></span>
   </div>
-  <div class="read">撮影レポやクリエイティブのお話し<br>イベントレポなどを執筆しております。是非チェックしてみて下さい！</div>
+  <div class="read read-text">撮影レポやクリエイティブのお話し<br>イベントレポなどを執筆しております。是非チェックしてみて下さい！</div>
   <div class="comp-button">
     <a href="https://note.mu/asumi_studiokumu" target="_blank">CHECK</a>
   </div>
