@@ -1,4 +1,11 @@
 <?php
+function custom_title_separator($sep) {
+  $sep = '|';
+  return $sep;
+}
+add_filter( 'document_title_separator', 'custom_title_separator' );
+add_theme_support( 'title-tag' );
+
 function twpp_enqueue_styles() {
   wp_enqueue_style( 'main-style', get_stylesheet_uri() );
   wp_enqueue_style( 
