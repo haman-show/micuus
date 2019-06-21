@@ -1,22 +1,22 @@
 <?php
 /*
-Template Name: アスミ専用コンタクトフォーム用ページのテンプレート
+Template Name: スタジオクム専用コンタクトフォーム
 */
 ?>
 <?php remove_filter('the_content', 'wpautop'); ?>
 <?php get_header(); ?>
+<?php get_template_part('inc/globalheader'); ?>
 <?php if(have_posts()) {while(have_posts()){the_post(); ?>
 <?php
     $slug = $post->post_name;
     $slug = strtoupper($slug);
 ?>
-<div class="contents asumi">
-<?php get_template_part('inc/asumi-navigation'); ?>
+<div class="contents">
 <section class="contact">
   <?php the_content(); ?>
 </section>
 </div>
 <?php }} ?>
-<?php get_template_part('inc/asumi-footer'); ?>
+<?php get_footer(); ?>
 
 

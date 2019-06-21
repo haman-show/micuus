@@ -13,7 +13,7 @@
     </ul>
   </nav>
   <div class="social">
-    <a href="https://www.instagram.com/studiokumu/?hl=ja" class="instagram" target="_blank"><i class="fab fa-instagram fa-lg"></i></a>
+    <a href="https://www.instagram.com/studiokumu/?hl=ja" target="_blank"><i class="fab fa-instagram fa-lg"></i></a>
     <a href="https://www.youtube.com/channel/UCmtI94f4rzkQJDIU-MmUYYQ?view_as=subscriber" class="youtube" target="_blank"><i class="fab fa-youtube fa-lg"></i></a>
   </div>
 </section>

@@ -14,5 +14,5 @@
     </div>
     <div class="caution">＊撮影中は電話に出られない事もございます。</div>
   </div>
-  <?php echo do_shortcode('[contact-form-7 id="36" title="トップページお問い合わせ"]'); ?>
+  <?php echo do_shortcode('[contact-form-7 id="76" title="スタジオクム お問い合わせ"]'); ?>
 </section>

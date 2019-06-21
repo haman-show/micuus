@@ -22,7 +22,7 @@ Template Name: アスミ アーティストページのテンプレート
     <img src="<?php echo get_template_directory_uri(); ?>/images/asumi/text_sign_1.png" class="responsive-img">
   </div>
   <h2 class="ff-min read-text">可能性を可視化して<br>未来を先撮りする</h2>
-  <h1 class="read-text">ASUI ENDO <br>PHOTOGRAPHY</h1>
+  <h1 class="read-text">ASUMI ENDO <br>PHOTOGRAPHY</h1>
   <ul class="responsive-read read-text">
     <li>私を創っているのは、私だけじゃない。</li>
     <li>
@@ -60,9 +60,9 @@ Template Name: アスミ アーティストページのテンプレート
         </div>
       </li>
       <li><a href="<?php echo home_url('/asumi/gallery'); ?>" class="parent">GALLERY</a></li>
-      <li><a href="#note" class="parent">NOTE</a></li>
+      <li><a href="https://note.mu/asumi_studiokumu" target="_blank" class="parent">NOTE</a></li>
       <li><a href="<?php echo home_url('/#access'); ?>" class="parent">ACCESS</a></li>
-      <li><a href="<?php echo home_url('/contact-asumi'); ?>" class="parent">CONTACT</a></li>
+      <li><a href="<?php echo home_url('/asumi/contact'); ?>" class="parent">CONTACT</a></li>
     </ul>
   </nav>
 </section>
@@ -75,11 +75,11 @@ Template Name: アスミ アーティストページのテンプレート
     <h2 class="read-text">完全オーダーメイドで<br>創り上げられる世界</h2>
     <ul class="read reaponsive-read read-text">
       <li>
-        <span>白い背景とライディング技術で創り出すその世界観は</span>
+        <span>白い背景とライティング技術で創り出すその世界観は</span>
 	<span>一人一人に合わせた完全オーダーメイドで創り上げられる。</span>
       </li>
       <li>
-        <span>ヘアメイク、フォログラファー、レタッチャー</span>
+        <span>ヘアメイク、フォトグラファー、レタッチャー</span>
         <span>全てを一人でデザインしていくからこそ</span>
 	<span>作られるその世界のバランスは</span>
       </li>
@@ -89,10 +89,10 @@ Template Name: アスミ アーティストページのテンプレート
       </li>
     </ul>
     <div class="photo">
-      <img src="<?php echo get_template_directory_uri(); ?>/images/asumi/studio_portlait.jpg" class="responsive-img">
+      <img src="<?php echo get_template_directory_uri(); ?>/images/asumi/chieko.jpg" class="responsive-img">
     </div>
     <div class="comp-button">
-      <a href="<?php echo home_url('/studio-portrait'); ?>">撮影詳細</a>
+      <a href="<?php echo home_url('/asumi/studio-portrait'); ?>">撮影詳細</a>
     </div>
   </div>
 </section>
@@ -165,20 +165,21 @@ Template Name: アスミ アーティストページのテンプレート
           </div>
         </li>
         <li><a href="<?php echo home_url('/asumi/gallery'); ?>" class="parent">GALLERY</a></li>
-        <li><a href="#note" class="parent">NOTE</a></li>
+        <li><a href="https://note.mu/asumi_studiokumu" target="_blank" class="parent">NOTE</a></li>
         <li><a href="<?php echo home_url('/#access'); ?>" class="parent">ACCESS</a></li>
-        <li><a href="<?php echo home_url('/contact-asumi'); ?>" class="parent">CONTACT</a></li>
+        <li><a href="<?php echo home_url('/asumi/contact'); ?>" class="parent">CONTACT</a></li>
       </ul>
     </nav>   
   </div>
   <div class="bottom-container clearfix">
     <h1>Copyright STUDIOKUM All Right Reserved</h1>
     <div class="social">
-      <a href="https://www.facebook.com/asumi.eino.9" class="facebook" target="_blank"><i class="fab fa-facebook fa-lg"></i></a>
-      <a href="https://www.instagram.com/micuus.kumu/?hl=ja" class="instagram" target="_blank"><i class="fab fa-instagram fa-lg"></i></a>
+      <a href="https://www.facebook.com/asumi.eino.9" target="_blank"><i class="fab fa-facebook fa-lg"></i></a>
+      <a href="https://www.instagram.com/micuus.kumu/?hl=ja" target="_blank"><i class="fab fa-instagram fa-lg"></i></a>
     </div>
   </div>
 </footer>
 <script src="<?php echo get_template_directory_uri(); ?>/script.js"></script>
+<?php wp_footer(); ?>
 </body>
 </html>

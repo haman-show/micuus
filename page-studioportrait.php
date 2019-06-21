@@ -23,10 +23,10 @@ Template Name: スタジオポートレートのテンプレート
     <div class="holder">
       <div class="main read-text">
         <div class="text">現在2019年8月の撮影先行案内申し込み開始中です！</div>
-        <a href="<?php echo home_url('/reserve-studioportrait'); ?>" class="button read-text">お申し込みはこちら</a>
+        <a href="<?php echo home_url('/asumi/reserve'); ?>" class="button read-text">お申し込みはこちら</a>
       </div>
       <div class="sub read-text">
-        <a href="" target="_blank">6月7月のキャンセル待ちの<br>ご登録はこちら</a>
+        <a href="https://reserva.be/studiomicuus/" target="_blank">6月7月のキャンセル待ちの<br>ご登録はこちら</a>
       </div>
     </div>
   <div>
@@ -173,7 +173,7 @@ Template Name: スタジオポートレートのテンプレート
 </section>
 <section class="waiting">
   <h1 class="read-text">こちらからキャンセル待ちのご登録も可能です！！</h1>
-  <a href="" target="_blank" class="button read-text">キャンセル待ち登録</a>
+  <a href="https://reserva.be/studiomicuus/" target="_blank" class="button read-text">キャンセル待ち登録</a>
 </section>
 </div>
 <?php get_template_part('inc/asumi-footer'); ?>

@@ -50,7 +50,7 @@
       <div class="logo"><img src="<?php echo get_template_directory_uri(); ?>/images/common/Instagram_logo.svg" class="responsive-img"></div>
     </div>
   </div>
-  <div class="photo">
+  <div class="photo work">
     <div class="loader">Loading...</div>
   </div>
 </section>
@@ -103,33 +103,33 @@ $(function(){
   $.ajax({
     type: "POST",
     url: "<?php echo get_site_url(); ?>/wp-admin/admin-ajax.php",
-    data: {action : "getInstagramItems"},
+    data: {action : "getInstagramItems1"},
     dataType: "json",
     success: function(response){
       if(response.meta.code === 200) {
         var data = response.data;
-	console.log(data);
 	var insert = '<ul>';
 	for (var i = 0; i < data.length; i++) {
 	  var dataObject = {
 	    href: data[i]['link'],
 	    src: data[i]['images']['thumbnail']['url']
           };
-          insert += '<li><a href="' + dataObject.href + '" target="_blank"><img src="' + dataObject.src + '" width="200" height="200"></a></li>';
+          insert += '<li><a href="' + dataObject.href + '" target="_blank"><img src="' + dataObject.src + '" class="responsive-img"></a></li>';
 	}
         insert += '</ul>';
-	$('.instagram .loader').remove();
-	$('.instagram .photo').append(insert);
+	$('.instagram .work .loader').remove();
+	$('.instagram .photo.work').append(insert);
       };
     },
     error: function(){
-      console.log("リクエスト失敗");
+      console.log("error getInstagramItems1");
     },
     complete: function(){
-      console.log("Ajax処理終了");
+      console.log("finished getInstagramItems1");
     }
   });
 });
 </script>
+<?php wp_footer(); ?>
 </body>
 </html>

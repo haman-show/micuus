@@ -15,17 +15,31 @@ function twpp_enqueue_styles() {
 }
 add_action( 'wp_enqueue_scripts', 'twpp_enqueue_styles' );
 
-function getInstagramItems() {
+function getInstagramItems1() {
   if($_SERVER['REQUEST_METHOD'] == 'POST'){
     $access_token = "xxxxxxxxxx";
     $userid = xxxxxxxxxx;
-    $count = 6;
+    $count = 8;
     $request_url = 'https://api.instagram.com/v1/users/'.$userid.'/media/recent/?access_token='.$access_token.'&count='.$count;
     $results = @file_get_contents($request_url);
     echo $results;
     die();
   }
 }
-add_action( "wp_ajax_getInstagramItems" , "getInstagramItems" );
-add_action( "wp_ajax_nopriv_getInstagramItems" , "getInstagramItems" );
+add_action( "wp_ajax_getInstagramItems1" , "getInstagramItems1" );
+add_action( "wp_ajax_nopriv_getInstagramItems1" , "getInstagramItems1" );
+
+function getInstagramItems2() {
+  if($_SERVER['REQUEST_METHOD'] == 'POST'){
+    $access_token = "xxxxxxxxxx";
+    $userid = xxxxxxxxxx;
+    $count = 8;
+    $request_url = 'https://api.instagram.com/v1/users/'.$userid.'/media/recent/?access_token='.$access_token.'&count='.$count;
+    $results = @file_get_contents($request_url);
+    echo $results;
+    die();
+  }
+}
+add_action( "wp_ajax_getInstagramItems2" , "getInstagramItems2" );
+add_action( "wp_ajax_nopriv_getInstagramItems2" , "getInstagramItems2" );
 ?>

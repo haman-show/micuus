@@ -1,9 +1,20 @@
 'use strict';
 
+function responsiveMenu() {
+  var windowWidth = $(window).width();
+  if (windowWidth <= 768) {
+    $('.global-header nav .menu, .global-header nav .close, .global-header nav a').on('click', function() {
+      $('.global-header nav ul').stop().slideToggle();
+    });
+  }
+}
+
 $(function(){
-  $('.global-header nav .menu, .global-header nav .close, .global-header nav a').on('click', function() {
-    $('.global-header nav ul').stop().slideToggle();
+  responsiveMenu();
+  $(window).on('resize', function(){
+    responsiveMenu();
   });
+
   $('a[href^="#"]').click(function() {
     var speed = 800;
     var href= $(this).attr("href");

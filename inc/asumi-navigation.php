@@ -17,9 +17,9 @@
         </div>
       </li>
       <li><a href="<?php echo home_url('/asumi/gallery'); ?>" class="parent">GALLERY</a></li>
-      <li><a href="<?php echo home_url('/asumi#note'); ?>" class="parent">NOTE</a></li>
+      <li><a href="https://note.mu/asumi_studiokumu" target="_blank" class="parent">NOTE</a></li>
       <li><a href="<?php echo home_url('/#access'); ?>" class="parent">ACCESS</a></li>
-      <li><a href="<?php echo home_url('/contact-asumi'); ?>" class="parent">CONTACT</a></li>
+      <li><a href="<?php echo home_url('/asumi/contact'); ?>" class="parent">CONTACT</a></li>
     </ul>
   </nav>
 </section>

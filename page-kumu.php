@@ -16,7 +16,7 @@ Template Name: クム アーティストページのテンプレート
         <span>ざっと30年でしょうか！</span>
         <span>東京広尾にこのスタジオをOPENしてもう既に１８年です。</span>
         <span>僕がこんなに長い間スタジオを運営してこれたのは、</span>
-        <span>素敵なスタッフTO刺激しあい競争し合いながらやってこれたおかげだと思っています。</span>
+        <span>素敵なスタッフと刺激しあい競争し合いながらやってこれたおかげだと思っています。</span>
       </li>
       <li>
         <span>僕の撮影では、</span>
@@ -42,7 +42,7 @@ Template Name: クム アーティストページのテンプレート
     </div>
     <div class="text">スタジオで撮影したポートフォリオ集です</div>
   </div>
-  <div class="photo">
+  <div class="photo work">
     <div class="loader">Loading...</div>
   </div>
   <div class="head clearfix">
@@ -52,13 +52,72 @@ Template Name: クム アーティストページのテンプレート
     </div>
     <div class="text">趣味のロードバイクや愛猫達を紹介しています</div>
   </div>
-  <div class="photo">
+  <div class="photo private">
     <div class="loader">Loading...</div>
   </div>
 </section>
 <?php get_template_part('inc/studiokumu-contact'); ?>
 <?php get_template_part('inc/access'); ?>
 </div>
+<script>
+$(function(){
+  $.ajax({
+    type: "POST",
+    url: "<?php echo get_site_url(); ?>/wp-admin/admin-ajax.php",
+    data: {action : "getInstagramItems1"},
+    dataType: "json",
+    success: function(response){
+      if(response.meta.code === 200) {
+        var data = response.data;
+	var insert = '<ul>';
+	for (var i = 0; i < data.length; i++) {
+	  var dataObject = {
+	    href: data[i]['link'],
+	    src: data[i]['images']['thumbnail']['url']
+          };
+          insert += '<li><a href="' + dataObject.href + '" target="_blank"><img src="' + dataObject.src + '" class="responsive-img"></a></li>';
+	}
+        insert += '</ul>';
+	$('.instagram .work .loader').remove();
+	$('.instagram .photo.work').append(insert);
+      };
+    },
+    error: function(){
+      console.log("error getInstagramItems1");
+    },
+    complete: function(){
+      console.log("finished getInstagramItems1");
+    }
+  });
+	
+  $.ajax({
+    type: "POST",
+    url: "<?php echo get_site_url(); ?>/wp-admin/admin-ajax.php",
+    data: {action : "getInstagramItems2"},
+    dataType: "json",
+    success: function(response){
+      if(response.meta.code === 200) {
+        var data = response.data;
+	var insert = '<ul>';
+	for (var i = 0; i < data.length; i++) {
+	  var dataObject = {
+	    href: data[i]['link'],
+	    src: data[i]['images']['thumbnail']['url']
+          };
+          insert += '<li><a href="' + dataObject.href + '" target="_blank"><img src="' + dataObject.src + '" class="responsive-img"></a></li>';
+	}
+        insert += '</ul>';
+	$('.instagram .private .loader').remove();
+	$('.instagram .photo.private').append(insert);
+      };
+    },
+    error: function(){
+      console.log("error getInstagramItems2");
+    },
+    complete: function(){
+      console.log("finished getInstagramItems2");
+    }
+  });
+});
+</script>
 <?php get_footer(); ?>
-
-

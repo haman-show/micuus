@@ -1,6 +1,6 @@
 <section class="artist">
   <div class="head read-text ff-min" id="artist">
-    <h1>ATRIST</h1>
+    <h1>ARTIST</h1>
     <h2>スタジオクムで活躍する<br>アーティスト</h2>
   </div>
   <ul>

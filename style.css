@@ -596,7 +596,7 @@ footer .bottom-container {
 }
 @media (min-width: 768px) and (max-width: 1200px) {
 .artist {
-  padding: 0 2rem 4rem 2rem;
+  padding: 1rem 2rem 4rem 2rem;
 }
 .top-page .artist h1 {
   padding-top: 4rem;
@@ -611,7 +611,7 @@ footer .bottom-container {
 }
 @media (min-width: 992px) {
 .artist {
-  padding: 0 60px 140px 60px;
+  padding: 10px 60px 140px 60px;
 }
 }
 @media (min-width: 1200px) {
@@ -648,14 +648,10 @@ footer .bottom-container {
   font-weight: bold;
   letter-spacing: .25rem;
 }
-.instagram .photo {
-  padding: 0 1rem;
-}
 .instagram .photo ul {
   display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 @media (max-width: 576px) {
 .instagram .head {
@@ -681,6 +677,32 @@ footer .bottom-container {
   margin-bottom: 3rem;
 }
 }
+@media (max-width: 576px) {
+.instagram .photo ul {
+  padding: 0 2rem;
+}
+.instagram .photo ul li {
+  width: 45%;
+  padding-right: 10%;
+  padding-bottom: 2rem;
+}
+.instagram .photo ul li:nth-of-type(2n) {
+  padding-right: 0;
+}
+}
+@media (min-width: 576px) and (max-width: 992px) {
+.instagram .photo ul {
+  padding: 0 3rem;
+}
+.instagram .photo ul li {
+  width: 22%;
+  padding-right: 4%;
+  padding-bottom: 3rem;
+}
+.instagram .photo ul li:nth-of-type(4n) {
+  padding-right: 0;
+}
+}
 @media (min-width: 992px) {
 .top-page .instagram {
   margin-top: 6rem;
@@ -704,6 +726,13 @@ footer .bottom-container {
 }
 .instagram .photo {
   margin-bottom: 3rem;
+}
+.instagram .photo ul li {
+  width: 11%;
+  padding-right: 1.7%;
+}
+.instagram .photo ul li:nth-of-type(8n) {
+  padding-right: 0;
 }
 }
 /* contact */
@@ -818,6 +847,7 @@ footer .bottom-container {
   line-height: 1.5;
   letter-spacing: .25rem;
   color: red;
+  border: none;
 }
 .contact .contact-form .form-line input.wpcf7-not-valid,
 .contact .contact-form .form-line textarea.wpcf7-not-valid {
@@ -832,7 +862,7 @@ footer .bottom-container {
   margin-bottom: .5rem;
 }
 .contact .contact-form .form-line span.wpcf7-not-valid-tip {
-  top: -1.25rem;
+  top: -30px;
   right: 0;
 }
 }
@@ -855,8 +885,8 @@ footer .bottom-container {
   padding-left: 2rem;
 }
 .contact .contact-form .form-line span.wpcf7-not-valid-tip {
-  bottom: -22px;
-  left: 34px;
+  bottom: -30px;
+  left: 2px;
 }
 .contact .contact-form .form-line input[type="submit"] {
   cursor: pointer;
@@ -1504,7 +1534,7 @@ footer .bottom-container {
 }
 .asumi .consept ul li {
   margin-bottom: 1rem;
-  font-size: .9rem;
+  font-size: .8rem;
 }
 }
 @media (min-width: 992px) {
@@ -1686,7 +1716,7 @@ footer .bottom-container {
   margin-bottom: 1rem;
 }
 .asumi .servicemenu.studio .read li {
-  font-size: .9rem;
+  font-size: .8rem;
   margin-bottom: 1rem;
 }
 .asumi .servicemenu.studio .photo {
@@ -2424,5 +2454,331 @@ footer .bottom-container {
 }
 .kumu .container {
   padding: 0 6rem;
+}
+}
+/* general */
+.general .head {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  color: #666;
+}
+.general .head h1 {
+  text-align: center;
+  line-height: 1.5;
+}
+.general .body {
+  line-height: 1.5;
+  font-size: 1rem;
+}
+@media (max-width: 576px) {
+.general .wrapper {
+  padding: 0 1rem;
+}
+.general .head h1 {
+  font-size: 1rem;
+}
+}
+@media (min-width: 576px) and (max-width: 768px) {
+.general .wrapper {
+  padding: 0 2rem;
+}
+.general .head h1 {
+  font-size: 1.25rem;
+}
+}
+@media (min-width: 768px) and (max-width: 992px) {
+.general .wrapper {
+  padding: 0 4rem;
+}
+.general .head h1 {
+  font-size: 1.5rem;
+}
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+.general .wrapper {
+  width: 900px;
+  margin: 0 auto;
+}
+.general .head h1 {
+  font-size: 1.75rem;
+}
+}
+@media (min-width: 1200px) {
+.general .wrapper {
+  width: 1000px;
+  margin: 0 auto;
+}
+.general .head h1 {
+  font-size: 2rem;
+}
+}
+/* qa */
+.general .body ul {
+  padding-bottom: 2rem;
+}
+.general .body ul li {
+  padding-bottom: 2rem;
+}
+.general .body .que,
+.general .body .ans {
+  margin-bottom: 1rem;
+  display: table;
+  width: 100%;
+}
+.general .body .que>div,
+.general .body .ans>div {
+  display: table-cell;
+}
+.general .body ul li .icon {
+  width: 3rem;
+} 
+.general .body ul li .icon span {
+  display: block;
+  color: white;
+  width: 2rem;
+  height: 2rem;
+  line-height: 2.1rem;
+  font-size: .8rem;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 0;
+  border-radius: 50%;
+}
+.general .body ul li .que .icon span {
+  background-color: #EF5350;
+}
+.general .body ul li .ans .icon span {
+  background-color: #BA68C8;
+}
+/* asumi gallery */
+.asumi.gallery .title {
+  padding: 0 1rem;
+}
+.asumi.gallery .title h1 span {
+  display: block;
+  text-align: center;
+}
+.asumi.gallery .title h1 .upper {
+  font-size: 4rem;
+  letter-spacing: 1rem;
+  padding-bottom: .25rem;
+}
+.asumi.gallery .title h1 .bottom {
+  font-size: 2rem;
+  letter-spacing: 1.75rem;
+}
+.asumi.gallery .title ul li {
+  font-weight: bold;
+}
+.asumi.gallery .navigation nav ul {
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+}
+.asumi.gallery .navigation nav ul li {
+  font-weight: bold;
+}
+.asumi.gallery .item-list {
+  padding: 0 1rem;
+}
+@media (max-width: 768px) {
+.asumi.gallery .slider {
+  margin-bottom: 2rem;
+}
+.asumi.gallery .title {
+  margin-bottom: 2rem;
+}
+.asumi.gallery .title h1 {
+  margin-bottom: 2rem;
+}
+.asumi.gallery .title h1 .upper {
+  font-size: 2rem;
+  letter-spacing: .5rem;
+  padding-bottom: .25rem;
+}
+.asumi.gallery .title h1 .bottom {
+  font-size: 1.25rem;
+  letter-spacing: .7rem;
+}
+.asumi.gallery .title ul li {
+  font-size: .9rem;
+  line-height: 1.5;
+}
+.asumi.gallery .navigation {
+  margin-bottom: 2rem;
+}
+.asumi.gallery .navigation nav ul li {
+  width: 50%;
+  text-align: center;
+  padding: 1.5rem 0;
+  font-size: .9rem;
+  text-indent: .25rem;
+}
+.asumi.gallery .item-list {
+  padding-top: 1rem;
+}
+.asumi.gallery .item-list h1 {
+  font-size: 1.25rem;
+}
+}
+@media (min-width: 768px) and (max-width: 992px) {
+.asumi.gallery .slider {
+  margin-bottom: 3rem;
+}
+.asumi.gallery .title {
+  margin-bottom: 3rem;
+}
+.asumi.gallery .title h1 {
+  margin-bottom: 2rem;
+}
+.asumi.gallery .title h1 .upper {
+  font-size: 3rem;
+  letter-spacing: .5rem;
+  padding-bottom: .25rem;
+}
+.asumi.gallery .title h1 .bottom {
+  font-size: 2rem;
+  letter-spacing: .7rem;
+}
+.asumi.gallery .title ul {
+  text-align: center;
+}
+.asumi.gallery .title ul li {
+  font-size: 1rem;
+  line-height: 1.75;
+}
+.asumi.gallery .navigation {
+  margin-bottom: 2rem;
+}
+.asumi.gallery .navigation nav ul li {
+  font-size: 1rem;
+}
+.asumi.gallery .item-list {
+  padding-top: 2rem;
+}
+.asumi.gallery .item-list h1 {
+  font-size: 1.25rem;
+}
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+.asumi.gallery .slider {
+  margin-bottom: 6rem;
+}
+.asumi.gallery .title {
+  margin-bottom: 6rem;
+}
+.asumi.gallery .title h1 {
+  margin-bottom: 3rem;
+}
+.asumi.gallery .title h1 .upper {
+  font-size: 4rem;
+  letter-spacing: 1rem;
+  padding-bottom: .25rem;
+}
+.asumi.gallery .title h1 .bottom {
+  font-size: 2rem;
+  letter-spacing: 1.75rem;
+}
+.asumi.gallery .title ul {
+  text-align: center;
+}
+.asumi.gallery .title ul li {
+  font-size: 1rem;
+  line-height: 2;
+  margin-bottom: 2rem;
+}
+.asumi.gallery .navigation {
+  margin-bottom: 4rem;
+}
+.asumi.gallery .navigation nav ul li {
+  font-size: 1rem;
+}
+.asumi.gallery .item-list {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+}
+@media (min-width: 1200px) {
+.asumi.gallery .slider {
+  margin-bottom: 10rem;
+}
+.asumi.gallery .title {
+  margin-bottom: 10rem;
+}
+.asumi.gallery .title h1 {
+  margin-bottom: 3rem;
+}
+.asumi.gallery .title h1 .upper {
+  font-size: 4rem;
+  letter-spacing: 1rem;
+  padding-bottom: .25rem;
+}
+.asumi.gallery .title h1 .bottom {
+  font-size: 2rem;
+  letter-spacing: 1.75rem;
+}
+.asumi.gallery .title ul {
+  text-align: center;
+}
+.asumi.gallery .title ul li {
+  font-size: 1rem;
+  line-height: 2;
+  margin-bottom: 3rem;
+}
+.asumi.gallery .navigation {
+  margin-bottom: 8rem;
+}
+.asumi.gallery .navigation nav ul li {
+  font-size: 1rem;
+}
+.asumi.gallery .item-list {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+}
+/* list-item */
+.asumi.gallery .item-list .holder {
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: start;
+  ms-flex-pack: start;
+  justify-content: flex-start;
+}
+.asumi.gallery .item-list .holder .box {
+  display: block;
+}
+.asumi.gallery .item-list .holder.max-column-2 .box {
+  width: 49%;
+  padding-right: 2%;
+  padding-bottom: 1.5rem;
+}
+.asumi.gallery .item-list .holder.max-column-2 .box:nth-of-type(2n) {
+  padding-right: 0;
+}
+.asumi.gallery .item-list .holder.max-column-3 .box {
+  width: 32%;
+  padding-right: 2%;
+  padding-bottom: 1.5rem;
+}
+.asumi.gallery .item-list .holder.max-column-3 .box:nth-of-type(3n) {
+  padding-right: 0;
+}
+.asumi.gallery .item-list .holder.max-column-4 .box {
+  width: 22%;
+  padding-right: 4%;
+  padding-bottom: 1.5rem;
+}
+.asumi.gallery .item-list .holder.max-column-4 .box:nth-of-type(4n) {
+  padding-right: 0;
+}
+/* 実機対応 */
+@media (max-width: 768px) {
+input[type="text"],
+input[type="email"],
+textarea {
+  font-size: 16px;
 }
 }

@@ -42,7 +42,7 @@ Template Name: サービスのテンプレート
 	  <div class="sub">オススメレタッチ4枚付き<br>データはその日にCD-Rに焼いてお渡し</div>
           <div class="sub">担当アーティスト Mr kumu</div>
           <div class="comp-button">
-            <a href="<?php echo home_url('/reserve-standard'); ?>">予約する</a>
+            <a href="<?php echo home_url('/reserve/standard'); ?>">予約する</a>
           </div>
         </div>
       </div>
@@ -80,7 +80,7 @@ Template Name: サービスのテンプレート
       <div class="sub">オススメレタッチ4枚付き<br>データはその日にCD-Rに焼いてお渡し</div>
       <div class="sub">担当アーティスト Mr kumu</div>
       <div class="comp-button">
-        <a href="<?php echo home_url('/reserve-premium'); ?>">予約する</a>
+        <a href="<?php echo home_url('/reserve/premium'); ?>">予約する</a>
       </div>
     </div>
 </section>
@@ -96,7 +96,7 @@ Template Name: サービスのテンプレート
     </li>
   </ul>
   <div class="photo">
-    <a href="<?php echo home_url('/kumu'); ?>">
+    <a href="<?php echo home_url('/kumu'); ?>" class="scale-effect">
       <img src="<?php echo get_template_directory_uri(); ?>/images/service/photo_bottom.jpg" class="responsive-img" />
     </a>
   </div>
@@ -109,5 +109,3 @@ Template Name: サービスのテンプレート
 <?php get_template_part('inc/studiokumu-contact'); ?>
 </div>
 <?php get_footer(); ?>
-
-
