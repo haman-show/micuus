@@ -2750,6 +2750,21 @@ footer .bottom-container {
 .asumi.gallery .item-list .holder .box {
   display: block;
 }
+.asumi.gallery .item-list .holder.max-column-4 .box {
+  width: 22%;
+  padding-right: 4%;
+  padding-bottom: 1.5rem;
+}
+.asumi.gallery .item-list .holder.max-column-4 .box:nth-of-type(4n) {
+  padding-right: 0;
+}
+@media (max-width: 768px) {
+.asumi.gallery .item-list .holder .box {
+  width: 100%;
+  padding-bottom: 1rem;
+}
+}
+@media (min-width: 768px) {
 .asumi.gallery .item-list .holder.max-column-2 .box {
   width: 49%;
   padding-right: 2%;
@@ -2766,13 +2781,6 @@ footer .bottom-container {
 .asumi.gallery .item-list .holder.max-column-3 .box:nth-of-type(3n) {
   padding-right: 0;
 }
-.asumi.gallery .item-list .holder.max-column-4 .box {
-  width: 22%;
-  padding-right: 4%;
-  padding-bottom: 1.5rem;
-}
-.asumi.gallery .item-list .holder.max-column-4 .box:nth-of-type(4n) {
-  padding-right: 0;
 }
 /* 実機対応 */
 @media (max-width: 768px) {

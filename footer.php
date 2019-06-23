@@ -32,7 +32,7 @@
     </div>
   </div>
   <div class="bottom-container clearfix">
-    <h1>Copyright STUDIOKUM All Right Reserved</h1>
+    <h1>Copyright STUDIOKUMU All Right Reserved</h1>
     <div class="social">
       <a href="https://www.instagram.com/studiokumu/?hl=ja" target="_blank"><i class="fab fa-instagram fa-lg"></i></a>
       <a href="https://www.youtube.com/channel/UCmtI94f4rzkQJDIU-MmUYYQ?view_as=subscriber" target="_blank"><i class="fab fa-youtube fa-lg"></i></a>

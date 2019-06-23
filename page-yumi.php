@@ -11,7 +11,7 @@ Template Name: ユミ アーティストページのテンプレート
   <div class="message">
     <div class="head read-text">
       <h2 class="ff-min">Hello new me.</h2>
-      <h1 class="ff-min">Comming soon!!</h1>
+      <h1 class="ff-min">Coming soon!!</h1>
       <h3>一人一人に合わせた骨格とパーソナルカラーを知って<br>今日よりも明日、もっとご機嫌な自分に！</h3>
     </div>
     <ul class="body read-text responsive-read">
