@@ -42,4 +42,23 @@ function getInstagramItems2() {
 }
 add_action( "wp_ajax_getInstagramItems2" , "getInstagramItems2" );
 add_action( "wp_ajax_nopriv_getInstagramItems2" , "getInstagramItems2" );
+
+// カスタム投稿タイプ ギャラリー 遠藤アスミ 用
+function create_post_type() {
+  $labels= array(
+    'name' => 'ギャラリー アスミ',
+    'singular_name' => 'galleryasumi'
+  );
+  $args = array(
+    'labels'    => $labels,
+    'supports'  => array('title', 'editor'),
+    'public'    => true,
+    'menu_position' => 5
+  );
+  register_post_type('galleryasumi', $args);
+}
+add_action( 'init', 'create_post_type' );
+
+//本体ギャラリーCSS停止
+add_filter( 'use_default_gallery_style', '__return_false' );
 ?>
