@@ -61,4 +61,38 @@ add_action( 'init', 'create_post_type' );
 
 //本体ギャラリーCSS停止
 add_filter( 'use_default_gallery_style', '__return_false' );
+
+// カスタムフィールドを追加
+add_action('admin_menu', 'add_reserve_box');
+add_action('save_post', 'save_reserve_box_custom_fields');
+
+function add_reserve_box() {
+  add_meta_box('reserve_setting', '予約公開設定', 'insert_reserve_box', 'page', 'normal');
+}
+ 
+function insert_reserve_box() {
+  global $post;
+  $id = get_the_ID();
+  $get_open_reserve_data = get_post_meta($id,'reservecheckbox',true);
+  $reservecheckbox =$get_open_reserve_data ? $get_open_reserve_data : array();
+  $data = array("予約を公開する");
+  foreach ( $data as $d ) {
+    if(array_search($d, $reservecheckbox) !== false) {
+      $check = "checked"; 
+    } else {
+      $check = "";
+    }
+    echo '<label><input type="checkbox" name="reservecheckbox" value="' . esc_attr($d) . '" ' . $check . '>' . esc_html($d) . '</label><br>';
+  }
+}
+
+// 更新処理
+function save_reserve_box_custom_fields($post_id) {
+  if (isset($_POST['reservecheckbox']) && $_POST['reservecheckbox'] ) {
+    update_post_meta( $post_id, 'reservecheckbox', $_POST['reservecheckbox'] );
+  } else {
+    delete_post_meta( $post_id, 'reservecheckbox', get_post_meta($post_id, 'reservecheckbox', true) );
+  }
+}
+
 ?>

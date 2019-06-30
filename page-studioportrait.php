@@ -15,6 +15,15 @@ Template Name: スタジオポートレートのテンプレート
     <h2 class="ff-min read-text">可能性を可視化して<br>未来を先撮りしよう</h2>
   </div>
 </section>
+
+<?php if(have_posts()) {while(have_posts()){the_post(); ?>
+<?php if(get_post_meta($post->ID, 'reservecheckbox', true)){ ?>
+<section class="reserve">
+  <a href="https://reserva.be/studiomicuus/" target="_blank" class="scale-effect">
+    <img src="<?php echo get_template_directory_uri(); ?>/images/studioportrait/bnr_reserve.jpg" class="responsive-img">
+  </a>
+</section>
+<?php } else { ?>
 <section class="news">
   <div class="asumi-container">
     <div class="icon">
@@ -31,6 +40,8 @@ Template Name: スタジオポートレートのテンプレート
     </div>
   <div>
 </section>
+<?php }}} ?>
+
 <section class="concept">
   <div class="photo"><img src="<?php echo get_template_directory_uri(); ?>/images/studioportrait/concept_photo_a.jpg" class="responsive-img"></div>
   <div class="holder">

@@ -19,7 +19,7 @@
     </nav>   
   </div>
   <div class="bottom-container clearfix">
-    <h1>Copyright STUDIOKUM All Right Reserved</h1>
+    <h1>Copyright STUDIO KUMU All Right Reserved</h1>
     <div class="social">
       <a href="https://www.facebook.com/asumi.eino.9" target="_blank"><i class="fab fa-facebook fa-lg"></i></a>
       <a href="https://www.instagram.com/micuus.kumu/?hl=ja" target="_blank"><i class="fab fa-instagram fa-lg"></i></a>

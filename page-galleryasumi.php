@@ -5,7 +5,6 @@ Template Name: アスミ専用ギャラリー
 ?>
 <?php get_header(); ?>
 <div class="contents asumi gallery">
-<h1>アスミ専用ギャラリー</h1>
 <?php get_template_part('inc/asumi-navigation'); ?>
 <section class="slider">
   <div class="flexslider">
