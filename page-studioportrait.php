@@ -20,7 +20,7 @@ Template Name: スタジオポートレートのテンプレート
 <?php if(get_post_meta($post->ID, 'reservecheckbox', true)){ ?>
 <section class="reserve">
   <a href="https://reserva.be/studiomicuus/" target="_blank" class="scale-effect">
-    <img src="<?php echo get_template_directory_uri(); ?>/images/studioportrait/bnr_reserve.jpg" class="responsive-img">
+    <img src="<?php echo get_template_directory_uri(); ?>/images/studioportrait/bnr_reserve_2.jpg" class="responsive-img">
   </a>
 </section>
 <?php } else { ?>
