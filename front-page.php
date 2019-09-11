@@ -20,10 +20,26 @@
 </section>
 </header>
 <div class="content top-page">
-<section class="concept clearfix" id="service">
-  <div class="photo">
-    <img src="<?php echo get_template_directory_uri(); ?>/images/top/photo_concept.jpg" class="responsive-img">
+<section class="photo" id="service">
+  <img src="<?php echo get_template_directory_uri(); ?>/images/top/photo_concept.jpg" class="responsive-img">
+</section>
+<section class="extra-information">
+  <div class="text">
+    <div class="holder">
+      <h1 class="read-text">
+	<span>INFORMATION</span>
+      </h1>
+      <dl>
+        <dt>消費税引き上げに関するお知らせ</dt>
+	<dd>このたびの消費税法改正により、本年10月1日から消費税率が8％から10％に引き上げとなります。</dd>
+        <dd>つきましては、１０月1日よりMr kumuの料金もプランの料金+10%消費税に変更させていただくこととなりました。</dd>
+        <dd>17年の間消費税引き上げ時も料金を変更せずにきましたが、今回は、何卒ご理解賜りますようお願い申しあげます。</dd>
+        <dd class="sign">代表取締役 Mr Kumu</dd>
+      </dl>
+    </div>
   </div>
+</section>
+<section class="concept clearfix">
   <div class="text">
     <div class="holder">
       <h1 class="read-text">

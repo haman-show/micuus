@@ -433,12 +433,145 @@ footer .bottom-container {
   margin: 6rem 0;
 }
 }
+/* top-page photo */
+@media (min-width: 576px) and (max-width: 768px) {
+.top-page>.photo {
+  padding: 0 2rem;
+}
+}
+@media (min-width: 768px) {
+.top-page>.photo {
+  padding: 0 4rem;
+}
+}
+/* extra-information */
+.extra-information {
+  padding-bottom: 6rem;
+}
+.top-page>.extra-information {
+  background-color: #f6f5f5;
+}
+.service>.extra-information>.text>.holder {
+  background-color: #f6f5f5;
+}
+.extra-information .text .holder {
+  background-color: white;
+}
+.extra-information .text h1 {
+  text-align: center;
+  margin-top: 0;
+  padding: 3rem 0;
+  font-size: 1.5rem;
+}
+.extra-information .text h1 span {
+  padding-bottom: 2px;
+  border-bottom: solid 1px #333;
+}
+.extra-information .text dl dt {
+  text-align: center;
+  letter-spacing: .25rem;
+  font-size: .9rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+.extra-information .text dl dd {
+  letter-spacing: .25rem;
+  line-height: 1.75;
+  font-size: .9rem;
+  margin-left: 0;
+  margin-bottom: 1.5rem;
+}
+.extra-information .text dl dd.sign {
+  text-align: right;
+}
+@media (max-width: 576px) {
+.service>.extra-information .text {
+  margin-top: 5rem;
+}
+.extra-information .text .holder {
+  padding: 0 2rem 2rem 2rem;
+}
+.extra-information .text h1 {
+  font-size: 1.25rem;
+  padding-bottom: 2rem;
+}
+.extra-information .text dl {
+  padding: 0;
+}
+.extra-information .text dl dt {
+}
+}
+@media (min-width: 576px) and (max-width: 768px) {
+.top-page>.extra-information .text {
+  margin-top: -100px;
+  padding-top: 130px;
+}
+.service>.extra-information .text {
+  margin-top: 5rem;
+}
+.extra-information .text .holder {
+  padding: 0 4rem;
+}
+.extra-information .text h1 {
+  font-size: 1.25rem;
+  padding-bottom: 2rem;
+}
+.extra-information .text dl {
+  padding: 0 0 2rem 0;
+}
+}
+@media (min-width: 768px) {
+.extra-information .text .holder {
+  padding-bottom: 2rem;
+}
+.extra-information .text .holder {
+  width: 680px;
+  margin: 0 auto;
+}
+.extra-information .text dl {
+  padding: 0 4rem;
+}
+}
+@media (min-width: 768px) and (max-width: 992px) {
+.extra-information .text {
+  padding-bottom: 0;
+}
+.top-page>.extra-information .text {
+  margin-top: -200px;
+  padding-top: 240px;
+}
+.service>.extra-information .text {
+  padding-top: 3rem;
+}
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+.extra-information .text {
+  padding-bottom: 0;
+}
+.top-page>.extra-information .text {
+  margin-top: -300px;
+  padding-top: 380px;
+}
+.service>.extra-information .text {
+  padding-top: 3rem;
+}
+}
+@media (min-width: 1200px) {
+.extra-information .text {
+  padding-bottom: 0;
+}
+.top-page>.extra-information .text {
+  margin-top: -400px;
+  padding-top: 500px;
+}
+}
 /* top-page concept */
 .top-page .concept .text {
   background-color: #f6f5f5;
 }
 .top-page .concept .text h1 {
   text-align: center;
+  margin-top: 0;
 }
 .top-page .concept .text h1 span {
   padding-bottom: 2px;
@@ -467,13 +600,10 @@ footer .bottom-container {
 }
 .top-page .concept .text h1 {
   font-size: 1.25rem;
-  margin-bottom: 2rem;
+  padding-bottom: 2rem;
 }
 }
 @media (min-width: 576px) and (max-width: 768px) {
-.top-page .concept .photo {
-  padding: 0 2rem;
-}
 .top-page .concept .text {
   margin-top: -100px;
   padding-top: 130px;
@@ -484,41 +614,17 @@ footer .bottom-container {
 }
 .top-page .concept .text h1 {
   font-size: 1.25rem;
-  margin-bottom: 2rem;
+  padding-bottom: 2rem;
 }
 }
 @media (min-width: 768px) {
-.top-page .concept .photo {
-  padding: 0 4rem;
-}
 .top-page .concept .text .holder {
   width: 680px;
   margin: 0 auto;
 }
 .top-page .concept .text h1 {
   font-size: 1.5rem;
-  margin-bottom: 3rem;
-}
-}
-@media (min-width: 768px) and (max-width: 992px) {
-.top-page .concept .text {
-  margin-top: -200px;
-  padding-top: 240px;
-  padding-bottom: 0;
-}
-}
-@media (min-width: 992px) and (max-width: 1200px) {
-.top-page .concept .text {
-  margin-top: -300px;
-  padding-top: 380px;
-  padding-bottom: 0;
-}
-}
-@media (min-width: 1200px) {
-.top-page .concept .text {
-  margin-top: -400px;
-  padding-top: 500px;
-  padding-bottom: 0;
+  padding-bottom: 3rem;
 }
 }
 /* artist */
